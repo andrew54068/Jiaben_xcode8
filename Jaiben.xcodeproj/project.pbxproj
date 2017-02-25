@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D0B8C1F1E57C75A00C09361 /* VC_Join.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0B8C1E1E57C75A00C09361 /* VC_Join.swift */; };
+		6D0B8C211E5891F400C09361 /* VC_About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0B8C201E5891F400C09361 /* VC_About.swift */; };
+		6D0B8C231E5B1A9E00C09361 /* VC_offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0B8C221E5B1A9E00C09361 /* VC_offer.swift */; };
+		6D0F7AC71E4168F500263B7B /* newButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0F7AC61E4168F500263B7B /* newButton.swift */; };
+		6D4017E21E4E2042008A4A36 /* VC_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4017E11E4E2042008A4A36 /* VC_Base.swift */; };
+		6D4017E41E4ED7DE008A4A36 /* VC_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4017E31E4ED7DE008A4A36 /* VC_Login.swift */; };
+		6D4BEA3E1E4FEB6900BD1550 /* sideBarTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4BEA3C1E4FEB6900BD1550 /* sideBarTab.storyboard */; };
+		6D6ADD011E338CCE00D19F0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6ADD001E338CCE00D19F0C /* AppDelegate.swift */; };
+		6D6ADD031E338CCE00D19F0C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6ADD021E338CCE00D19F0C /* MainViewController.swift */; };
+		6D6ADD061E338CCE00D19F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6ADD041E338CCE00D19F0C /* Main.storyboard */; };
+		6D6ADD091E338CCE00D19F0C /* Jaiben.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D6ADD071E338CCE00D19F0C /* Jaiben.xcdatamodeld */; };
+		6D6ADD0E1E338CCE00D19F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6ADD0C1E338CCE00D19F0C /* LaunchScreen.storyboard */; };
+		6D739F391E4629E7007B5F21 /* sideBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D739F381E4629E7007B5F21 /* sideBarViewController.swift */; };
+		6D962D251E397E9B00DCE233 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D962D241E397E9B00DCE233 /* menuViewController.swift */; };
+		6DB83CAE1E4D3B8600CD6870 /* outcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB83CAD1E4D3B8600CD6870 /* outcomeViewController.swift */; };
+		6DB83CB01E4D676400CD6870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB83CAF1E4D676400CD6870 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D0B8C1E1E57C75A00C09361 /* VC_Join.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_Join.swift; sourceTree = "<group>"; };
+		6D0B8C201E5891F400C09361 /* VC_About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_About.swift; sourceTree = "<group>"; };
+		6D0B8C221E5B1A9E00C09361 /* VC_offer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_offer.swift; sourceTree = "<group>"; };
+		6D0F7AC61E4168F500263B7B /* newButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newButton.swift; sourceTree = "<group>"; };
+		6D4017E11E4E2042008A4A36 /* VC_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_Base.swift; sourceTree = "<group>"; };
+		6D4017E31E4ED7DE008A4A36 /* VC_Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_Login.swift; sourceTree = "<group>"; };
+		6D4BEA3D1E4FEB6900BD1550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/sideBarTab.storyboard; sourceTree = "<group>"; };
+		6D6ADCFD1E338CCE00D19F0C /* Jaiben.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jaiben.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D6ADD001E338CCE00D19F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D6ADD021E338CCE00D19F0C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6D6ADD051E338CCE00D19F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D6ADD081E338CCE00D19F0C /* Jaiben.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jaiben.xcdatamodel; sourceTree = "<group>"; };
+		6D6ADD0D1E338CCE00D19F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D6ADD0F1E338CCE00D19F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D739F381E4629E7007B5F21 /* sideBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sideBarViewController.swift; sourceTree = "<group>"; };
+		6D962D241E397E9B00DCE233 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		6DB83CAD1E4D3B8600CD6870 /* outcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = outcomeViewController.swift; sourceTree = "<group>"; };
+		6DB83CAF1E4D676400CD6870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D6ADCFA1E338CCE00D19F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D4017E01E4E1FBD008A4A36 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				6D4017E11E4E2042008A4A36 /* VC_Base.swift */,
+				6D4017E31E4ED7DE008A4A36 /* VC_Login.swift */,
+				6D0B8C1E1E57C75A00C09361 /* VC_Join.swift */,
+				6D0B8C201E5891F400C09361 /* VC_About.swift */,
+				6D0B8C221E5B1A9E00C09361 /* VC_offer.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		6D6ADCF41E338CCE00D19F0C = {
+			isa = PBXGroup;
+			children = (
+				6D6ADCFF1E338CCE00D19F0C /* Jaiben */,
+				6D6ADCFE1E338CCE00D19F0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D6ADCFE1E338CCE00D19F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D6ADCFD1E338CCE00D19F0C /* Jaiben.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D6ADCFF1E338CCE00D19F0C /* Jaiben */ = {
+			isa = PBXGroup;
+			children = (
+				6D4017E01E4E1FBD008A4A36 /* VC */,
+				6DB83CAF1E4D676400CD6870 /* Assets.xcassets */,
+				6D6ADD001E338CCE00D19F0C /* AppDelegate.swift */,
+				6D6ADD021E338CCE00D19F0C /* MainViewController.swift */,
+				6D6ADD041E338CCE00D19F0C /* Main.storyboard */,
+				6D4BEA3C1E4FEB6900BD1550 /* sideBarTab.storyboard */,
+				6D6ADD0C1E338CCE00D19F0C /* LaunchScreen.storyboard */,
+				6D6ADD0F1E338CCE00D19F0C /* Info.plist */,
+				6D6ADD071E338CCE00D19F0C /* Jaiben.xcdatamodeld */,
+				6D962D241E397E9B00DCE233 /* menuViewController.swift */,
+				6D0F7AC61E4168F500263B7B /* newButton.swift */,
+				6D739F381E4629E7007B5F21 /* sideBarViewController.swift */,
+				6DB83CAD1E4D3B8600CD6870 /* outcomeViewController.swift */,
+			);
+			path = Jaiben;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D6ADCFC1E338CCE00D19F0C /* Jaiben */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D6ADD121E338CCE00D19F0C /* Build configuration list for PBXNativeTarget "Jaiben" */;
+			buildPhases = (
+				6D6ADCF91E338CCE00D19F0C /* Sources */,
+				6D6ADCFA1E338CCE00D19F0C /* Frameworks */,
+				6D6ADCFB1E338CCE00D19F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jaiben;
+			productName = Jaiben;
+			productReference = 6D6ADCFD1E338CCE00D19F0C /* Jaiben.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D6ADCF51E338CCE00D19F0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JaiBen;
+				TargetAttributes = {
+					6D6ADCFC1E338CCE00D19F0C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RPE89YVE3Q;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 6D6ADCF81E338CCE00D19F0C /* Build configuration list for PBXProject "Jaiben" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D6ADCF41E338CCE00D19F0C;
+			productRefGroup = 6D6ADCFE1E338CCE00D19F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D6ADCFC1E338CCE00D19F0C /* Jaiben */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D6ADCFB1E338CCE00D19F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6ADD0E1E338CCE00D19F0C /* LaunchScreen.storyboard in Resources */,
+				6D4BEA3E1E4FEB6900BD1550 /* sideBarTab.storyboard in Resources */,
+				6DB83CB01E4D676400CD6870 /* Assets.xcassets in Resources */,
+				6D6ADD061E338CCE00D19F0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D6ADCF91E338CCE00D19F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6ADD031E338CCE00D19F0C /* MainViewController.swift in Sources */,
+				6D6ADD091E338CCE00D19F0C /* Jaiben.xcdatamodeld in Sources */,
+				6D0F7AC71E4168F500263B7B /* newButton.swift in Sources */,
+				6D0B8C231E5B1A9E00C09361 /* VC_offer.swift in Sources */,
+				6D4017E21E4E2042008A4A36 /* VC_Base.swift in Sources */,
+				6D4017E41E4ED7DE008A4A36 /* VC_Login.swift in Sources */,
+				6D0B8C211E5891F400C09361 /* VC_About.swift in Sources */,
+				6DB83CAE1E4D3B8600CD6870 /* outcomeViewController.swift in Sources */,
+				6D739F391E4629E7007B5F21 /* sideBarViewController.swift in Sources */,
+				6D6ADD011E338CCE00D19F0C /* AppDelegate.swift in Sources */,
+				6D0B8C1F1E57C75A00C09361 /* VC_Join.swift in Sources */,
+				6D962D251E397E9B00DCE233 /* menuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D4BEA3C1E4FEB6900BD1550 /* sideBarTab.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D4BEA3D1E4FEB6900BD1550 /* Base */,
+			);
+			name = sideBarTab.storyboard;
+			sourceTree = "<group>";
+		};
+		6D6ADD041E338CCE00D19F0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D6ADD051E338CCE00D19F0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D6ADD0C1E338CCE00D19F0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D6ADD0D1E338CCE00D19F0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D6ADD101E338CCE00D19F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D6ADD111E338CCE00D19F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D6ADD131E338CCE00D19F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Jaiben/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaiBen.Jaiben;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6D6ADD141E338CCE00D19F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Jaiben/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaiBen.Jaiben;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D6ADCF81E338CCE00D19F0C /* Build configuration list for PBXProject "Jaiben" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6ADD101E338CCE00D19F0C /* Debug */,
+				6D6ADD111E338CCE00D19F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D6ADD121E338CCE00D19F0C /* Build configuration list for PBXNativeTarget "Jaiben" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6ADD131E338CCE00D19F0C /* Debug */,
+				6D6ADD141E338CCE00D19F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D6ADD071E338CCE00D19F0C /* Jaiben.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D6ADD081E338CCE00D19F0C /* Jaiben.xcdatamodel */,
+			);
+			currentVersion = 6D6ADD081E338CCE00D19F0C /* Jaiben.xcdatamodel */;
+			path = Jaiben.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6D6ADCF51E338CCE00D19F0C /* Project object */;
+}
