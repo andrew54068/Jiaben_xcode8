@@ -8,19 +8,25 @@
 
 import UIKit
 
-class VC_Join: VC_Base {
-
+class VC_Join: VC_Base, UITextViewDelegate{
+    
     var keyboardShowAlready: Bool = false
+    var keyboardHeight: CGFloat = 0
+    
+    @IBOutlet var textView: UITextView!
     @IBOutlet var scrollView: UIScrollView!
     
     override func viewWillAppear(_ animated: Bool) {
         NotificationCenter.default.addObserver(self, selector: #selector(VC_Join.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         
         NotificationCenter.default.addObserver(self, selector: #selector(VC_Join.keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+//        NotificationCenter.default.addObserver(self, selector: #selector(VC_Join.scrollViewMoveUp(_:notification:)), name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
+//        NotificationCenter.default.addObserver(self, selector: #selector(VC_Join.updateTextView(_:)), name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.hideKeyboard()
+        self.hideKeyboard()
+
         // Do any additional setup after loading the view.
         
     }
@@ -45,11 +51,20 @@ class VC_Join: VC_Base {
     func adjustingHightLight(_ show: Bool, notification: Notification) {
         let userInfo = notification.userInfo!
         
-        let keyboardFrame: CGRect = (userInfo[UIKeyboardFrameBeginUserInfoKey] as! NSValue).cgRectValue
-
+        let keyboardFrame: CGRect = (userInfo[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+        keyboardHeight = keyboardFrame.height
         let changeInHeight = (keyboardFrame.height + 20) * (show ? 1 : -1)
         scrollView.contentInset.bottom += changeInHeight
-        scrollView.scrollIndicatorInsets.bottom += changeInHeight
+        scrollView.scrollIndicatorInsets.bottom += keyboardFrame.height * (show ? 1 : -1)
+        print(scrollView.contentInset.bottom)
+        print(scrollView.scrollIndicatorInsets.bottom)
+        
+        print("adjustingHighLight")
+    }
+    
+    func textViewDidBeginEditing(_ textView: UITextView) {
+        let difference = (view.frame.maxY - keyboardHeight) - textView.frame.maxY
+        scrollView.contentOffset = CGPoint(x: 0, y: -difference)
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -59,6 +74,13 @@ class VC_Join: VC_Base {
     
     override func viewWillDisappear(_ animated: Bool) {
         NotificationCenter.default.removeObserver(self)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        self.view.endEditing(true)
+        self.view.resignFirstResponder()
+        print("end editing")
     }
 
     /*
@@ -87,5 +109,7 @@ extension VC_Join
     func dismissKeyboard()
     {
         view.endEditing(true)
+        scrollView.contentInset = UIEdgeInsets.zero
+        scrollView.scrollIndicatorInsets = UIEdgeInsets.zero
     }
 }
