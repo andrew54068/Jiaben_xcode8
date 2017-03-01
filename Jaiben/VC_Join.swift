@@ -20,8 +20,6 @@ class VC_Join: VC_Base, UITextViewDelegate{
         NotificationCenter.default.addObserver(self, selector: #selector(VC_Join.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         
         NotificationCenter.default.addObserver(self, selector: #selector(VC_Join.keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
-//        NotificationCenter.default.addObserver(self, selector: #selector(VC_Join.scrollViewMoveUp(_:notification:)), name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
-//        NotificationCenter.default.addObserver(self, selector: #selector(VC_Join.updateTextView(_:)), name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
