@@ -74,17 +74,55 @@ class VC_Login: VC_Base{
 //        self.performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
 //    }
     func showUserInfo(){
-        FBSDKGraphRequest(graphPath: "/me", parameters: ["fields": "id, name, email"]).start {
+        FBSDKGraphRequest(graphPath: "/me", parameters: userData.parameters).start {
             (connection, result, err) in
             
             if err != nil{
                 print("failed to start graph request:", err!)
                 return
+            }else{
+                if let user_data = result as? [String:Any]{
+                    userData.userID = user_data["id"] as? String
+                    userData.name = user_data["name"] as? String
+                    userData.gender = user_data["gender"] as? String
+                    userData.email = user_data["email"] as? String
+                    if let photo = user_data["picture"] as? [String:Any]{
+                        let photo_data = photo["data"] as? [String:Any]
+                        let url = URL(string: (photo_data?["url"] as? String)!)
+                        let data = try! Data(contentsOf: url!)
+                        userData.profile_photo = UIImage(data: data)!
+                        print("get photo")
+                    }
+//                    userData.birthday = user_data["birthday"] as? String
+                    
+                    print(userData.userID)
+                    print(userData.name)
+                    print(userData.gender)
+                    print(userData.email)
+                    print(userData.profile_photo)
+//                    print(userData.birthday)
+                    print(result!)
+                }
+//                do{
+//                let user_data = try JSONSerialization.jsonObject(with: result, options:[]) as! [String:Any]
+//                    
+//                    let userData.userID =result["id"] as? [String:Any]
+//                    
+//                }catch let err as NSError {
+//                    print(err)
+//                }
             }
             
-            print(result!)
+//            let user_data = try JSONSerialization.jsonObject(with: result!, options:[]) as! [String:Any]
+            
+//            userData.userID = result["id"] as? String
+//            userData.name = result["name"] as? String
+//            userData.gender = result["gender"] as? String
+//            userData.email = result["email"] as? String
+//            userData.birthday = result["birthday"] as? String
+            
         }
-        FBSDKGraphRequest(graphPath: "me/friends", parameters: ["fields": "id, name, email"]).start {
+        FBSDKGraphRequest(graphPath: "me/friends", parameters: ["fields": "id, name"]).start {
             (connection, result, err) in
             
             if err != nil{

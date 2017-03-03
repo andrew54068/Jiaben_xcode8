@@ -21,8 +21,6 @@ class VC_mainView: VC_Base {
         if let touch = sender as? UITouch{
             print(touch)
         }
-        print(type(of: sender))
-        print("@@@@@@@@@@@@@")
         switchOnSideBar()
         sideBarSwitch = false
     }
@@ -35,12 +33,12 @@ class VC_mainView: VC_Base {
         guard sideBarSwitch else{
             switchOffSideBar()
             sideBarSwitch = true
-            print("sideBarSwitch = \(sideBarSwitch)")
+            
             return
         }
         switchOnSideBar()
         sideBarSwitch = false
-        print("sideBarSwitch = \(sideBarSwitch)")
+        
     }
     @IBAction func unwindSegueToMainView(_ segue: UIStoryboardSegue){
         if segue.identifier == "unwindMenu"{
