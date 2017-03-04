@@ -11,10 +11,32 @@ import UIKit
 class VC_profile: UIViewController {
 
     @IBOutlet var photo: UIImageView!
+    @IBOutlet var character: UIImageView!
+    @IBOutlet var gender: UIImageView!
+    @IBOutlet var email: UILabel!
+    @IBOutlet var nickname: UILabel!
+    @IBOutlet var name: UILabel!
     
     override func viewWillAppear(_ animated: Bool) {
-        photo.image = userData.profile_photo
+        
+        name.text = userData.name
+        nickname.text = userData.nickname ?? userData.name
+        email.text = userData.email
+        photo.image = userData.profile_photo_large
+        photo.contentMode = .scaleAspectFill
         print("sucessfully change the profile photo")
+        
+        
+        if userData.gender != nil{
+            if userData.gender == "male"{
+                gender.image = UIImage(named: "male")
+            }else if userData.gender == "female"{
+                gender.image = UIImage(named: "female")
+            }else{
+                print("not getting gender")
+            }
+        }
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()

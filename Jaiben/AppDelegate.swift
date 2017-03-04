@@ -17,10 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
-            
+        print("@@@@@@@@@@@@@    before   ************")
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        print("@@@@@@@@@@@@@    after    ************")
         
+        if FBSDKAccessToken.current() != nil{
+              
+        }
         return true
     }
 

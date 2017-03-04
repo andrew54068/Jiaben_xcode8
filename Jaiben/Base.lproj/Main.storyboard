@@ -16,7 +16,7 @@
         <!--Login-->
         <scene sceneID="8oF-4g-xli">
             <objects>
-                <viewController id="o6k-bQ-IvQ" customClass="VC_Login" customModule="Jaiben" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VC_Login" useStoryboardIdentifierAsRestorationIdentifier="YES" id="o6k-bQ-IvQ" customClass="VC_Login" customModule="Jaiben" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IaV-Ip-Ug6"/>
                         <viewControllerLayoutGuide type="bottom" id="XSZ-ek-Agv"/>
@@ -26,7 +26,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pJg-ic-0q5" userLabel="logoContainer">
-                                <rect key="frame" x="62" y="46.333333333333343" width="290" height="290"/>
+                                <rect key="frame" x="62" y="46" width="290" height="290"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_jb" translatesAutoresizingMaskIntoConstraints="NO" id="q8Q-Bv-vkI">
                                         <rect key="frame" x="0.0" y="0.0" width="290" height="290"/>
@@ -37,10 +37,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XlH-kO-erf" userLabel="charactorsContainer">
-                                <rect key="frame" x="20.666666666666657" y="389" width="372.66666666666663" height="178.66666666666663"/>
+                                <rect key="frame" x="21" y="389.33333333333337" width="372" height="178.33333333333337"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="charactors" translatesAutoresizingMaskIntoConstraints="NO" id="NVe-3n-H1D">
-                                        <rect key="frame" x="0.0" y="0.0" width="372.66666666666663" height="178.66666666666663"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="characters" translatesAutoresizingMaskIntoConstraints="NO" id="NVe-3n-H1D" userLabel="characters" customClass="characters">
+                                        <rect key="frame" x="0.0" y="0.0" width="372" height="178.33333333333331"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="NVe-3n-H1D" secondAttribute="height" multiplier="3762:1802" id="Qrj-oq-yyX"/>
                                         </constraints>
@@ -48,13 +48,13 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="師大人，甲奔囉！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJJ-vL-Tpw" userLabel="greetingText">
-                                <rect key="frame" x="133.33333333333331" y="403.33333333333326" width="146.99999999999994" height="21.666666666666686"/>
+                                <rect key="frame" x="133" y="403.33333333333326" width="147" height="21.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
                                 <color key="textColor" red="0.23896464705467224" green="0.23895749449729919" blue="0.23896154761314392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSY-Hh-2Hq">
-                                <rect key="frame" x="72.333333333333314" y="608.66666666666663" width="269.33333333333337" height="34"/>
+                                <rect key="frame" x="72" y="609" width="270" height="34"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
                                 <state key="normal" title="使用FaceBook登入">
@@ -67,7 +67,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaO-WN-RXi" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                <rect key="frame" x="72.333333333333314" y="656.33333333333337" width="269.33333333333337" height="34"/>
+                                <rect key="frame" x="72" y="656" width="270" height="34"/>
                                 <color key="backgroundColor" red="0.79607843137254897" green="0.79607843137254897" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
                                 <state key="normal" title="訪客登入">
@@ -112,7 +112,7 @@
         <!--main View-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="MainViewController" id="BYZ-38-t0r" customClass="VC_mainView" customModule="Jaiben" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="VC_mainView" customModule="Jaiben" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -246,10 +246,10 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="sTA-7Z-QtA" userLabel="searchContainer">
-                                        <rect key="frame" x="42.333333333333329" y="197" width="94.666666666666671" height="52"/>
+                                        <rect key="frame" x="42" y="197" width="95" height="52"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9sN-kG-5E0" userLabel="search" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="94.666666666666657" height="52"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="95" height="52"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="9sN-kG-5E0" secondAttribute="height" multiplier="343:189" id="bgf-ds-F4F"/>
                                                 </constraints>
@@ -288,10 +288,10 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xfW-9N-wID" userLabel="adviceContainer">
-                                        <rect key="frame" x="44.333333333333343" y="371" width="90.333333333333314" height="67"/>
+                                        <rect key="frame" x="44" y="371" width="91" height="67"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vc1-Tl-LYW" userLabel="advice" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="90.333333333333314" height="67"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="91" height="67"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="vc1-Tl-LYW" secondAttribute="height" multiplier="358:266" id="meg-CV-8Pf"/>
                                                 </constraints>
@@ -309,10 +309,10 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="g0n-WE-Q6D" userLabel="about_usContainer">
-                                        <rect key="frame" x="49.333333333333343" y="469.66666666666663" width="81.333333333333314" height="44.666666666666629"/>
+                                        <rect key="frame" x="49.666666666666657" y="469.66666666666674" width="80.666666666666686" height="44.333333333333258"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRi-62-rrj" userLabel="about_us" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="81.333333333333314" height="44.666666666666686"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="80.666666666666686" height="44.333333333333314"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="oRi-62-rrj" secondAttribute="height" multiplier="295:162" id="x3k-wt-1kP"/>
                                                 </constraints>
@@ -330,10 +330,10 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="h1A-25-j1g" userLabel="settingContainer">
-                                        <rect key="frame" x="42.333333333333329" y="549.33333333333348" width="94.666666666666671" height="39.666666666666629"/>
+                                        <rect key="frame" x="42" y="549" width="95" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAU-qV-Jaa" userLabel="setting" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="94.666666666666657" height="39.666666666666629"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="95" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="nAU-qV-Jaa" secondAttribute="height" multiplier="319:135" id="ddh-HC-Ika"/>
                                                 </constraints>
@@ -474,10 +474,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bKk-2C-67F" userLabel="clockContainer">
-                                <rect key="frame" x="174" y="20" width="66" height="66.666666666666671"/>
+                                <rect key="frame" x="174" y="20" width="66" height="66"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="HK9-Ch-lLo">
-                                        <rect key="frame" x="0.0" y="0.0" width="66" height="66.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="66" height="66"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="HK9-Ch-lLo" secondAttribute="height" multiplier="1:1" id="Lzx-cT-GNt"/>
                                         </constraints>
@@ -485,16 +485,16 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="營業時間" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLl-tZ-lAR" userLabel="clock_Label">
-                                <rect key="frame" x="172.66666666666663" y="91" width="69.333333333333343" height="20.333333333333329"/>
+                                <rect key="frame" x="172.33333333333334" y="90" width="69.333333333333314" height="20.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ae4-Wh-PZM" userLabel="store_container">
-                                <rect key="frame" x="-0.33333333333334281" y="84.666666666666657" width="414.66666666666663" height="353.33333333333337"/>
+                                <rect key="frame" x="0.0" y="85" width="414" height="353"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="store_container" translatesAutoresizingMaskIntoConstraints="NO" id="2lc-hb-o1B">
-                                        <rect key="frame" x="0.0" y="0.0" width="414.66666666666663" height="353.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="353"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="2lc-hb-o1B" secondAttribute="height" multiplier="4380:3726" id="7T1-nO-fzg"/>
                                         </constraints>
@@ -502,7 +502,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="店名" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tdh-ch-Nmh" userLabel="store_name_Label">
-                                <rect key="frame" x="172" y="160.33333333333334" width="70" height="41"/>
+                                <rect key="frame" x="172" y="160" width="70" height="41"/>
                                 <fontDescription key="fontDescription" name="DFPOP1-W5-HK-BF" family="DFPOP1W5-B5" pointSize="35"/>
                                 <color key="textColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -514,10 +514,10 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="LhS-8g-sKS" userLabel="addressContainer">
-                                <rect key="frame" x="52.999999999999993" y="452.66666666666674" width="51.333333333333321" height="66.333333333333258"/>
+                                <rect key="frame" x="53" y="453" width="51" height="66"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfi-yn-znP" userLabel="addressBtn" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="51.333333333333329" height="66.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="51" height="66"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="bfi-yn-znP" secondAttribute="height" multiplier="292:380" id="pkp-rh-jpF"/>
                                         </constraints>
@@ -526,16 +526,16 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地址" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLq-DD-BnW" userLabel="address_Label">
-                                <rect key="frame" x="61.666666666666671" y="524.33333333333337" width="34.666666666666671" height="20.333333333333258"/>
+                                <rect key="frame" x="61.333333333333343" y="524" width="34.666666666666657" height="20.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BDG-zq-SRQ" userLabel="phoneContainer">
-                                <rect key="frame" x="128" y="458" width="71" height="62.666666666666629"/>
+                                <rect key="frame" x="128" y="458" width="71" height="63"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OmU-Et-nTU" userLabel="phoneBtn" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="71" height="62.666666666666629"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="63"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="OmU-Et-nTU" secondAttribute="height" multiplier="337:298" id="O5T-4X-MFA"/>
                                         </constraints>
@@ -544,16 +544,16 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="電話" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duQ-qp-kWX" userLabel="phone_Label">
-                                <rect key="frame" x="145.33333333333337" y="525.66666666666652" width="34.666666666666657" height="20.333333333333371"/>
+                                <rect key="frame" x="146.33333333333337" y="526" width="34.666666666666657" height="20.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IsO-C8-Jn4" userLabel="discussionContainer">
-                                <rect key="frame" x="209.66666666666669" y="471" width="81.666666666666686" height="48"/>
+                                <rect key="frame" x="209.33333333333331" y="471" width="82.333333333333314" height="48"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n30-ys-d75" userLabel="discussionBtn" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="81.666666666666657" height="48"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="82.333333333333343" height="48"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="n30-ys-d75" secondAttribute="height" multiplier="339:197" id="uzs-g4-Mb6"/>
                                         </constraints>
@@ -562,16 +562,16 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="評論" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfd-Zp-reG" userLabel="discussion_Label">
-                                <rect key="frame" x="234" y="524.33333333333337" width="34.666666666666686" height="20.333333333333258"/>
+                                <rect key="frame" x="233.33333333333337" y="524" width="34.666666666666629" height="20.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wRd-Pe-R0o" userLabel="outcome_menuContainer">
-                                <rect key="frame" x="307" y="445.33333333333326" width="56.666666666666686" height="73.666666666666742"/>
+                                <rect key="frame" x="307" y="445" width="57" height="74"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecu-zD-DuQ" userLabel="outcome_menuBtn" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="56.666666666666686" height="73.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="57" height="74"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ecu-zD-DuQ" secondAttribute="height" multiplier="292:380" id="KFp-DU-BP1"/>
                                         </constraints>
@@ -580,7 +580,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="菜單" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IsK-Rr-ESv" userLabel="outcome_menu_Label">
-                                <rect key="frame" x="318.33333333333326" y="524.33333333333337" width="34.666666666666686" height="20.333333333333258"/>
+                                <rect key="frame" x="318.33333333333326" y="524" width="34.666666666666686" height="20.333333333333371"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" startsMediaSession="YES"/>
                                 </accessibility>
@@ -589,10 +589,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rWj-uo-nZA" userLabel="horse_race_lampContainer">
-                                <rect key="frame" x="6.3333333333333428" y="572" width="368.33333333333337" height="107"/>
+                                <rect key="frame" x="6" y="572" width="369" height="107"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horse_race_lamp" translatesAutoresizingMaskIntoConstraints="NO" id="XJv-Gb-pn9">
-                                        <rect key="frame" x="0.0" y="0.0" width="368.33333333333337" height="107"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="369" height="107"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="XJv-Gb-pn9" secondAttribute="height" multiplier="1887:548" id="MUA-fk-cQG"/>
                                         </constraints>
@@ -600,10 +600,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="axE-qN-x2I" userLabel="upcontainer">
-                                <rect key="frame" x="329" y="588.66666666666652" width="27.666666666666686" height="24.333333333333371"/>
+                                <rect key="frame" x="329" y="589" width="28" height="24"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="To5-vh-eau" userLabel="upBtn" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="27.666666666666686" height="24.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="28" height="24"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="To5-vh-eau" secondAttribute="height" multiplier="109:95" id="9dV-mJ-5BE"/>
                                         </constraints>
@@ -612,10 +612,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-7z-cnr" userLabel="downContainer">
-                                <rect key="frame" x="329" y="624" width="27.666666666666686" height="23.666666666666629"/>
+                                <rect key="frame" x="329" y="623" width="28" height="24"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tnv-v9-0Nr" userLabel="downBtn" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="27.666666666666686" height="23.666666666666629"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="28" height="24"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Tnv-v9-0Nr" secondAttribute="height" multiplier="110:95" id="OPK-qE-O8l"/>
                                         </constraints>
@@ -639,7 +639,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOA-fZ-qGg" userLabel="news">
-                                <rect key="frame" x="74.666666666666686" y="592.66666666666663" width="251" height="53"/>
+                                <rect key="frame" x="75" y="593" width="251" height="53"/>
                                 <fontDescription key="fontDescription" name="DFPOP1-Bd-HK-BF" family="DFPOP1W7-B5" pointSize="18"/>
                                 <color key="textColor" red="0.23896464705467224" green="0.23895749449729919" blue="0.23896154761314392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -764,10 +764,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="262-rp-kan" userLabel="select_panelContainer">
-                                <rect key="frame" x="41.333333333333343" y="36.666666666666686" width="331.33333333333337" height="662.66666666666674"/>
+                                <rect key="frame" x="41" y="37" width="332" height="662"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_panel" translatesAutoresizingMaskIntoConstraints="NO" id="59w-cS-eTa">
-                                        <rect key="frame" x="0.0" y="0.0" width="331.33333333333337" height="662.66666666666674"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="332" height="662"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="59w-cS-eTa" secondAttribute="height" multiplier="1725:3446" id="d6O-mU-2KA"/>
@@ -787,10 +787,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JpL-ld-Uj9" userLabel="menuContainer">
-                                <rect key="frame" x="124.33333333333331" y="64" width="165.33333333333337" height="33.666666666666671"/>
+                                <rect key="frame" x="124" y="64" width="166" height="34"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M E N U" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ew3-yf-8IH">
-                                        <rect key="frame" x="0.0" y="0.0" width="165.33333333333337" height="33.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="166" height="34"/>
                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="26"/>
                                         <color key="textColor" red="0.23896464705467224" green="0.23895749449729919" blue="0.23896154761314392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -798,38 +798,42 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nf6-xJ-YJW" userLabel="meatContainer">
-                                <rect key="frame" x="75" y="119.66666666666669" width="99.333333333333343" height="55.333333333333314"/>
+                                <rect key="frame" x="75" y="120" width="99" height="55"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUY-oI-vFy" userLabel="meat" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="99.333333333333343" height="55.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="99" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="kUY-oI-vFy" secondAttribute="height" multiplier="511:283" id="sX4-r1-5bB"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
-                                        <state key="normal" title="葷" backgroundImage="meat">
-                                            <color key="titleColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
+                                        <state key="normal" title="葷" backgroundImage="meat"/>
+                                        <connections>
+                                            <action selector="EatMeatOrNot:" destination="TKM-U0-MXB" eventType="touchUpInside" id="ssD-ub-8em"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hpe-7k-vVF" userLabel="vegetarianContainer">
-                                <rect key="frame" x="253.33333333333331" y="107.66666666666666" width="72.999999999999943" height="78.999999999999972"/>
+                                <rect key="frame" x="253" y="108" width="73" height="79"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t99-2I-j7X" userLabel="vegetarian" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="72.999999999999972" height="78.999999999999986"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="73" height="79"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="t99-2I-j7X" secondAttribute="height" multiplier="374:408" id="atu-ao-Civ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
                                         <state key="normal" title="素" backgroundImage="vegetarian"/>
+                                        <connections>
+                                            <action selector="EatMeatOrNot:" destination="TKM-U0-MXB" eventType="touchUpInside" id="l34-h7-Ohp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="r5d-KY-veU" userLabel="slashContainer">
-                                <rect key="frame" x="194.66666666666666" y="119.66666666666666" width="37" height="54.999999999999972"/>
+                                <rect key="frame" x="195" y="120" width="37" height="55"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slash" translatesAutoresizingMaskIntoConstraints="NO" id="Tyo-Xe-hgg">
-                                        <rect key="frame" x="0.0" y="0.0" width="37" height="54.999999999999986"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="37" height="55"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Tyo-Xe-hgg" secondAttribute="height" multiplier="159:238" id="kVm-nN-iy7"/>
                                         </constraints>
@@ -837,43 +841,52 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="q0u-pH-wU1" userLabel="firstRow">
-                                <rect key="frame" x="74.666666666666686" y="216.66666666666669" width="264.66666666666663" height="82.000000000000057"/>
+                                <rect key="frame" x="74" y="216.66666666666669" width="266" height="82.666666666666686"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7AH-0A-dLs" userLabel="dateSet">
-                                        <rect key="frame" x="0.0" y="22.333333333333343" width="76.999999999999986" height="59.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="23" width="77.666666666666657" height="59.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TSL-gm-ZkI" userLabel="date" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="76.999999999999986" height="59.666666666666686"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="77.666666666666657" height="59.666666666666657"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="TSL-gm-ZkI" secondAttribute="height" multiplier="320:247" id="oBK-bT-WZf"/>
                                                 </constraints>
                                                 <state key="normal" image="date">
                                                     <attributedString key="attributedTitle"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="TypeOfMeal:" destination="TKM-U0-MXB" eventType="touchUpInside" id="nFl-qh-Jvf"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="E6b-y8-WDQ" userLabel="for_fullSet">
-                                        <rect key="frame" x="96.999999999999986" y="0.0" width="70.333333333333329" height="82.000000000000028"/>
+                                        <rect key="frame" x="97.666666666666657" y="0.0" width="70.666666666666686" height="82.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1w-tg-dXD" userLabel="for_full" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="70.333333333333343" height="82.000000000000028"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="70.666666666666686" height="82.666666666666657"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="U1w-tg-dXD" secondAttribute="height" multiplier="325:379" id="h30-H5-r7T"/>
                                                 </constraints>
                                                 <state key="normal" image="for_full"/>
+                                                <connections>
+                                                    <action selector="TypeOfMeal:" destination="TKM-U0-MXB" eventType="touchUpInside" id="JKo-fY-mFZ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Sm0-p9-ZPR" userLabel="meet_upSet">
-                                        <rect key="frame" x="187.33333333333331" y="22.666666666666686" width="77.333333333333314" height="59.333333333333343"/>
+                                        <rect key="frame" x="188.33333333333331" y="24" width="77.666666666666686" height="58.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DH1-14-hhm" userLabel="meet_up" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="77.333333333333314" height="59.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="77.666666666666686" height="58.666666666666657"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="DH1-14-hhm" secondAttribute="height" multiplier="414:316" id="dho-wG-M7f"/>
                                                 </constraints>
                                                 <state key="normal" image="meet_up"/>
+                                                <connections>
+                                                    <action selector="TypeOfMeal:" destination="TKM-U0-MXB" eventType="touchUpInside" id="PNm-eh-yPo"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -884,22 +897,22 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="vzW-qf-RXx" userLabel="firsstRowLable">
-                                <rect key="frame" x="94.333333333333314" y="298.66666666666669" width="225.33333333333337" height="24"/>
+                                <rect key="frame" x="94" y="299.33333333333331" width="226" height="24"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="約會" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPD-Sa-Z1l">
-                                        <rect key="frame" x="0.0" y="0.0" width="41.000000000000014" height="24"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="41" height="24"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
                                         <color key="textColor" red="0.41863387823104858" green="0.41871237754821777" blue="0.41861453652381897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="溫飽" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1V-MH-5uy">
-                                        <rect key="frame" x="92.333333333333329" y="0.0" width="40.999999999999986" height="24"/>
+                                        <rect key="frame" x="92.666666666666657" y="0.0" width="41" height="24"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
                                         <color key="textColor" red="0.41863387823104858" green="0.41871237754821777" blue="0.41861453652381897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="聚餐" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RWY-DC-Y10">
-                                        <rect key="frame" x="184.33333333333337" y="0.0" width="41" height="24"/>
+                                        <rect key="frame" x="185" y="0.0" width="41" height="24"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
                                         <color key="textColor" red="0.41863387823104858" green="0.41871237754821777" blue="0.41861453652381897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -907,41 +920,50 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="g4m-Um-Sdc" userLabel="secondRow">
-                                <rect key="frame" x="74.666666666666686" y="331.33333333333331" width="264.66666666666663" height="73.333333333333371"/>
+                                <rect key="frame" x="74" y="330.66666666666669" width="266" height="74.666666666666629"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="f1u-0J-pYo" userLabel="discussSet">
-                                        <rect key="frame" x="0.0" y="0.0" width="69.999999999999986" height="73.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="1" width="70.666666666666657" height="73.666666666666629"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydB-8g-zDu" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="69.999999999999986" height="73.333333333333371"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="70.666666666666657" height="73.666666666666629"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="ydB-8g-zDu" secondAttribute="height" multiplier="335:350" id="VoN-fJ-H76"/>
                                                 </constraints>
                                                 <state key="normal" image="discuss"/>
+                                                <connections>
+                                                    <action selector="TypeOfMeal:" destination="TKM-U0-MXB" eventType="touchUpInside" id="YaI-og-gW5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1QN-Ki-3nc" userLabel="afternoon_teaSet">
-                                        <rect key="frame" x="89.999999999999986" y="0.0" width="70.333333333333329" height="73.333333333333371"/>
+                                        <rect key="frame" x="90.666666666666657" y="0.0" width="70.666666666666686" height="74.666666666666629"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPt-Oj-bey" userLabel="afternoon_tea" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="70.333333333333343" height="73.333333333333371"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="70.666666666666686" height="74.666666666666629"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="dPt-Oj-bey" secondAttribute="height" multiplier="322:336" id="9Xj-7t-z71"/>
                                                 </constraints>
                                                 <state key="normal" image="afternoon_tea"/>
+                                                <connections>
+                                                    <action selector="TypeOfMeal:" destination="TKM-U0-MXB" eventType="touchUpInside" id="DaM-Gk-Gjh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ef3-xZ-Db1" userLabel="snackSet">
-                                        <rect key="frame" x="180.33333333333331" y="11.333333333333371" width="84.333333333333314" height="62"/>
+                                        <rect key="frame" x="181.33333333333337" y="13" width="84.666666666666629" height="61.666666666666629"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yja-Eb-lw0" userLabel="snack" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="84.333333333333314" height="62"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="84.666666666666657" height="61.666666666666629"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="yja-Eb-lw0" secondAttribute="height" multiplier="383:282" id="Dx1-j5-iwn"/>
                                                 </constraints>
                                                 <state key="normal" image="snack"/>
+                                                <connections>
+                                                    <action selector="TypeOfMeal:" destination="TKM-U0-MXB" eventType="touchUpInside" id="XeN-sH-42N"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -952,22 +974,22 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="wk7-SW-tb4" userLabel="secondRowLabel">
-                                <rect key="frame" x="94.333333333333314" y="404.66666666666669" width="225.33333333333337" height="24"/>
+                                <rect key="frame" x="94" y="405.33333333333331" width="226" height="24"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="討論" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3v-YY-Hcu">
-                                        <rect key="frame" x="0.0" y="0.0" width="41.000000000000014" height="24"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="41" height="24"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
                                         <color key="textColor" red="0.41863387823104858" green="0.41871237754821777" blue="0.41861453652381897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下午茶" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0s-tU-jYf">
-                                        <rect key="frame" x="82.000000000000014" y="0.0" width="61.3333333333333" height="24"/>
+                                        <rect key="frame" x="82.333333333333343" y="0.0" width="61.333333333333314" height="24"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
                                         <color key="textColor" red="0.41863387823104858" green="0.41871237754821777" blue="0.41861453652381897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小吃" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFz-q0-71P">
-                                        <rect key="frame" x="184.33333333333337" y="0.0" width="41" height="24"/>
+                                        <rect key="frame" x="185" y="0.0" width="41" height="24"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="20"/>
                                         <color key="textColor" red="0.41863387823104858" green="0.41871237754821777" blue="0.41861453652381897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -975,7 +997,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QNG-zH-O3T" userLabel="priceContainer">
-                                <rect key="frame" x="73.666666666666671" y="449" width="39" height="23"/>
+                                <rect key="frame" x="74" y="449" width="39" height="23"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="價位" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzE-rV-jdd">
                                         <rect key="frame" x="0.0" y="0.0" width="39" height="23"/>
@@ -997,7 +1019,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ELi-dY-0Mg" userLabel="highLabel">
-                                <rect key="frame" x="311.66666666666674" y="485.33333333333326" width="23.333333333333314" height="21.666666666666686"/>
+                                <rect key="frame" x="312" y="485.33333333333326" width="23" height="21.666666666666686"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="高" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0op-LX-uod">
                                         <rect key="frame" x="2.3333333333333144" y="0.0" width="18.666666666666686" height="21.666666666666686"/>
@@ -1008,7 +1030,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pxS-4J-Fek" userLabel="priceLevelContainer">
-                                <rect key="frame" x="132" y="483.33333333333331" width="168.33333333333331" height="27"/>
+                                <rect key="frame" x="132" y="483" width="168" height="27"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7Nj-RB-9Xk" userLabel="low_priceContainer">
                                         <rect key="frame" x="0.0" y="0.0" width="27" height="27"/>
@@ -1019,23 +1041,29 @@
                                                     <constraint firstAttribute="width" secondItem="ZyN-xK-4rw" secondAttribute="height" multiplier="1:1" id="ZIp-MT-Qom"/>
                                                 </constraints>
                                                 <state key="normal" image="low_price"/>
+                                                <connections>
+                                                    <action selector="PriceBeenSelected:" destination="TKM-U0-MXB" eventType="touchUpInside" id="ctV-Ic-DYG"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Wg7-d2-Nwa" userLabel="mid_priceContainer">
-                                        <rect key="frame" x="64.333333333333343" y="0.0" width="34.666666666666657" height="27"/>
+                                        <rect key="frame" x="63.666666666666657" y="0.0" width="35" height="27"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0RB-B6-xje" userLabel="mid_price" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="34.666666666666657" height="27"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="35" height="27"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="0RB-B6-xje" secondAttribute="height" multiplier="9:7" id="1GA-IT-e1Z"/>
                                                 </constraints>
                                                 <state key="normal" image="mid_price"/>
+                                                <connections>
+                                                    <action selector="PriceBeenSelected:" destination="TKM-U0-MXB" eventType="touchUpInside" id="jPR-7O-tf8"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wKJ-hw-zf9" userLabel="high_priceContainer">
-                                        <rect key="frame" x="125.33333333333331" y="0.0" width="43" height="27"/>
+                                        <rect key="frame" x="125" y="0.0" width="43" height="27"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNT-mZ-PEp" userLabel="high_price" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="43" height="27"/>
@@ -1043,6 +1071,9 @@
                                                     <constraint firstAttribute="width" secondItem="bNT-mZ-PEp" secondAttribute="height" multiplier="11:7" id="u5N-12-cFD"/>
                                                 </constraints>
                                                 <state key="normal" image="high_price"/>
+                                                <connections>
+                                                    <action selector="PriceBeenSelected:" destination="TKM-U0-MXB" eventType="touchUpInside" id="FiH-Uu-KB4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -1054,7 +1085,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Zso-NV-sVS" userLabel="distanceContainer">
-                                <rect key="frame" x="73.666666666666671" y="523" width="39" height="23"/>
+                                <rect key="frame" x="74" y="523" width="39" height="23"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="距離" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hq-qf-K0p">
                                         <rect key="frame" x="0.0" y="0.0" width="39" height="23"/>
@@ -1076,7 +1107,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Dux-Au-Hbq" userLabel="farLabel">
-                                <rect key="frame" x="314" y="559.33333333333348" width="18.666666666666686" height="21.666666666666629"/>
+                                <rect key="frame" x="314.33333333333326" y="559.33333333333348" width="18.666666666666686" height="21.666666666666629"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="遠" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1F-gC-rxA">
                                         <rect key="frame" x="0.0" y="0.0" width="18.666666666666686" height="21.666666666666629"/>
@@ -1087,41 +1118,50 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Drk-mV-jSN" userLabel="distanceLevelContainer">
-                                <rect key="frame" x="124.33333333333331" y="544" width="165.33333333333337" height="52.333333333333371"/>
+                                <rect key="frame" x="124" y="544" width="166" height="52"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dhC-Gu-IgS" userLabel="short_distanceContainer">
-                                        <rect key="frame" x="0.0" y="0.0" width="42.333333333333329" height="52.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="43" height="52"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQr-oq-Qe2" userLabel="short_distance" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="42.333333333333329" height="52.333333333333371"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="43" height="52"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="fQr-oq-Qe2" secondAttribute="height" multiplier="9:11" id="QY3-Jz-Efh"/>
                                                 </constraints>
                                                 <state key="normal" image="short_distance"/>
+                                                <connections>
+                                                    <action selector="DistanceBeenSelected:" destination="TKM-U0-MXB" eventType="touchUpInside" id="agc-Hz-SBy"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tOr-w1-1Zm" userLabel="mid_distanceContainer">
-                                        <rect key="frame" x="76.000000000000014" y="5.3333333333333712" width="33.666666666666657" height="41.666666666666629"/>
+                                        <rect key="frame" x="76.666666666666657" y="5" width="34" height="42"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eP8-Ib-3KR" userLabel="mid_distance" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="33.666666666666657" height="41.666666666666629"/>
+                                                <rect key="frame" x="0.33333333333331439" y="0.0" width="34" height="42"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="eP8-Ib-3KR" secondAttribute="height" multiplier="41:50" id="ktZ-oG-KbJ"/>
                                                 </constraints>
                                                 <state key="normal" image="mid_distance"/>
+                                                <connections>
+                                                    <action selector="DistanceBeenSelected:" destination="TKM-U0-MXB" eventType="touchUpInside" id="Qa7-0T-bjM"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cDF-Vc-fSC" userLabel="long_distanceContainer">
-                                        <rect key="frame" x="143.33333333333337" y="9.3333333333333712" width="22" height="33.666666666666629"/>
+                                        <rect key="frame" x="144" y="9" width="22" height="34"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPF-Eu-JLQ" userLabel="long_distance" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="22" height="33.666666666666629"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="22" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="NPF-Eu-JLQ" secondAttribute="height" multiplier="25:37" id="Jl1-gX-VsO"/>
                                                 </constraints>
                                                 <state key="normal" image="long_distance"/>
+                                                <connections>
+                                                    <action selector="DistanceBeenSelected:" destination="TKM-U0-MXB" eventType="touchUpInside" id="AlI-o5-o6J"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -1135,10 +1175,10 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WRP-iw-ZQR" userLabel="confirmButton">
-                                <rect key="frame" x="107.66666666666669" y="630.66666666666652" width="198.66666666666663" height="26.333333333333371"/>
+                                <rect key="frame" x="107" y="630.66666666666663" width="200" height="26.666666666666742"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfF-pQ-0IY" userLabel="Confirm Button" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="198.66666666666663" height="26.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="26.666666666666742"/>
                                         <color key="backgroundColor" red="0.88241422176361084" green="0.33547389507293701" blue="0.10716423392295837" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="AfF-pQ-0IY" secondAttribute="height" multiplier="364:48" id="BVi-m3-MaS"/>
@@ -1223,7 +1263,21 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="afternoon_tea" destination="dPt-Oj-bey" id="qGK-Ib-Nnt"/>
                         <outlet property="confirmButton" destination="AfF-pQ-0IY" id="r4e-tB-9YM"/>
+                        <outlet property="date" destination="TSL-gm-ZkI" id="CtB-ln-wa6"/>
+                        <outlet property="discuss" destination="ydB-8g-zDu" id="q68-hD-jzi"/>
+                        <outlet property="for_full" destination="U1w-tg-dXD" id="wN7-oe-xYa"/>
+                        <outlet property="high_price" destination="bNT-mZ-PEp" id="cPK-iD-QUb"/>
+                        <outlet property="long_distance" destination="NPF-Eu-JLQ" id="urG-B9-276"/>
+                        <outlet property="low_price" destination="ZyN-xK-4rw" id="rCK-sz-tiR"/>
+                        <outlet property="meat" destination="kUY-oI-vFy" id="1JR-bs-l53"/>
+                        <outlet property="meet_up" destination="DH1-14-hhm" id="BQ4-gI-p09"/>
+                        <outlet property="mid_distance" destination="eP8-Ib-3KR" id="5yx-x3-xcv"/>
+                        <outlet property="mid_price" destination="0RB-B6-xje" id="DnK-cv-uiy"/>
+                        <outlet property="short_distance" destination="fQr-oq-Qe2" id="iOh-In-oUc"/>
+                        <outlet property="snack" destination="yja-Eb-lw0" id="htP-Pp-Pbg"/>
+                        <outlet property="vegetarian" destination="t99-2I-j7X" id="wbz-QN-gT2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Qs-3w-w4X" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1326,7 +1380,7 @@
         <image name="back" width="66" height="74"/>
         <image name="bell" width="68" height="95"/>
         <image name="chair" width="408" height="466"/>
-        <image name="charactors" width="1254" height="600"/>
+        <image name="characters" width="1254" height="600"/>
         <image name="clock" width="101" height="101"/>
         <image name="date" width="106" height="82"/>
         <image name="discuss" width="111" height="116"/>
