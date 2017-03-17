@@ -12,10 +12,12 @@ import FBSDKLoginKit
 
 class VC_mainView: VC_Base {
     
-    @IBOutlet var lid: newButton!
     var blurEffectView: UIVisualEffectView?
     var sideBarSwitch = true
     
+    @IBOutlet var lid: newButton!
+    @IBOutlet var bell: newButton!
+    @IBOutlet var sideBar: UIView!
 
     @IBAction func EdgePan(_ sender: AnyObject) {
         if let touch = sender as? UITouch{
@@ -24,10 +26,6 @@ class VC_mainView: VC_Base {
         switchOnSideBar()
         sideBarSwitch = false
     }
-
-    @IBOutlet var bell: newButton!
-    @IBOutlet var sideBar: UIView!
-    
     
     @IBAction func bellTouched(_ sender: AnyObject) {
         guard sideBarSwitch else{
@@ -44,13 +42,28 @@ class VC_mainView: VC_Base {
         if segue.identifier == "unwindMenu"{
             let destinationViewController = segue.destination as! VC_mainView
             destinationViewController.blurEffectView!.removeFromSuperview()
+            let storeRequest = storeData.buildStoreRequest(tag: VC_menu.tag!, price: 2)
+            print(VC_menu.tag!)
+            print("storeRequest = \(storeRequest)")
+            print(storeRequest.httpMethod!)
+            print(storeRequest.httpBody!)
+            buildDataTaskWithRequst(request: storeRequest, requestName: "取得店家資料")
+            
         }else if segue.identifier == "unwindOutcome"{
             
         }
     }
+    
+    override func getDataAfterRequest(result: String) {
+        let dataAfterDecode = self.decodeFromJson(result: result)
+        storeData.getDataFromJson(result: dataAfterDecode!)
+        print("storeData.photoUrl = \(storeData.photoUrl!)")
+        storeData.loadPhoto(url: storeData.photoUrl!)
+        print("123")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        VC_Login().getUserInfo()
         self.sideBar!.transform = CGAffineTransform(translationX: -self.view.bounds.width * 0.4, y: 0)
         
         // Do any additional setup after loading the view, typically from a nib.
@@ -86,6 +99,7 @@ class VC_mainView: VC_Base {
         UIView.animate(withDuration: 0.4, delay: 0.0, options: [], animations: {
             self.sideBar!.transform = CGAffineTransform(translationX: -self.view.bounds.width * 0.4, y: 0)
             }, completion: nil)    }
+    
 
 }
 

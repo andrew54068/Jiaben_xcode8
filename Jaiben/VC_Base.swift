@@ -47,6 +47,77 @@ class VC_Base: UIViewController, UITextFieldDelegate{
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func buildJBRequest(input: String, urlAfterJB: String!, log: String?) -> URLRequest{
+        var requestString = "hash=This Is Ivan Speaking."
+        if (input != "") {
+            requestString += "&" + input
+        }
+        var request = URLRequest(url: NSURL(string: "http://140.122.184.227/~ivan/JB/" + urlAfterJB)! as URL)
+        request.httpMethod = "POST"
+        request.httpBody = requestString.data(using: .utf8)
+        if (log != "") {
+            print(log! + requestString)
+        }
+        return request
+    }
+    func buildDataTaskWithRequst(request: URLRequest, requestName: String?){
+        URLSession.shared.dataTask(with: request){
+            data, response, error in
+            guard (data != nil && error == nil) else{
+                print("error")
+                self.showMessage(message: "發生錯誤，請檢查網路連線後再試一次", buttonText: "確認")
+                return
+            }
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200{
+                print("statusCode should be 200 but it's \(httpStatus.statusCode)")
+                print("response = \(response)")
+                self.showMessage(message: "發生錯誤，請檢查網路連線後再試一次", buttonText: "確認")
+                return
+            }
+            print("data = \(data)")
+            let result = String(data: data!, encoding: .utf8)!
+            if (result != "{\"success\":\"False\"}") {
+                self.getDataAfterRequest(result: result)
+                print("data! = \(data!)")
+                
+            }
+            print("result = \(result)")
+        }.resume()
+    }
+    func showMessage(message: String!, buttonText: String!){
+        let alert = UIAlertController(title: nil, message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: buttonText, style: .default, handler: nil)
+        alert.addAction(action)
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func getDataAfterRequest(result: String){
+        
+    }
+    
+    func decodeFromJson(result: String) -> [String:Any]?{
+        do{
+            if let data = result as? String{
+                if let data2 = data.data(using: .utf8){
+                    let json = try JSONSerialization.jsonObject(with: data2, options: .allowFragments) as! [String:Any]
+                    print("success")
+                    return json
+                }else{
+                    print("here")
+                    return nil
+                    
+                }
+                
+            }
+        }catch{
+            print(error)
+            print("陣列抓不成功")
+        }
+        print("there")
+        return nil
+    }
+    
 //    func textViewShouldEndEditing(textView: UITextView) -> Bool {
 //        textView.resignFirstResponder()
 //        return true

@@ -41,6 +41,22 @@ struct userData {
     static var FBid: String!
     static var isFB: Bool = false
     
+    static func getDataFromJSon(result: Any?) {
+        if let user_data = result as? [String:Any]{
+            userData.userID = user_data["id"] as? String
+            userData.name = user_data["name"] as? String
+            userData.gender = user_data["gender"] as? String
+            userData.email = user_data["email"] as? String
+            if let photo = user_data["picture"] as? [String:Any]{
+                let photo_data = photo["data"] as? [String:Any]
+                let url = URL(string: (photo_data?["url"] as? String)!)
+                let data = try! Data(contentsOf: url!)
+                userData.profile_photo_large = UIImage(data: data)!
+                print("get photo")
+            }
+        }
+    }
+    
 //    func urlToImage(url: URL){
 //        profile_photo = UIImage(data:)
 //    }

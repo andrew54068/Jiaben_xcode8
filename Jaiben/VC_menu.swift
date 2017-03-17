@@ -10,7 +10,8 @@ import UIKit
 
 class VC_menu: UIViewController {
 
-
+    static var tag: Int?
+    static var price: Int?
     @IBOutlet var meat: newButton!
     @IBOutlet var vegetarian: newButton!
     @IBOutlet var date: newButton!
@@ -43,6 +44,7 @@ class VC_menu: UIViewController {
                 print("meet_up has been selected")
                 userData.user_menu_default["typeOfMeal"] = "meet_up"
                 print(userData.user_menu_default["typeOfMeal"]!)
+                VC_menu.tag = 3
             }else if (date.isHighlighted && for_full.isHighlighted && discuss.isHighlighted && afternoon_tea.isHighlighted && snack.isHighlighted)  == true{
                 meet_up.isHighlighted = false
                 date.isHighlighted = false
@@ -53,6 +55,7 @@ class VC_menu: UIViewController {
                 print("none")
                 userData.user_menu_default["typeOfMeal"] = ""
                 print(userData.user_menu_default["typeOfMeal"]!)
+                VC_menu.tag = 0
             }
             
         }else if (sender as? newButton) == date{
@@ -67,6 +70,7 @@ class VC_menu: UIViewController {
                 print("date has been selected")
                 userData.user_menu_default["typeOfMeal"] = "date"
                 print(userData.user_menu_default["typeOfMeal"]!)
+                VC_menu.tag = 1
             }else if (for_full.isHighlighted && discuss.isHighlighted && afternoon_tea.isHighlighted && snack.isHighlighted && meet_up.isHighlighted) == true{
                 meet_up.isHighlighted = false
                 for_full.isHighlighted = false
@@ -76,6 +80,7 @@ class VC_menu: UIViewController {
                 print("none")
                 userData.user_menu_default["typeOfMeal"] = ""
                 print(userData.user_menu_default["typeOfMeal"]!)
+                VC_menu.tag = 0
             }
         }else if (sender as? newButton) == for_full{
             for_full.isHighlighted = false
@@ -89,6 +94,7 @@ class VC_menu: UIViewController {
                 print("for_full has been selected")
                 userData.user_menu_default["typeOfMeal"] = "for_full"
                 print(userData.user_menu_default["typeOfMeal"]!)
+                VC_menu.tag = 2
             }else if (date.isHighlighted && discuss.isHighlighted && afternoon_tea.isHighlighted && snack.isHighlighted && meet_up.isHighlighted) == true{
                 meet_up.isHighlighted = false
                 date.isHighlighted = false
@@ -98,6 +104,7 @@ class VC_menu: UIViewController {
                 print("none")
                 userData.user_menu_default["typeOfMeal"] = ""
                 print(userData.user_menu_default["typeOfMeal"]!)
+                VC_menu.tag = 0
             }
         }else if (sender as? newButton) == discuss{
             discuss.isHighlighted = false
@@ -111,6 +118,7 @@ class VC_menu: UIViewController {
                 print("discuss has been selected")
                 userData.user_menu_default["typeOfMeal"] = "discuss"
                 print(userData.user_menu_default["typeOfMeal"]!)
+                VC_menu.tag = 4
             }else if (date.isHighlighted && for_full.isHighlighted && afternoon_tea.isHighlighted && snack.isHighlighted && meet_up.isHighlighted) == true{
                 meet_up.isHighlighted = false
                 date.isHighlighted = false
@@ -120,6 +128,7 @@ class VC_menu: UIViewController {
                 print("none")
                 userData.user_menu_default["typeOfMeal"] = ""
                 print(userData.user_menu_default["typeOfMeal"]!)
+                VC_menu.tag = 0
             }
         }else if (sender as? newButton) == afternoon_tea{
             afternoon_tea.isHighlighted = false
@@ -133,6 +142,7 @@ class VC_menu: UIViewController {
                 print("afternoon_tea has been selected")
                 userData.user_menu_default["typeOfMeal"] = "afternoon_tea"
                 print(userData.user_menu_default["typeOfMeal"]!)
+                VC_menu.tag = 5
             }else if (date.isHighlighted && for_full.isHighlighted && discuss.isHighlighted && snack.isHighlighted && meet_up.isHighlighted) == true{
                 meet_up.isHighlighted = false
                 date.isHighlighted = false
@@ -142,6 +152,7 @@ class VC_menu: UIViewController {
                 print("none")
                 userData.user_menu_default["typeOfMeal"] = ""
                 print(userData.user_menu_default["typeOfMeal"]!)
+                VC_menu.tag = 0
             }
         }else if (sender as? newButton) == snack{
             snack.isHighlighted = false
@@ -155,6 +166,7 @@ class VC_menu: UIViewController {
                 print("snack has been selected")
                 userData.user_menu_default["typeOfMeal"] = "snack"
                 print(userData.user_menu_default["typeOfMeal"]!)
+                VC_menu.tag = 6
             }else if (date.isHighlighted && for_full.isHighlighted && discuss.isHighlighted && afternoon_tea.isHighlighted && meet_up.isHighlighted) == true{
                 meet_up.isHighlighted = false
                 date.isHighlighted = false
@@ -164,6 +176,7 @@ class VC_menu: UIViewController {
                 print("none")
                 userData.user_menu_default["typeOfMeal"] = ""
                 print(userData.user_menu_default["typeOfMeal"]!)
+                VC_menu.tag = 0
             }
         }
     }
@@ -202,7 +215,6 @@ class VC_menu: UIViewController {
             }
         }
     }
-    
     @IBAction func PriceBeenSelected(_ sender: Any){
         if (sender as? newButton) == low_price{
             low_price.isHighlighted = false
@@ -305,21 +317,11 @@ class VC_menu: UIViewController {
 
 //    @IBOutlet weak var confirmButton: buttonControl!
     override func viewWillAppear(_ animated: Bool) {
-        
-//        let eatMeatOrNot = Notification.Name("eatMeatOrNot")
-//        let typeOfMeal = Notification.Name("typeOfMeal")
-//        let priceBeenSelected = Notification.Name("priceBeenSelected")
-//        let distanceBeenSelected = Notification.Name("distanceBeenSelected")
-//        
-//        
-//        NotificationCenter.default.addObserver(self, selector: #selector(VC_menu.eatMeatOrNot), name: eatMeatOrNot, object: nil)
-//        NotificationCenter.default.addObserver(self, selector: #selector(VC_menu.typeOfMeal), name: typeOfMeal, object: nil)
-//        NotificationCenter.default.addObserver(self, selector: #selector(VC_menu.priceBeenSelected), name: priceBeenSelected, object: nil)
-//        NotificationCenter.default.addObserver(self, selector: #selector(VC_menu.distanceBeenSelected), name: distanceBeenSelected, object: nil)
+        loadUserDefault()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
@@ -328,17 +330,77 @@ class VC_menu: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func eatMeatOrNot(){
-        
-    }
-    
-    func typeOfMeal(){
-        
-    }
-    func priceBeenSelected(){
-        
-    }
-    func distanceBeenSelected(){
-        
+    func loadUserDefault(){
+        if let meatOrNot = userData.user_menu_default["meatEater"] as! String?{
+            if meatOrNot == "yes" {
+                vegetarian.isHighlighted = true
+            }else if meatOrNot == "no"{
+                meat.isHighlighted = true
+            }
+        }
+        if let typeOfMeal = userData.user_menu_default["typeOfMeal"] as! String?{
+            if typeOfMeal == "date"{
+                for_full.isHighlighted = true
+                meet_up.isHighlighted = true
+                discuss.isHighlighted = true
+                afternoon_tea.isHighlighted = true
+                snack.isHighlighted = true
+            }else if typeOfMeal == "for_full"{
+                date.isHighlighted = true
+                meet_up.isHighlighted = true
+                discuss.isHighlighted = true
+                afternoon_tea.isHighlighted = true
+                snack.isHighlighted = true
+            }else if typeOfMeal == "meet_up"{
+                date.isHighlighted = true
+                for_full.isHighlighted = true
+                discuss.isHighlighted = true
+                afternoon_tea.isHighlighted = true
+                snack.isHighlighted = true
+            }else if typeOfMeal == "discuss"{
+                date.isHighlighted = true
+                for_full.isHighlighted = true
+                meet_up.isHighlighted = true
+                afternoon_tea.isHighlighted = true
+                snack.isHighlighted = true
+            }else if typeOfMeal == "afternoon_tea"{
+                date.isHighlighted = true
+                for_full.isHighlighted = true
+                meet_up.isHighlighted = true
+                discuss.isHighlighted = true
+                snack.isHighlighted = true
+            }else if typeOfMeal == "snack"{
+                date.isHighlighted = true
+                for_full.isHighlighted = true
+                meet_up.isHighlighted = true
+                discuss.isHighlighted = true
+                afternoon_tea.isHighlighted = true
+            }
+        }
+        if let price = userData.user_menu_default["price"] as! String?{
+            if price == "low_price"{
+                mid_price.isHighlighted = true
+                high_price.isHighlighted = true
+            }else if price == "mid_price"{
+                low_price.isHighlighted = true
+                high_price.isHighlighted = true
+            }else if price == "high_price"{
+                low_price.isHighlighted = true
+                mid_price.isHighlighted = true
+            }
+            
+        }
+        if let distance = userData.user_menu_default["distance"] as! String?{
+            if distance == "short_distance"{
+                mid_distance.isHighlighted = true
+                long_distance.isHighlighted = true
+            }else if distance == "mid_distance"{
+                short_distance.isHighlighted = true
+                long_distance.isHighlighted = true
+            }else if distance == "long_distance"{
+                short_distance.isHighlighted = true
+                mid_distance.isHighlighted = true
+            }
+        }
     }
 }
