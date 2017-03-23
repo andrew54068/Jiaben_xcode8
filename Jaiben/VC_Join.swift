@@ -23,6 +23,7 @@ class VC_Join: VC_Base, UITextViewDelegate{
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.layer.sublayers!.remove(at: 0)
         self.hideKeyboard()
 
         // Do any additional setup after loading the view.

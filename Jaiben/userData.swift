@@ -15,9 +15,9 @@ struct userData {
     static var userID: String!
     static var name: String!
     static var nickname: String?
-    static var profile_photo_large: UIImage = UIImage()
-    static var profile_photo_normal: UIImage = UIImage()
-    static var profile_photo_small: UIImage = UIImage()
+    static var profile_photo_large: UIImage!
+    static var profile_photo_normal: UIImage!
+    static var profile_photo_small: UIImage!
     static var gender: String!
     static var email: String!
     static var birthday: String?
@@ -43,6 +43,7 @@ struct userData {
     
     static func getDataFromJSon(result: Any?) {
         if let user_data = result as? [String:Any]{
+            print("successfully downcast result")
             userData.userID = user_data["id"] as? String
             userData.name = user_data["name"] as? String
             userData.gender = user_data["gender"] as? String
@@ -54,6 +55,8 @@ struct userData {
                 userData.profile_photo_large = UIImage(data: data)!
                 print("get photo")
             }
+        }else{
+            print("false downcasting")
         }
     }
     

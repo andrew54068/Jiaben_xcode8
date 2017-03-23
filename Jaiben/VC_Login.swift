@@ -85,10 +85,9 @@ class VC_Login: VC_Base{
         // Dispose of any resources that can be recreated.
     }
     
-    func getUserInfo(){
-        FBSDKGraphRequest(graphPath: "/me", parameters: userData.parameters).start {
+    func getUserInfo(f:@escaping (()->())={return }){
+        FBSDKGraphRequest(graphPath: "/me", parameters: userData.parameters).start{
             (connection, result, err) in
-            
             if err != nil{
                 print("failed to start graph request:", err!)
                 return
@@ -96,14 +95,13 @@ class VC_Login: VC_Base{
                 userData.getDataFromJSon(result: result)
                 
 //                    userData.birthday = user_data["birthday"] as? String
-                    
                     print(userData.userID!)
                     print(userData.name)
                     print(userData.gender)
                     print(userData.email)
                     print(userData.profile_photo_large)
 //                    print(userData.birthday)
-                    print(result!)
+//                    print(result!)
             }
             if self.user_friendIsApprrovaled{
                 //朋友清單被授權才執行
@@ -118,7 +116,10 @@ class VC_Login: VC_Base{
                     print(result!)
                 }
             }
+            f()
         }
+        
+        return
     }
     
 

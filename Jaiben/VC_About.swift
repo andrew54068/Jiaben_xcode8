@@ -16,7 +16,7 @@ class VC_About: VC_Base {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.layer.sublayers!.remove(at: 0)
         // Do any additional setup after loading the view.
     }
 

@@ -15,6 +15,9 @@ class VC_mainView: VC_Base {
     var blurEffectView: UIVisualEffectView?
     var sideBarSwitch = true
     
+    
+    
+    @IBOutlet var profile: newButton!
     @IBOutlet var lid: newButton!
     @IBOutlet var bell: newButton!
     @IBOutlet var sideBar: UIView!
@@ -63,10 +66,40 @@ class VC_mainView: VC_Base {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        VC_Login().getUserInfo()
+//        DispatchQueue.global(qos: .userInitiated).async {
+        
+//            DispatchQueue.main.sync {
+                print("YOYO1")
+                print("YOYO2")
+                VC_Login().getUserInfo(f:{
+                print("YOYO3")
+                    self.profile.setImage(userData.profile_photo_large, for: UIControlState.normal)
+                let profile = userData.profile_photo_large
+                self.profile.imageView?.image = profile
+                
+                if userData.profile_photo_large != nil {
+                    self.profile.imageView?.image = UIImage(named: "adventure_king")
+                    print("profile image set")
+                }else if userData.profile_photo_large == nil{
+                    print("userData.profile_photo = \(userData.profile_photo_large)123456")
+                }
+            print("YOYO4")
+            return
+        })
+//            }
+//        }
+        
+        
         self.sideBar!.transform = CGAffineTransform(translationX: -self.view.bounds.width * 0.4, y: 0)
         
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if userData.profile_photo_large != nil {
+            profile.imageView?.image = UIImage(named: "adventure_king")
+            print("profile image set")
+        }
     }
 //    override func viewWillAppear(animated: Bool) {
 //        UIView.animateWithDuration(0.4, delay: 0.0, options: [], animations: {
