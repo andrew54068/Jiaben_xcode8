@@ -27,6 +27,7 @@
 		6DB83CAE1E4D3B8600CD6870 /* VC_outcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB83CAD1E4D3B8600CD6870 /* VC_outcome.swift */; };
 		6DB83CB01E4D676400CD6870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB83CAF1E4D676400CD6870 /* Assets.xcassets */; };
 		6DDC21B71E61CDC800EF0785 /* VC_advice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDC21B61E61CDC800EF0785 /* VC_advice.swift */; };
+		6DF9C57A1E84A2DC00FB4E2F /* VC_storeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF9C5791E84A2DC00FB4E2F /* VC_storeList.swift */; };
 		E4D5343830DFFEA927FE2070 /* Pods_Jaiben.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C065AE1C056EFA7387C58C /* Pods_Jaiben.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		6DB83CAF1E4D676400CD6870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DDC21B61E61CDC800EF0785 /* VC_advice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_advice.swift; sourceTree = "<group>"; };
 		6DDC21C11E63FF0000EF0785 /* Jaiben.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jaiben.entitlements; sourceTree = "<group>"; };
+		6DF9C5791E84A2DC00FB4E2F /* VC_storeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_storeList.swift; sourceTree = "<group>"; };
 		8C97905489910B9689B22431 /* Pods-Jaiben.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jaiben.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jaiben/Pods-Jaiben.release.xcconfig"; sourceTree = "<group>"; };
 		93C065AE1C056EFA7387C58C /* Pods_Jaiben.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jaiben.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 				6D0B8C221E5B1A9E00C09361 /* VC_offer.swift */,
 				6DDC21B61E61CDC800EF0785 /* VC_advice.swift */,
 				6D10EFAE1E6993A200FB5CB5 /* VC_profile.swift */,
+				6DF9C5791E84A2DC00FB4E2F /* VC_storeList.swift */,
 			);
 			name = VC;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				6D6ADD011E338CCE00D19F0C /* AppDelegate.swift in Sources */,
 				6D0B8C1F1E57C75A00C09361 /* VC_Join.swift in Sources */,
 				6D962D251E397E9B00DCE233 /* VC_menu.swift in Sources */,
+				6DF9C57A1E84A2DC00FB4E2F /* VC_storeList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -50,7 +50,7 @@ class VC_Base: UIViewController, UITextFieldDelegate{
     }
     
     func buildJBRequest(input: String, urlAfterJB: String!, log: String?) -> URLRequest{
-        var requestString = "hash=This Is Ivan Speaking."
+        var requestString = "hash=This is Ivan Speaking."
         if (input != "") {
             requestString += "&" + input
         }
@@ -62,7 +62,7 @@ class VC_Base: UIViewController, UITextFieldDelegate{
         }
         return request
     }
-    func buildDataTaskWithRequst(request: URLRequest, requestName: String?){
+    func buildDataTaskWithRequst(request: URLRequest, requestName: String?, f:@escaping (() ->())={return }){
         URLSession.shared.dataTask(with: request){
             data, response, error in
             guard (data != nil && error == nil) else{
@@ -83,7 +83,10 @@ class VC_Base: UIViewController, UITextFieldDelegate{
                 print("data! = \(data!)")
                 
             }
-            print("result = \(result)")
+    //            print("result = \(result)")
+            DispatchQueue.main.async {
+                f()
+            }
         }.resume()
     }
     func showMessage(message: String!, buttonText: String!){
@@ -99,24 +102,20 @@ class VC_Base: UIViewController, UITextFieldDelegate{
     
     func decodeFromJson(result: String) -> [String:Any]?{
         do{
-            if let data = result as? String{
-                if let data2 = data.data(using: .utf8){
-                    let json = try JSONSerialization.jsonObject(with: data2, options: .allowFragments) as! [String:Any]
-                    print("success")
-                    return json
-                }else{
-                    print("here")
-                    return nil
-                    
-                }
-                
+            if let data = result.data(using: .utf8){
+                let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as! [String:Any]
+                print("success decodeFromJson")
+//                print("json = \(json)")
+                return json
+            }else{
+                print("here")
+                return nil
             }
         }catch{
             print(error)
             print("陣列抓不成功")
+            return nil
         }
-        print("there")
-        return nil
     }
     
 //    func textViewShouldEndEditing(textView: UITextView) -> Bool {

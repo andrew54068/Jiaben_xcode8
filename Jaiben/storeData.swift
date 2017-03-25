@@ -20,6 +20,7 @@ struct storeData {
     static var comments: [String:Any]?
     static var news: [String]?
     static var b_hours: [String]?
+    static var allStoreList: [String] = []
     
     static func getDataFromJson(result: [String:Any]) {
         storeData.id = result["id"] as? String

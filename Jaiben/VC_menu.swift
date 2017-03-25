@@ -10,8 +10,8 @@ import UIKit
 
 class VC_menu: UIViewController {
 
-    static var tag: Int?
-    static var price: Int?
+    static var tag: Int = 0
+    static var price: Int = 0
     @IBOutlet var meat: newButton!
     @IBOutlet var vegetarian: newButton!
     @IBOutlet var date: newButton!

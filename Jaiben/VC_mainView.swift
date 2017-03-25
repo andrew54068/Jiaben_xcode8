@@ -45,8 +45,8 @@ class VC_mainView: VC_Base {
         if segue.identifier == "unwindMenu"{
             let destinationViewController = segue.destination as! VC_mainView
             destinationViewController.blurEffectView!.removeFromSuperview()
-            let storeRequest = storeData.buildStoreRequest(tag: VC_menu.tag!, price: 2)
-            print(VC_menu.tag!)
+            let storeRequest = storeData.buildStoreRequest(tag: VC_menu.tag, price: VC_menu.price)
+            print(VC_menu.tag)
             print("storeRequest = \(storeRequest)")
             print(storeRequest.httpMethod!)
             print(storeRequest.httpBody!)
@@ -76,13 +76,14 @@ class VC_mainView: VC_Base {
                     self.profile.setImage(userData.profile_photo_large, for: UIControlState.normal)
                 let profile = userData.profile_photo_large
                 self.profile.imageView?.image = profile
-                
-                if userData.profile_photo_large != nil {
-                    self.profile.imageView?.image = UIImage(named: "adventure_king")
-                    print("profile image set")
-                }else if userData.profile_photo_large == nil{
-                    print("userData.profile_photo = \(userData.profile_photo_large)123456")
-                }
+                self.profile.layer.cornerRadius = 0.5 * self.profile.bounds.width
+                self.profile.clipsToBounds = true
+//                if userData.profile_photo_large != nil {
+//                    self.profile.imageView?.image = UIImage(named: "adventure_king")
+//                    print("profile image set")
+//                }else if userData.profile_photo_large == nil{
+//                    print("userData.profile_photo = \(userData.profile_photo_large)123456")
+//                }
             print("YOYO4")
             return
         })
@@ -95,12 +96,7 @@ class VC_mainView: VC_Base {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        if userData.profile_photo_large != nil {
-            profile.imageView?.image = UIImage(named: "adventure_king")
-            print("profile image set")
-        }
-    }
+
 //    override func viewWillAppear(animated: Bool) {
 //        UIView.animateWithDuration(0.4, delay: 0.0, options: [], animations: {
 //            self.sideBar!.transform = CGAffineTransformMakeTranslation(-self.view.bounds.width * 0.4, 0)

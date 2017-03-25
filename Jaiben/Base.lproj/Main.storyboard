@@ -199,10 +199,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7Ac-VE-7TC" userLabel="stickContainer">
-                                        <rect key="frame" x="0.0" y="0.0" width="198" height="10"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="198" height="9.6666666666666679"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stick" translatesAutoresizingMaskIntoConstraints="NO" id="tHC-2g-Pnl">
-                                                <rect key="frame" x="0.0" y="0.0" width="198" height="10"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="198" height="9.6666666666666679"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="tHC-2g-Pnl" secondAttribute="height" multiplier="1351:67" id="hV6-C6-Nhs"/>
                                                 </constraints>
@@ -210,10 +210,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xgz-Um-Nad" userLabel="profileContainer">
-                                        <rect key="frame" x="34" y="51" width="111" height="111"/>
+                                        <rect key="frame" x="37" y="54" width="105" height="105.33333333333334"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIW-O5-Gfi" userLabel="profile" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="111" height="111"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="105" height="105.33333333333334"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="WIW-O5-Gfi" secondAttribute="height" multiplier="1:1" id="vrN-uA-lAr"/>
                                                 </constraints>
@@ -368,7 +368,7 @@
                                     <constraint firstItem="0rM-Nv-KLE" firstAttribute="centerY" secondItem="uJM-T0-CDK" secondAttribute="centerY" multiplier="1.62" id="Dpz-V9-FfQ"/>
                                     <constraint firstItem="egp-09-NGg" firstAttribute="width" secondItem="uJM-T0-CDK" secondAttribute="width" id="E21-if-ere"/>
                                     <constraint firstItem="xfW-9N-wID" firstAttribute="width" secondItem="sTA-7Z-QtA" secondAttribute="width" multiplier="0.95" id="FUC-GN-Bcl"/>
-                                    <constraint firstItem="xgz-Um-Nad" firstAttribute="width" secondItem="uJM-T0-CDK" secondAttribute="width" multiplier="0.82" id="GH9-1s-oGJ"/>
+                                    <constraint firstItem="xgz-Um-Nad" firstAttribute="width" secondItem="uJM-T0-CDK" secondAttribute="width" multiplier="0.78" id="GH9-1s-oGJ"/>
                                     <constraint firstItem="egp-09-NGg" firstAttribute="centerY" secondItem="uJM-T0-CDK" secondAttribute="centerY" multiplier="1.855" id="Gbw-K2-ay6"/>
                                     <constraint firstItem="sTA-7Z-QtA" firstAttribute="centerX" secondItem="uJM-T0-CDK" secondAttribute="centerX" id="IeF-fl-Wtn"/>
                                     <constraint firstItem="val-Pn-UY9" firstAttribute="top" secondItem="290-1d-fD2" secondAttribute="centerY" multiplier="0.78" id="KCa-Ue-2UQ"/>
@@ -508,7 +508,7 @@
                                 <color key="textColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2VQ-lY-Meg" userLabel="store_img">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2VQ-lY-Meg" userLabel="store_img">
                                 <rect key="frame" x="82" y="222" width="250" height="142"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2VQ-lY-Meg" secondAttribute="height" multiplier="231:131" id="GC3-Lf-9Ax"/>
