@@ -11,8 +11,7 @@ import UIKit
 class VC_advice: VC_Base, UIPickerViewDataSource, UIPickerViewDelegate{
 
     @IBOutlet var optionView: UIPickerView!
-    @IBOutlet var comments: UITextField!
-    
+    @IBOutlet var comments: UITextView!
     @IBAction func submitComments(_ sender: Any) {
         let input = "context=\(optionSelected):\(comments.text)" + "&userID=\(userData.userID)"
         let request = buildJBRequest(input: input,urlAfterJB: "Message/addMessage.php", log: "意見回傳")

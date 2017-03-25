@@ -13,8 +13,28 @@ class VC_Join: VC_Base, UITextViewDelegate{
     var keyboardShowAlready: Bool = false
     var keyboardHeight: CGFloat = 0
     
+    @IBOutlet var nameText: UITextField!
+    @IBOutlet var classText: UITextField!
+    @IBOutlet var FBText: UITextField!
+    @IBOutlet var expertIn: UITextField!
     @IBOutlet var textView: UITextView!
     @IBOutlet var scrollView: UIScrollView!
+    
+    @IBAction func confirm(_ sender: Any) {
+        let input = "name=\(nameText.text)&fb=\(FBText.text)&expect=\(expertIn.text)&reason=\(textView.text)"
+        let request = buildJBRequest(input: input, urlAfterJB: "Message/join_us.php", log: "應徵資料回傳")
+        buildDataTaskWithRequst(request: request, requestName: nil)
+    }
+    
+    override func getDataAfterRequest(result: String) {
+        DispatchQueue.main.async {
+            self.showMessage(message: "感謝您的熱情參與，我們會再與您聯繫", buttonText: "確認")
+        }
+    }
+    
+    override func doThingsAfterComfirmed() {
+        self.dismiss(animated: true, completion: nil)
+    }
     
     override func viewWillAppear(_ animated: Bool) {
         NotificationCenter.default.addObserver(self, selector: #selector(VC_Join.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)

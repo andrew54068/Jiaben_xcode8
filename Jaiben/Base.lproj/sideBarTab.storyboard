@@ -470,11 +470,15 @@
                                 <color key="textColor" red="0.23896464705467224" green="0.23895749449729919" blue="0.23896154761314392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aSh-RL-Kpy" userLabel="content">
-                                <rect key="frame" x="77" y="222" width="260" height="298"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="o1x-9j-vaJ">
+                                <rect key="frame" x="76.666666666666686" y="221.66666666666663" width="260.66666666666663" height="298"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="dfu-6m-ozS" id="ztc-x1-h8m"/>
+                                </connections>
+                            </textView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9vh-7W-8I9">
                                 <rect key="frame" x="77" y="156" width="260" height="52"/>
                                 <connections>
@@ -520,28 +524,28 @@
                             <constraint firstItem="e6r-yV-XNx" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="1.7" id="3Ii-TZ-ruq"/>
                             <constraint firstItem="9vh-7W-8I9" firstAttribute="width" secondItem="kcd-Zj-AQ0" secondAttribute="width" multiplier="0.6" id="6fK-Ua-Tfd"/>
                             <constraint firstItem="Uaq-Uv-fBu" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="0.38" id="74S-NU-Phz"/>
-                            <constraint firstItem="aSh-RL-Kpy" firstAttribute="width" secondItem="kcd-Zj-AQ0" secondAttribute="width" multiplier="0.6" id="7DI-PW-n7A"/>
-                            <constraint firstItem="aSh-RL-Kpy" firstAttribute="height" secondItem="kcd-Zj-AQ0" secondAttribute="height" multiplier="0.45" id="808-R8-6VN"/>
                             <constraint firstItem="e6r-yV-XNx" firstAttribute="height" secondItem="kcd-Zj-AQ0" secondAttribute="height" multiplier="0.06" id="BGw-m6-Kre"/>
-                            <constraint firstItem="aSh-RL-Kpy" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="1.12" id="Bbk-Jf-gZI"/>
                             <constraint firstItem="kcd-Zj-AQ0" firstAttribute="centerY" secondItem="2Wj-2I-oce" secondAttribute="centerY" multiplier="0.9" id="F0p-Zp-PmR"/>
                             <constraint firstItem="QJQ-ol-o8u" firstAttribute="height" secondItem="kcd-Zj-AQ0" secondAttribute="height" multiplier="0.06" id="G2l-so-MO7"/>
+                            <constraint firstItem="o1x-9j-vaJ" firstAttribute="centerX" secondItem="kcd-Zj-AQ0" secondAttribute="centerX" id="IIL-MJ-1eY"/>
+                            <constraint firstItem="o1x-9j-vaJ" firstAttribute="width" secondItem="kcd-Zj-AQ0" secondAttribute="width" multiplier="0.6" id="JWe-1e-1pe"/>
                             <constraint firstItem="e6r-yV-XNx" firstAttribute="width" secondItem="kcd-Zj-AQ0" secondAttribute="width" multiplier="0.6" id="LSr-NI-hwW"/>
                             <constraint firstItem="kcd-Zj-AQ0" firstAttribute="height" secondItem="2Wj-2I-oce" secondAttribute="height" multiplier="0.9" id="OPc-vB-wFP"/>
                             <constraint firstItem="Uaq-Uv-fBu" firstAttribute="centerX" secondItem="kcd-Zj-AQ0" secondAttribute="centerX" id="Q9U-cV-thO"/>
                             <constraint firstItem="QJQ-ol-o8u" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="1.85" id="SN4-6Y-P74"/>
                             <constraint firstItem="kcd-Zj-AQ0" firstAttribute="centerX" secondItem="2Wj-2I-oce" secondAttribute="centerX" id="Wfb-0z-epa"/>
                             <constraint firstItem="e6r-yV-XNx" firstAttribute="centerX" secondItem="kcd-Zj-AQ0" secondAttribute="centerX" id="XEL-BW-Q1x"/>
-                            <constraint firstItem="aSh-RL-Kpy" firstAttribute="centerX" secondItem="kcd-Zj-AQ0" secondAttribute="centerX" id="XKp-vw-hn4"/>
                             <constraint firstItem="9vh-7W-8I9" firstAttribute="centerX" secondItem="kcd-Zj-AQ0" secondAttribute="centerX" id="XTD-h8-mnu"/>
                             <constraint firstItem="QJQ-ol-o8u" firstAttribute="width" secondItem="kcd-Zj-AQ0" secondAttribute="width" multiplier="0.6" id="bFF-1o-zdv"/>
                             <constraint firstItem="QJQ-ol-o8u" firstAttribute="centerX" secondItem="kcd-Zj-AQ0" secondAttribute="centerX" id="cGD-FT-26g"/>
                             <constraint firstItem="9vh-7W-8I9" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="0.55" id="d5M-W2-NYG"/>
+                            <constraint firstItem="o1x-9j-vaJ" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="1.12" id="iL9-os-B40"/>
                             <constraint firstItem="9vh-7W-8I9" firstAttribute="height" secondItem="kcd-Zj-AQ0" secondAttribute="height" multiplier="0.08" id="tlj-Nt-Gq8"/>
+                            <constraint firstItem="o1x-9j-vaJ" firstAttribute="height" secondItem="kcd-Zj-AQ0" secondAttribute="height" multiplier="0.45" id="yZI-ah-e2G"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="comments" destination="aSh-RL-Kpy" id="qKe-Gh-QS9"/>
+                        <outlet property="comments" destination="o1x-9j-vaJ" id="rzG-OG-W5S"/>
                         <outlet property="optionView" destination="9vh-7W-8I9" id="XSo-Hi-AmG"/>
                     </connections>
                 </viewController>
@@ -756,6 +760,9 @@
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="confirm:" destination="Yd6-NS-I8R" eventType="touchUpInside" id="NHC-jK-bna"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XeA-ZQ-18U" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
                                         <rect key="frame" x="99.333333333333314" y="656.66666666666652" width="215.33333333333337" height="36.333333333333371"/>
@@ -852,6 +859,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="FBText" destination="4vC-YQ-Pz5" id="bsP-wA-hW4"/>
+                        <outlet property="classText" destination="Vbm-hA-iyi" id="2LV-bz-MKh"/>
+                        <outlet property="expertIn" destination="Aa4-mw-9yf" id="O8Y-M8-fjI"/>
+                        <outlet property="nameText" destination="rDw-tg-JEb" id="dZQ-nR-q9x"/>
                         <outlet property="scrollView" destination="69p-Zp-Nh1" id="V7d-2a-AZd"/>
                         <outlet property="textView" destination="5G3-dm-jQE" id="K0e-dA-Bel"/>
                     </connections>
