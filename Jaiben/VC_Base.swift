@@ -91,9 +91,13 @@ class VC_Base: UIViewController, UITextFieldDelegate{
     }
     func showMessage(message: String!, buttonText: String!){
         let alert = UIAlertController(title: nil, message: message, preferredStyle: .alert)
-        let action = UIAlertAction(title: buttonText, style: .default, handler: nil)
+        let action = UIAlertAction(title: buttonText, style: .default, handler: {action in self.doThingsAfterComfirmed()})
         alert.addAction(action)
         self.present(alert, animated: true, completion: nil)
+    }
+    
+    func doThingsAfterComfirmed(){
+        
     }
     
     func getDataAfterRequest(result: String){

@@ -453,10 +453,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kcd-Zj-AQ0" userLabel="panelContainer">
-                                <rect key="frame" x="-9.6666666666666572" y="0.0" width="433.33333333333337" height="662.33333333333337"/>
+                                <rect key="frame" x="-10" y="0.0" width="434" height="662"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="advice_panel" translatesAutoresizingMaskIntoConstraints="NO" id="QZh-RM-SlY">
-                                        <rect key="frame" x="0.0" y="0.0" width="433.33333333333337" height="662.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="434" height="662"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="QZh-RM-SlY" secondAttribute="height" multiplier="1622:2478" id="NxB-5W-mAe"/>
@@ -465,18 +465,25 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="意見箱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uaq-Uv-fBu" userLabel="title">
-                                <rect key="frame" x="161.66666666666666" y="107.66666666666666" width="91" height="35.999999999999972"/>
+                                <rect key="frame" x="162" y="108" width="91" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.23896464705467224" green="0.23895749449729919" blue="0.23896154761314392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aSh-RL-Kpy" userLabel="content">
-                                <rect key="frame" x="77" y="214.99999999999997" width="260" height="265.33333333333326"/>
+                                <rect key="frame" x="77" y="222" width="260" height="298"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9vh-7W-8I9">
+                                <rect key="frame" x="77" y="156" width="260" height="52"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="dfu-6m-ozS" id="EML-DB-Qod"/>
+                                    <outlet property="delegate" destination="dfu-6m-ozS" id="VQh-wG-TZW"/>
+                                </connections>
+                            </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6r-yV-XNx" userLabel="confirm_btn" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                <rect key="frame" x="77" y="486.33333333333337" width="260" height="53.000000000000114"/>
+                                <rect key="frame" x="77" y="543" width="260" height="40"/>
                                 <color key="backgroundColor" red="0.90980392156862744" green="0.31764705882352939" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="DFPiPi-W5-WIN-BF" family="DFPiPiW5-B5" pointSize="24"/>
                                 <state key="normal" title="送出">
@@ -487,9 +494,12 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="submitComments:" destination="dfu-6m-ozS" eventType="touchUpInside" id="UCq-DA-z8X"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJQ-ol-o8u" userLabel="cancel_Btn" customClass="newButton" customModule="Jaiben" customModuleProvider="target">
-                                <rect key="frame" x="77" y="553.33333333333337" width="260" height="52.333333333333258"/>
+                                <rect key="frame" x="77" y="593" width="260" height="39"/>
                                 <color key="backgroundColor" red="0.79607843140000001" green="0.79607843140000001" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="DFPiPi-W5-WIN-BF" family="DFPiPiW5-B5" pointSize="24"/>
                                 <state key="normal" title="取消">
@@ -507,25 +517,33 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="e6r-yV-XNx" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="1.55" id="3Ii-TZ-ruq"/>
+                            <constraint firstItem="e6r-yV-XNx" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="1.7" id="3Ii-TZ-ruq"/>
+                            <constraint firstItem="9vh-7W-8I9" firstAttribute="width" secondItem="kcd-Zj-AQ0" secondAttribute="width" multiplier="0.6" id="6fK-Ua-Tfd"/>
                             <constraint firstItem="Uaq-Uv-fBu" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="0.38" id="74S-NU-Phz"/>
                             <constraint firstItem="aSh-RL-Kpy" firstAttribute="width" secondItem="kcd-Zj-AQ0" secondAttribute="width" multiplier="0.6" id="7DI-PW-n7A"/>
-                            <constraint firstItem="aSh-RL-Kpy" firstAttribute="height" secondItem="kcd-Zj-AQ0" secondAttribute="height" multiplier="0.4" id="808-R8-6VN"/>
-                            <constraint firstItem="e6r-yV-XNx" firstAttribute="height" secondItem="kcd-Zj-AQ0" secondAttribute="height" multiplier="0.08" id="BGw-m6-Kre"/>
-                            <constraint firstItem="aSh-RL-Kpy" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="1.05" id="Bbk-Jf-gZI"/>
+                            <constraint firstItem="aSh-RL-Kpy" firstAttribute="height" secondItem="kcd-Zj-AQ0" secondAttribute="height" multiplier="0.45" id="808-R8-6VN"/>
+                            <constraint firstItem="e6r-yV-XNx" firstAttribute="height" secondItem="kcd-Zj-AQ0" secondAttribute="height" multiplier="0.06" id="BGw-m6-Kre"/>
+                            <constraint firstItem="aSh-RL-Kpy" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="1.12" id="Bbk-Jf-gZI"/>
                             <constraint firstItem="kcd-Zj-AQ0" firstAttribute="centerY" secondItem="2Wj-2I-oce" secondAttribute="centerY" multiplier="0.9" id="F0p-Zp-PmR"/>
-                            <constraint firstItem="QJQ-ol-o8u" firstAttribute="height" secondItem="kcd-Zj-AQ0" secondAttribute="height" multiplier="0.08" id="G2l-so-MO7"/>
+                            <constraint firstItem="QJQ-ol-o8u" firstAttribute="height" secondItem="kcd-Zj-AQ0" secondAttribute="height" multiplier="0.06" id="G2l-so-MO7"/>
                             <constraint firstItem="e6r-yV-XNx" firstAttribute="width" secondItem="kcd-Zj-AQ0" secondAttribute="width" multiplier="0.6" id="LSr-NI-hwW"/>
                             <constraint firstItem="kcd-Zj-AQ0" firstAttribute="height" secondItem="2Wj-2I-oce" secondAttribute="height" multiplier="0.9" id="OPc-vB-wFP"/>
                             <constraint firstItem="Uaq-Uv-fBu" firstAttribute="centerX" secondItem="kcd-Zj-AQ0" secondAttribute="centerX" id="Q9U-cV-thO"/>
-                            <constraint firstItem="QJQ-ol-o8u" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="1.75" id="SN4-6Y-P74"/>
+                            <constraint firstItem="QJQ-ol-o8u" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="1.85" id="SN4-6Y-P74"/>
                             <constraint firstItem="kcd-Zj-AQ0" firstAttribute="centerX" secondItem="2Wj-2I-oce" secondAttribute="centerX" id="Wfb-0z-epa"/>
                             <constraint firstItem="e6r-yV-XNx" firstAttribute="centerX" secondItem="kcd-Zj-AQ0" secondAttribute="centerX" id="XEL-BW-Q1x"/>
                             <constraint firstItem="aSh-RL-Kpy" firstAttribute="centerX" secondItem="kcd-Zj-AQ0" secondAttribute="centerX" id="XKp-vw-hn4"/>
+                            <constraint firstItem="9vh-7W-8I9" firstAttribute="centerX" secondItem="kcd-Zj-AQ0" secondAttribute="centerX" id="XTD-h8-mnu"/>
                             <constraint firstItem="QJQ-ol-o8u" firstAttribute="width" secondItem="kcd-Zj-AQ0" secondAttribute="width" multiplier="0.6" id="bFF-1o-zdv"/>
                             <constraint firstItem="QJQ-ol-o8u" firstAttribute="centerX" secondItem="kcd-Zj-AQ0" secondAttribute="centerX" id="cGD-FT-26g"/>
+                            <constraint firstItem="9vh-7W-8I9" firstAttribute="centerY" secondItem="kcd-Zj-AQ0" secondAttribute="centerY" multiplier="0.55" id="d5M-W2-NYG"/>
+                            <constraint firstItem="9vh-7W-8I9" firstAttribute="height" secondItem="kcd-Zj-AQ0" secondAttribute="height" multiplier="0.08" id="tlj-Nt-Gq8"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="comments" destination="aSh-RL-Kpy" id="qKe-Gh-QS9"/>
+                        <outlet property="optionView" destination="9vh-7W-8I9" id="XSo-Hi-AmG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KLj-GJ-gC0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="mZ5-4O-FgA" userLabel="Exit" sceneMemberID="exit"/>
