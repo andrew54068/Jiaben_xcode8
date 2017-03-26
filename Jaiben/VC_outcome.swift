@@ -47,6 +47,10 @@ class VC_outcome: VC_Base {
         print("storeData.photo = \(storeData.photo)")
         
     }
+    
+    @IBAction func unwindSegueToOutcome(_ segue: UIStoryboardSegue){
+        
+    }
     /*
     // MARK: - Navigation
 
