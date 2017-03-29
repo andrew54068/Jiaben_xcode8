@@ -76,7 +76,6 @@ class VC_Base: UIViewController, UITextFieldDelegate{
                 self.showMessage(message: "發生錯誤，請檢查網路連線後再試一次", buttonText: "確認")
                 return
             }
-            print("data = \(data)")
             let result = String(data: data!, encoding: .utf8)!
             if (result != "{\"success\":\"False\"}") {
                 self.getDataAfterRequest(result: result)
@@ -121,6 +120,7 @@ class VC_Base: UIViewController, UITextFieldDelegate{
             return nil
         }
     }
+    
     
 //    func textViewShouldEndEditing(textView: UITextView) -> Bool {
 //        textView.resignFirstResponder()

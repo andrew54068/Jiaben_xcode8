@@ -45,6 +45,7 @@ class VC_mainView: VC_Base {
         if segue.identifier == "unwindMenu"{
             let destinationViewController = segue.destination as! VC_mainView
             destinationViewController.blurEffectView!.removeFromSuperview()
+        }
             let storeRequest = storeData.buildStoreRequest(tag: VC_menu.tag, price: VC_menu.price)
             print(VC_menu.tag)
             print("storeRequest = \(storeRequest)")
@@ -52,9 +53,9 @@ class VC_mainView: VC_Base {
             print(storeRequest.httpBody!)
             buildDataTaskWithRequst(request: storeRequest, requestName: "取得店家資料")
             
-        }else if segue.identifier == "unwindOutcome"{
-            
-        }
+//        }else if segue.identifier == "unwindOutcome"{
+//            
+//        }
     }
     
     override func getDataAfterRequest(result: String) {

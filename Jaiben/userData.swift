@@ -44,6 +44,7 @@ struct userData {
     static func getDataFromJSon(result: Any?) {
         if let user_data = result as? [String:Any]{
             print("successfully downcast result")
+            print("user_data = \(user_data)")
             userData.userID = user_data["id"] as? String
             userData.name = user_data["name"] as? String
             userData.gender = user_data["gender"] as? String
