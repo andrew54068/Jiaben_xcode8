@@ -73,21 +73,13 @@ class VC_mainView: VC_Base {
                 print("YOYO1")
                 print("YOYO2")
                 VC_Login().getUserInfo(f:{
-                print("YOYO3")
+                    print("YOYO3")
                     self.profile.setImage(userData.profile_photo_large, for: UIControlState.normal)
-                let profile = userData.profile_photo_large
-                self.profile.imageView?.image = profile
-                self.profile.layer.cornerRadius = 0.5 * self.profile.bounds.width
-                self.profile.clipsToBounds = true
-//                if userData.profile_photo_large != nil {
-//                    self.profile.imageView?.image = UIImage(named: "adventure_king")
-//                    print("profile image set")
-//                }else if userData.profile_photo_large == nil{
-//                    print("userData.profile_photo = \(userData.profile_photo_large)123456")
-//                }
-            print("YOYO4")
-            return
-        })
+                    self.profile.layer.cornerRadius = 0.5 * self.profile.bounds.width
+                    self.profile.clipsToBounds = true
+                    print("YOYO4")
+                    return
+                })
 //            }
 //        }
         

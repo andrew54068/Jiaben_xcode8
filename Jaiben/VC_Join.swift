@@ -88,6 +88,7 @@ class VC_Join: VC_Base, UITextViewDelegate{
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         self.view.endEditing(true)
+        print("what is this for")
         return true
     }
     

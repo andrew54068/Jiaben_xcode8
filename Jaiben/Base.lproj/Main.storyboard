@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="o6k-bQ-IvQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="o6k-bQ-IvQ">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -563,7 +563,7 @@
                                         </constraints>
                                         <state key="normal" image="discussion"/>
                                         <connections>
-                                            <segue destination="Q7u-sg-cTh" kind="modal" modalTransitionStyle="coverVertical" id="jQb-Tz-pqI"/>
+                                            <segue destination="Q7u-sg-cTh" kind="modal" id="ikN-qH-orj"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -724,10 +724,10 @@
             </objects>
             <point key="canvasLocation" x="570" y="31"/>
         </scene>
-        <!--address-->
+        <!--location-->
         <scene sceneID="EBq-cY-ZHV">
             <objects>
-                <viewController id="k4K-zN-wmp" customClass="VC_address" customModule="Jaiben" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="k4K-zN-wmp" customClass="VC_location" customModule="Jaiben" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pMF-VI-23J"/>
                         <viewControllerLayoutGuide type="bottom" id="P6n-Hz-wXu"/>
@@ -1329,7 +1329,7 @@
         <!--comments-->
         <scene sceneID="d9G-6X-UtD">
             <objects>
-                <viewController id="Q7u-sg-cTh" customClass="VC_comments" customModule="Jaiben" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="overCurrentContext" id="Q7u-sg-cTh" customClass="VC_comments" customModule="Jaiben" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8vG-4K-LPw"/>
                         <viewControllerLayoutGuide type="bottom" id="4T2-X0-8KQ"/>
@@ -1371,7 +1371,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGU-JV-QG4" userLabel="name">
-                                                    <rect key="frame" x="65.333333333333329" y="78" width="37.333333333333343" height="16.333333333333329"/>
+                                                    <rect key="frame" x="65" y="78" width="38" height="17"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Name">
                                                             <attributes>
@@ -1383,7 +1383,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpA-6I-oZT" userLabel="Lv">
-                                                    <rect key="frame" x="77" y="96.333333333333329" width="14" height="15.333333333333343"/>
+                                                    <rect key="frame" x="77" y="96" width="14" height="16"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Lv">
                                                             <attributes>
@@ -1395,7 +1395,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6qT-bQ-ncj" userLabel="profileContainer">
-                                                    <rect key="frame" x="49.666666666666657" y="8" width="68" height="68"/>
+                                                    <rect key="frame" x="50" y="8" width="68" height="68"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NK8-tV-3i9">
                                                             <rect key="frame" x="0.0" y="0.0" width="68" height="68"/>
@@ -1420,19 +1420,19 @@
                                                     <state key="normal" image="down"/>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9TV-at-z1B" userLabel="upNumber">
-                                                    <rect key="frame" x="18" y="26.333333333333336" width="10.333333333333332" height="20.333333333333336"/>
+                                                    <rect key="frame" x="18" y="26" width="11" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Idi-TD-OWz" userLabel="downNumber">
-                                                    <rect key="frame" x="18" y="66.333333333333329" width="10.333333333333332" height="20.333333333333343"/>
+                                                    <rect key="frame" x="18" y="66" width="11" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="headTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aT3-bx-feW" userLabel="comment">
-                                                    <rect key="frame" x="136.66666666666663" y="9.6666666666666643" width="183.33333333333337" height="92.666666666666657"/>
+                                                    <rect key="frame" x="137" y="10" width="183" height="92"/>
                                                     <color key="backgroundColor" red="0.96219759318702103" green="0.9717243020304569" blue="0.9717243020304569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <nil key="textColor"/>
@@ -1570,6 +1570,7 @@
                             <constraint firstItem="UEJ-Ar-IuS" firstAttribute="height" secondItem="dfk-59-qqE" secondAttribute="height" id="zl1-r1-8lo"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="gH3-rA-mmz"/>
                     <connections>
                         <outlet property="amount" destination="jjt-ob-Af5" id="nbI-e1-6IH"/>
                         <outlet property="comments" destination="qo8-mt-cpQ" id="RoM-mG-rDh"/>

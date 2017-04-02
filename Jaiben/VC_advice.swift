@@ -56,7 +56,7 @@ class VC_advice: VC_Base, UIPickerViewDataSource, UIPickerViewDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.layer.sublayers!.remove(at: 0)
         // Do any additional setup after loading the view.
     }
 

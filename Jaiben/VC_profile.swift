@@ -40,7 +40,7 @@ class VC_profile: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+//        self.view.layer.sublayers!.remove(at: 0)
         // Do any additional setup after loading the view.
     }
 

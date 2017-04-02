@@ -50,6 +50,10 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>讓甲奔知道你的位置吧！</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>輕鬆獲取目前位置並提交！</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

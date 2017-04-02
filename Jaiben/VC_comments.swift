@@ -79,33 +79,35 @@ class VC_comments: VC_Base, UITableViewDelegate, UITableViewDataSource{
         super.viewDidLoad()
 
         self.view.layer.sublayers!.remove(at: 0)
-        
-        let input = "storeID=\(storeData.id!)"
-        let request = buildJBRequest(input: input, urlAfterJB: "Comment/getComment.php", log: "load comments")
-        buildDataTaskWithRequst(request: request, requestName: nil, f: {
-            self.storeName.text = storeData.name
-            self.amount.text = "共\(self.amountOfComments)人評論"
-//            self.comments.delegate = self
-//            self.comments.dataSource = self
-            print("commentArray[0][\"nickname\"] = \(self.commentArray[0]["nickname"])")
-            self.comments.reloadData()
-        })
+//        
+//        let input = "storeID=\(storeData.id!)"
+//        let request = buildJBRequest(input: input, urlAfterJB: "Comment/getComment.php", log: "load comments")
+//        buildDataTaskWithRequst(request: request, requestName: nil, f: {
+//            self.storeName.text = storeData.name
+//            self.amount.text = "共\(self.amountOfComments)人評論"
+////            self.comments.delegate = self
+////            self.comments.dataSource = self
+////            print("commentArray[0][\"nickname\"] = \(self.commentArray[0]["nickname"])")
+//            self.comments.reloadData()
+//        })
         // Do any additional setup after loading the view.
     }
     
     override func getDataAfterRequest(result: String) {
-        let comments = decodeCommentsFromJson(result: result)!
-        print("comments = \(comments)")
-        print("comments[0] = \(comments[0])")
         
-        amountOfComments = comments.count
-        for i in 0 ..< comments.count{
-            print("i = \(i)")
-            self.commentArray.append(comments[i])
-//            self.commentArray = try! merged(with: comments[i])
+        var comments = decodeCommentsFromJson(result: result)!
+        print("comments = \(comments)")
+        if comments.count != 0{
+            amountOfComments = comments.count
+            for i in 0 ..< comments.count{
+                print("i = \(i)")
+                self.commentArray.append(comments[i])
+            }
+            print("result = \(result)")
+            print("commentArray = \(commentArray)")
         }
-        print("result = \(result)")
-        print("commentArray = \(commentArray)")
+        return
+        
     }
 
     override func didReceiveMemoryWarning() {

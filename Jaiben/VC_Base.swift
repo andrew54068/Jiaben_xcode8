@@ -5,7 +5,6 @@
 //  Created by kidnapper on 11/02/2017.
 //  Copyright © 2017 JaiBen. All rights reserved.
 //
-
 import UIKit
 
 
@@ -143,4 +142,19 @@ class VC_Base: UIViewController, UITextFieldDelegate{
         // Pass the selected object to the new view controller.
     }
     */
+}
+
+extension NSLayoutConstraint {
+    func setMultiplier(multiplier:CGFloat) -> NSLayoutConstraint{
+        NSLayoutConstraint.deactivate([self])
+        
+        let newConstrain = NSLayoutConstraint(item: firstItem, attribute: firstAttribute, relatedBy: relation, toItem: secondItem, attribute: secondAttribute, multiplier: multiplier, constant: constant)
+        
+        newConstrain.priority = priority
+        newConstrain.shouldBeArchived = self.shouldBeArchived
+        newConstrain.identifier = self.identifier
+        
+        NSLayoutConstraint.activate([newConstrain])
+        return newConstrain
+    }
 }

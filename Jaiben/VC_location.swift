@@ -8,18 +8,36 @@
 
 import UIKit
 import MapKit
+import CoreLocation
 
-class VC_address: UIViewController {
+class VC_location: UIViewController, CLLocationManagerDelegate {
 
     @IBOutlet var mapView: MKMapView!
     
+    let manager = CLLocationManager()
     
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let location = locations[0]
+        
+        let span: MKCoordinateSpan = MKCoordinateSpanMake(0.007, 0.007)
+        let myLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude)
+        
+        let region:MKCoordinateRegion = MKCoordinateRegionMake(myLocation, span)
+        mapView.setRegion(region, animated: true)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        manager.delegate = self
+        manager.desiredAccuracy = kCLLocationAccuracyBest
+        manager.requestWhenInUseAuthorization()
+        manager.startUpdatingLocation()
 
         let geoCoder = CLGeocoder()
         geoCoder.geocodeAddressString(storeData.address!, completionHandler: {
             placemarks, error in
+            print("placemarks = \(placemarks)")
             if error != nil{
                 print("error = \(error)")
                 return
