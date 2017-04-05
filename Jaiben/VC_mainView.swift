@@ -45,17 +45,23 @@ class VC_mainView: VC_Base {
         if segue.identifier == "unwindMenu"{
             let destinationViewController = segue.destination as! VC_mainView
             destinationViewController.blurEffectView!.removeFromSuperview()
-        }
             let storeRequest = storeData.buildStoreRequest(tag: VC_menu.tag, price: VC_menu.price)
             print(VC_menu.tag)
             print("storeRequest = \(storeRequest)")
             print(storeRequest.httpMethod!)
             print(storeRequest.httpBody!)
             buildDataTaskWithRequst(request: storeRequest, requestName: "取得店家資料")
-            
-//        }else if segue.identifier == "unwindOutcome"{
-//            
-//        }
+        }
+        
+        if segue.identifier == "unwindOffer"{
+            print("1234567890")
+            if VC_offer.storeName != ""{
+                let input = "img=\(VC_offer.photoEncodedString)&userID=\(userData.userID!)&name=\(VC_offer.storeName)&tel=\(VC_offer.phone)&address=\(VC_offer.address)&time=\(VC_offer.b_time)"
+                let request = buildJBRequest(input: input, urlAfterJB: "addStore/", log: "upload store")
+                buildDataTaskWithAddStoreRequst(request: request)
+                VC_offerLocation.prelocate = nil
+            }
+        }
     }
     
     override func getDataAfterRequest(result: String) {
@@ -67,34 +73,15 @@ class VC_mainView: VC_Base {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-//        DispatchQueue.global(qos: .userInitiated).async {
-        
-//            DispatchQueue.main.sync {
-                print("YOYO1")
-                print("YOYO2")
-                VC_Login().getUserInfo(f:{
-                    print("YOYO3")
-                    self.profile.setImage(userData.profile_photo_large, for: UIControlState.normal)
-                    self.profile.layer.cornerRadius = 0.5 * self.profile.bounds.width
-                    self.profile.clipsToBounds = true
-                    print("YOYO4")
-                    return
-                })
-//            }
-//        }
-        
-        
+            VC_Login().getUserInfo(f:{
+                self.profile.setImage(userData.profile_photo_large, for: UIControlState.normal)
+                self.profile.layer.cornerRadius = 0.5 * self.profile.bounds.width
+                self.profile.clipsToBounds = true
+                return
+            })
         self.sideBar!.transform = CGAffineTransform(translationX: -self.view.bounds.width * 0.4, y: 0)
-        
         // Do any additional setup after loading the view, typically from a nib.
     }
-    
-
-//    override func viewWillAppear(animated: Bool) {
-//        UIView.animateWithDuration(0.4, delay: 0.0, options: [], animations: {
-//            self.sideBar!.transform = CGAffineTransformMakeTranslation(-self.view.bounds.width * 0.4, 0)
-//            }, completion: nil)
-//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -121,7 +108,27 @@ class VC_mainView: VC_Base {
         UIView.animate(withDuration: 0.4, delay: 0.0, options: [], animations: {
             self.sideBar!.transform = CGAffineTransform(translationX: -self.view.bounds.width * 0.4, y: 0)
             }, completion: nil)    }
-    
+    func buildDataTaskWithAddStoreRequst(request: URLRequest){
+        URLSession.shared.dataTask(with: request){
+            data, response, error in
+            guard (data != nil && error == nil) else{
+                print("error")
+                self.showMessage(message: "發生錯誤，請檢查網路連線後再試一次", buttonText: "確認")
+                return
+            }
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200{
+                print("statusCode should be 200 but it's \(httpStatus.statusCode)")
+                print("response = \(response)")
+                self.showMessage(message: "發生錯誤，請檢查網路連線後再試一次", buttonText: "確認")
+                return
+            }
+            let result = String(data: data!, encoding: .utf8)!
+            if (result != "{\"success\":\"False\"}") {
+                let jsonData = self.decodeFromJson(result: result)
+                print("jsonData! = \(jsonData!)")
+            }
+        }.resume()
+    }
 
 }
 

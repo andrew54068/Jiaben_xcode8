@@ -276,7 +276,7 @@
                                                 </constraints>
                                                 <state key="normal" image="offer"/>
                                                 <connections>
-                                                    <segue destination="MMW-2W-yAp" kind="modal" id="NmM-8K-Kc4"/>
+                                                    <segue destination="MMW-2W-yAp" kind="modal" identifier="addStore" id="NmM-8K-Kc4"/>
                                                 </connections>
                                             </button>
                                         </subviews>

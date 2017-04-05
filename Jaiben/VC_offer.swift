@@ -12,6 +12,13 @@ import CoreLocation
 
 class VC_offer: VC_Base, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIPopoverPresentationControllerDelegate {
     var uploadFirst: Bool = true
+    static var address: String = ""
+    static var storeName: String = ""
+    static var photoEncodedString: String = ""
+    static var b_time: String = "1"
+    static var menu: String = "1"
+    static var phone: String = "1"
+    
     
     
     @IBOutlet var storeName: UITextField!
@@ -25,6 +32,20 @@ class VC_offer: VC_Base, UINavigationControllerDelegate, UIImagePickerController
     @IBOutlet var upload_text: UILabel!
     @IBOutlet var upload_btn_width: NSLayoutConstraint!
     
+    @IBAction func addStore(_ sender: Any) {
+        guard storeName.text! != "" else {
+            showMessage(message: "店家名稱必填", buttonText: "確認")
+            return
+        }
+        VC_offer.storeName = storeName.text!
+        if (VC_offer.address != "" || VC_offer.photoEncodedString != "" || VC_offer.b_time != "" || VC_offer.menu != "" || VC_offer.phone != ""){
+            self.performSegue(withIdentifier: "unwindOffer", sender: self)
+        }else{
+            self.showMessage(message: "除了店家名稱之外，至少擇一編輯", buttonText: "確認")
+        }
+    }
+    
+    
     @IBAction func uploadLocation(_ sender: AnyObject) {
         let popController = UIStoryboard(name: "sideBarTab", bundle: nil).instantiateViewController(withIdentifier: "offerLocation")
         popController.modalPresentationStyle = UIModalPresentationStyle.popover
@@ -36,6 +57,13 @@ class VC_offer: VC_Base, UINavigationControllerDelegate, UIImagePickerController
         
         self.present(popController, animated: true, completion: nil)
         
+    }
+    @IBAction func unwindToOffer(_ segue:UIStoryboardSegue){
+        print("unwindToOffer")
+        if segue.identifier == "offerLocation"{
+            VC_offer.address = VC_offerLocation.addr
+            print("VC_offerLocation.addr = \(VC_offerLocation.addr)")
+        }
     }
     
     @IBAction func uploadBeenTouched(_ sender: Any) {
@@ -57,12 +85,16 @@ class VC_offer: VC_Base, UINavigationControllerDelegate, UIImagePickerController
         }
         
         if let photoPicked = info[UIImagePickerControllerOriginalImage] as? UIImage{
-            let jpg = UIImageJPEGRepresentation(photoPicked, 1)
+            let jpg = UIImageJPEGRepresentation(photoPicked, 0.1)
             let jpgImage = UIImage(data: jpg!)
             upload.imageView?.contentMode = UIViewContentMode.scaleAspectFill
             upload.setImage(jpgImage, for: UIControlState.normal)
             upload_text.isHidden = true
-            
+            DispatchQueue.global(qos: .userInteractive).async {
+                let jpgEncoded = jpg?.base64EncodedString(options: .lineLength64Characters)
+                VC_offer.photoEncodedString = jpgEncoded!
+                print("jpgEncoded = \(jpgEncoded)")
+            }
         }else{
             showMessage(message: "圖片載入失敗，請再試一次", buttonText: "確認")
             print("選擇圖片發生錯誤")
@@ -98,6 +130,8 @@ class VC_offer: VC_Base, UINavigationControllerDelegate, UIImagePickerController
         print("what is this for")
         return true
     }
+    
+    
 
     /*
     // MARK: - Navigation
