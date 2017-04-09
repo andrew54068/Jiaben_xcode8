@@ -12,4 +12,5 @@ target 'Jaiben' do
   pod 'FacebookCore'
   pod 'FacebookLogin'
   pod 'FacebookShare'
+  pod 'Alamofire', '~> 4.4'
 end

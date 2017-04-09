@@ -57,7 +57,7 @@ class VC_mainView: VC_Base {
             print("1234567890")
             if VC_offer.storeName != ""{
                 let input = "img=\(VC_offer.photoEncodedString)&userID=\(userData.userID!)&name=\(VC_offer.storeName)&tel=\(VC_offer.phone)&address=\(VC_offer.address)&time=\(VC_offer.b_time)"
-                let request = buildJBRequest(input: input, urlAfterJB: "addStore/", log: "upload store")
+                let request = buildJBRequest(input: input, urlAfterJB: "addStore/img.php", log: "upload store")
                 buildDataTaskWithAddStoreRequst(request: request)
                 VC_offerLocation.prelocate = nil
             }
@@ -122,11 +122,12 @@ class VC_mainView: VC_Base {
                 self.showMessage(message: "發生錯誤，請檢查網路連線後再試一次", buttonText: "確認")
                 return
             }
-            let result = String(data: data!, encoding: .utf8)!
-            if (result != "{\"success\":\"False\"}") {
-                let jsonData = self.decodeFromJson(result: result)
-                print("jsonData! = \(jsonData!)")
-            }
+//            let result = String(data: data!, encoding: .utf8)!
+//            print("result = \(result)")
+//            if (result != "{\"success\":\"False\"}") {
+//                let jsonData = self.decodeFromJson(result: result)
+//                print("jsonData! = \(jsonData!)")
+//            }
         }.resume()
     }
 

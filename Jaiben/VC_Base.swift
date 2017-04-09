@@ -57,7 +57,7 @@ class VC_Base: UIViewController, UITextFieldDelegate{
         request.httpMethod = "POST"
         request.httpBody = requestString.data(using: .utf8)
         if (log != "") {
-            print(log! + requestString)
+//            print(log! + requestString)
         }
         return request
     }

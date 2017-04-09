@@ -8,9 +8,9 @@
 
 import UIKit
 import CoreLocation
+import Alamofire
 
-
-class VC_offer: VC_Base, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIPopoverPresentationControllerDelegate {
+class VC_offer: VC_Base, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIPopoverPresentationControllerDelegate{
     var uploadFirst: Bool = true
     static var address: String = ""
     static var storeName: String = ""
@@ -18,7 +18,6 @@ class VC_offer: VC_Base, UINavigationControllerDelegate, UIImagePickerController
     static var b_time: String = "1"
     static var menu: String = "1"
     static var phone: String = "1"
-    
     
     
     @IBOutlet var storeName: UITextField!
@@ -85,15 +84,48 @@ class VC_offer: VC_Base, UINavigationControllerDelegate, UIImagePickerController
         }
         
         if let photoPicked = info[UIImagePickerControllerOriginalImage] as? UIImage{
+            let image = UIImageJPEGRepresentation(photoPicked, 0.1)!
+
+            let fileManager = FileManager.default
+//            let rootPath = NSSearchPathForDirectoriesInDomains(.documentDirectory,
+//                                                               .userDomainMask, true)[0] as String
+//            let filePath = "\(rootPath)/pickedimage.jpg"
+//            let imageData = UIImageJPEGRepresentation(photoPicked, 1.0)
+//            let isCreate = fileManager.createFile(atPath: filePath, contents: imageData, attributes: nil)
+//            
+//            //上传图片55
+//            if (fileManager.fileExists(atPath: filePath)){
+//                //取得NSURL
+//                let imageNSURL:URL = URL.init(fileURLWithPath: filePath) as URL
+//                
+//                //使用Alamofire上传
+//                Alamofire.upload(imageNSURL,to: "http://140.122.184.227/~ivan/JB/addStore/test.php")
+//                    .responseString { response in
+//                        print("Success: \(response.result.isSuccess)")
+//                        print("Response String: \(response.result.value!)")
+//                }
+//            }
+            
+//            Alamofire.request("http://140.122.184.227/~ivan/JB/addStore/test.php", method: .post, parameters: base64String, encoding: .Json, headers: "")
+//            Alamofire.upload(image, to: "http://140.122.184.227/~ivan/JB/addStore/test.php").responseJSON { response in
+//                print(response.request!)  // original URL request
+//                print(response.response!) // HTTP URL response
+//                print(response.data!)     // server data
+//                print(response.result)   // result of response serialization
+//                
+//                if let JSON = response.result.value {
+//                    print("JSON: \(JSON)")
+//                }
+//            }
             let jpg = UIImageJPEGRepresentation(photoPicked, 0.1)
             let jpgImage = UIImage(data: jpg!)
             upload.imageView?.contentMode = UIViewContentMode.scaleAspectFill
             upload.setImage(jpgImage, for: UIControlState.normal)
             upload_text.isHidden = true
             DispatchQueue.global(qos: .userInteractive).async {
-                let jpgEncoded = jpg?.base64EncodedString(options: .lineLength64Characters)
+                let jpgEncoded = jpg?.base64EncodedString(options: .endLineWithLineFeed)
                 VC_offer.photoEncodedString = jpgEncoded!
-                print("jpgEncoded = \(jpgEncoded)")
+//                print("jpgEncoded = \(jpgEncoded)")
             }
         }else{
             showMessage(message: "圖片載入失敗，請再試一次", buttonText: "確認")
