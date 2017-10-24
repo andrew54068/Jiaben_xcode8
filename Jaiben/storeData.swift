@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import CoreLocation
+import Foundation
 
 struct storeData {
     static var id: String?
@@ -21,6 +23,7 @@ struct storeData {
     static var news: [String]?
     static var b_hours: [String]?
     static var allStoreList: [String] = []
+    static var storeLocation: CLLocationCoordinate2D?
     
     static func getDataFromJson(result: [String:Any]) {
         storeData.id = result["id"] as? String
@@ -28,7 +31,8 @@ struct storeData {
         print("storeData.name = \(storeData.name!)")
         storeData.phone = result["tel"] as? String
         storeData.address = result["address"] as? String
-        storeData.photoUrl = URL(string: "http://140.122.184.227/~ivan/JB/pic/\(storeData.name!)/店面_\(storeData.name!)_1.jpg".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!)
+        storeData.photoUrl = URL(string: "http://actionstar.sa.ntnu.edu.tw/jiabong/pic/\(storeData.name!)/店面_\(storeData.name!)_1.jpg".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!)
+        addressToGeoCoder(address: storeData.address!)
         print("storeData.photoUrl! = \(storeData.photoUrl!)")
         
         
@@ -43,7 +47,7 @@ struct storeData {
     }
     
     static func buildStoreRequest(tag: Int, price: Int) -> URLRequest {
-        var request = URLRequest(url: URL(string: "http://140.122.184.227/~ivan/JB/Menu/getStore.php")!)
+        var request = URLRequest(url: URL(string: "http://actionstar.sa.ntnu.edu.tw/jiabong/Menu/getStore.php")!)
         request.httpMethod = "POST"
         let requestString = "hash=This is Ivan Speaking.&option2=\(tag)&option4=\(price)"
         request.httpBody = requestString.data(using: .utf8)
@@ -58,7 +62,7 @@ struct storeData {
             (data, response, error) -> Void in
             guard (error == nil && data != nil) else{
                 print("something wrong!!!!!!!!!!!!!!!!!!!!!!!!")
-                print("error = \(error)")
+                print("error = \(String(describing: error))")
                 return
             }
             let photo = UIImage(data: data!)
@@ -66,5 +70,21 @@ struct storeData {
             print("get photo~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         }).resume()
         print("loadPhoto end")
+    }
+    
+    static func addressToGeoCoder(address: String){
+        let geoCoder = CLGeocoder()
+        geoCoder.geocodeAddressString(address) { (placemarks, error) in
+            if placemarks != nil {
+                self.storeLocation = placemarks?.first?.location?.coordinate
+//                self.storeLocation?.longitude = (placemarks?.first?.location?.coordinate.longitude)!
+                print("placemark exist and is \(placemarks as AnyObject)")
+                print("placemark.first exist.location.coordinate and is \(String(describing: placemarks?.first?.location?.coordinate))")
+                print("placemark.first.location.coordinate.latitude exist and is \((placemarks?.first?.location?.coordinate.latitude)!)")
+                print("latitude = \(String(describing: self.storeLocation?.latitude))")
+            }else{
+                print("error = \(error as AnyObject)")
+            }
+        }
     }
 }

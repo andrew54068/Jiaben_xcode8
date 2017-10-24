@@ -66,10 +66,14 @@ class VC_mainView: VC_Base {
     
     override func getDataAfterRequest(result: String) {
         let dataAfterDecode = self.decodeFromJson(result: result)
+        if dataAfterDecode != nil{
         storeData.getDataFromJson(result: dataAfterDecode!)
         print("storeData.photoUrl = \(storeData.photoUrl!)")
         storeData.loadPhoto(url: storeData.photoUrl!)
         print("123")
+        }else{
+            self.showMessage(message: "資料獲取失敗，請稍後再試", buttonText: "確認")
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -118,7 +122,7 @@ class VC_mainView: VC_Base {
             }
             if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200{
                 print("statusCode should be 200 but it's \(httpStatus.statusCode)")
-                print("response = \(response)")
+                print("response = \(String(describing: response))")
                 self.showMessage(message: "發生錯誤，請檢查網路連線後再試一次", buttonText: "確認")
                 return
             }

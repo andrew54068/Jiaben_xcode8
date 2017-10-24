@@ -53,7 +53,7 @@ class VC_Base: UIViewController, UITextFieldDelegate{
         if (input != "") {
             requestString += "&" + input
         }
-        var request = URLRequest(url: NSURL(string: "http://140.122.184.227/~ivan/JB/" + urlAfterJB)! as URL)
+        var request = URLRequest(url: NSURL(string: "http://actionstar.sa.ntnu.edu.tw/jiabong/" + urlAfterJB)! as URL)
         request.httpMethod = "POST"
         request.httpBody = requestString.data(using: .utf8)
         if (log != "") {
@@ -64,19 +64,24 @@ class VC_Base: UIViewController, UITextFieldDelegate{
     func buildDataTaskWithRequst(request: URLRequest, requestName: String?, f:@escaping (() ->())={return }){
         URLSession.shared.dataTask(with: request){
             data, response, error in
+            print("error = \(error as AnyObject)")
             guard (data != nil && error == nil) else{
                 print("error")
-                self.showMessage(message: "發生錯誤，請檢查網路連線後再試一次", buttonText: "確認")
+                self.showMessage(message: "發生錯誤，請檢查網路連線後再試一次(error)", buttonText: "確認")
                 return
             }
-            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200{
+            if data == nil{
+                self.showMessage(message: "無法取得資料，請確認連線正常後再試一次", buttonText: "確認")
+            }else if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200{
                 print("statusCode should be 200 but it's \(httpStatus.statusCode)")
                 print("response = \(response)")
                 self.showMessage(message: "發生錯誤，請檢查網路連線後再試一次", buttonText: "確認")
                 return
             }
             let result = String(data: data!, encoding: .utf8)!
+            print("******************************")
             if (result != "{\"success\":\"False\"}") {
+                print("here is dump started \(result as AnyObject) here is dump end")
                 self.getDataAfterRequest(result: result)
                 print("data! = \(data!)")
                 

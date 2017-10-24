@@ -33,18 +33,22 @@ class VC_storeList: VC_Base, UITableViewDataSource, UITableViewDelegate{
     }
     
     override func getDataAfterRequest(result: String) {
+        if self.decodeFromJson(result: result) != nil{
         let dataAfterDecode = self.decodeFromJson(result: result)!
 //        print("dataAfterDecode = \(dataAfterDecode)")
-        let storeList = dataAfterDecode["result"] as! [[String:String]]
-//        print("storeList = \(storeList)")
-        totalStore = (dataAfterDecode["result"] as AnyObject).count
-        for i in 0 ..< (dataAfterDecode["result"] as AnyObject).count{
-            storeData.allStoreList.append(storeList[i]["name"]!)
-            print("storeList[i][name]! = \(storeList[i]["name"]!)")
-            print("storeData.allStoreList[\(i)] = \(storeData.allStoreList[i])")
-//            print("storeData.allStoreList[i] = \(storeData.allStoreList?[i])")
+            
+            let storeList = dataAfterDecode["result"] as! [[String:String]]
+    //        print("storeList = \(storeList)")
+            totalStore = (dataAfterDecode["result"] as AnyObject).count
+            for i in 0 ..< (dataAfterDecode["result"] as AnyObject).count{
+                storeData.allStoreList.append(storeList[i]["name"]!)
+                print("storeList[i][name]! = \(storeList[i]["name"]!)")
+                print("storeData.allStoreList[\(i)] = \(storeData.allStoreList[i])")
+    //            print("storeData.allStoreList[i] = \(storeData.allStoreList?[i])")
+            }
+        }else{
+            self.showMessage(message: "資料獲取失敗，請稍後再試", buttonText: "確認")
         }
-        
         print("##########")
         
 //        let decodedJson = result as [String:String]
