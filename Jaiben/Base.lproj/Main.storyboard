@@ -1679,7 +1679,7 @@
         <!--show Location-->
         <scene sceneID="4GE-Wj-qsz">
             <objects>
-                <viewController storyboardIdentifier="showLocation" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="mUi-VY-ScX" customClass="VC_showLocation" customModule="Jaiben" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="showLocation" id="mUi-VY-ScX" customClass="VC_showLocation" customModule="Jaiben" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Dm-We-lyc"/>
                         <viewControllerLayoutGuide type="bottom" id="6yY-NM-ao1"/>
@@ -1710,7 +1710,6 @@
                             <constraint firstItem="6yY-NM-ao1" firstAttribute="top" secondItem="iBS-8v-5lE" secondAttribute="bottom" constant="8" symbolic="YES" id="zBh-gD-MkS"/>
                         </constraints>
                     </view>
-                    <value key="contentSizeForViewInPopover" type="size" width="300" height="300"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="300" height="300"/>
                     <connections>

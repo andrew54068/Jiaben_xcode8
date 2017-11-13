@@ -1,0 +1,935 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VC_Login"
+provides-nominal:
+- "6Jaiben8VC_LoginC"
+provides-member:
+- ["6Jaiben8VC_LoginC", ""]
+provides-dynamic-lookup:
+- "alreadyLogin"
+- "customFBLoginButton"
+- "didReceiveMemoryWarning"
+- "getUserInfo"
+- "handleCustomFBLogin"
+- "handleCustomFBLogout"
+- "unwindSegue"
+- "user_friendIsApprrovaled"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "DispatchQueue"
+- !private "FBSDKAccessToken"
+- !private "FBSDKGraphRequest"
+- !private "FBSDKLoginManager"
+- !private "FBSDKProfile"
+- !private "StringLiteralType"
+- "UIButton"
+- "UIStoryboardSegue"
+- "VC_Base"
+- "VC_Login"
+- !private "print"
+- !private "userData"
+depends-member:
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["So15CALayerDelegateP", "setTitle"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "FBSDKAccessToken"]
+- !private ["s7CVarArgP", "FBSDKGraphRequest"]
+- !private ["s7CVarArgP", "FBSDKLoginManager"]
+- !private ["s7CVarArgP", "FBSDKProfile"]
+- !private ["s7CVarArgP", "VC_Login"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "alreadyLogin"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "customFBLoginButton"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "enableUpdates"]
+- !private ["s7CVarArgP", "getUserInfo"]
+- !private ["s7CVarArgP", "grantedPermissions"]
+- !private ["s7CVarArgP", "handleCustomFBLogin"]
+- !private ["s7CVarArgP", "handleCustomFBLogout"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "logIn"]
+- !private ["s7CVarArgP", "logOut"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "setTitle"]
+- !private ["s7CVarArgP", "start"]
+- !private ["s7CVarArgP", "userData"]
+- !private ["s7CVarArgP", "user_friendIsApprrovaled"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "contains"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "FBSDKAccessToken"]
+- !private ["s28CustomDebugStringConvertibleP", "FBSDKGraphRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "FBSDKLoginManager"]
+- !private ["s28CustomDebugStringConvertibleP", "FBSDKProfile"]
+- !private ["s28CustomDebugStringConvertibleP", "VC_Login"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "alreadyLogin"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "customFBLoginButton"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "enableUpdates"]
+- !private ["s28CustomDebugStringConvertibleP", "getUserInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "grantedPermissions"]
+- !private ["s28CustomDebugStringConvertibleP", "handleCustomFBLogin"]
+- !private ["s28CustomDebugStringConvertibleP", "handleCustomFBLogout"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "logIn"]
+- !private ["s28CustomDebugStringConvertibleP", "logOut"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "setTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "start"]
+- !private ["s28CustomDebugStringConvertibleP", "userData"]
+- !private ["s28CustomDebugStringConvertibleP", "user_friendIsApprrovaled"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "FBSDKAccessToken"]
+- !private ["s23CustomStringConvertibleP", "FBSDKGraphRequest"]
+- !private ["s23CustomStringConvertibleP", "FBSDKLoginManager"]
+- !private ["s23CustomStringConvertibleP", "FBSDKProfile"]
+- !private ["s23CustomStringConvertibleP", "VC_Login"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "alreadyLogin"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "customFBLoginButton"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "enableUpdates"]
+- !private ["s23CustomStringConvertibleP", "getUserInfo"]
+- !private ["s23CustomStringConvertibleP", "grantedPermissions"]
+- !private ["s23CustomStringConvertibleP", "handleCustomFBLogin"]
+- !private ["s23CustomStringConvertibleP", "handleCustomFBLogout"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "logIn"]
+- !private ["s23CustomStringConvertibleP", "logOut"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "setTitle"]
+- !private ["s23CustomStringConvertibleP", "start"]
+- !private ["s23CustomStringConvertibleP", "userData"]
+- !private ["s23CustomStringConvertibleP", "user_friendIsApprrovaled"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "contains"]
+- !private ["s9DecodableP", "init"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "contains"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "FBSDKAccessToken"]
+- !private ["s9EquatableP", "FBSDKGraphRequest"]
+- !private ["s9EquatableP", "FBSDKLoginManager"]
+- !private ["s9EquatableP", "FBSDKProfile"]
+- !private ["s9EquatableP", "VC_Login"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addTarget"]
+- !private ["s9EquatableP", "alreadyLogin"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "customFBLoginButton"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "enableUpdates"]
+- !private ["s9EquatableP", "getUserInfo"]
+- !private ["s9EquatableP", "grantedPermissions"]
+- !private ["s9EquatableP", "handleCustomFBLogin"]
+- !private ["s9EquatableP", "handleCustomFBLogout"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "logIn"]
+- !private ["s9EquatableP", "logOut"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "normal"]
+- !private ["s9EquatableP", "performSegue"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "setTitle"]
+- !private ["s9EquatableP", "start"]
+- !private ["s9EquatableP", "touchUpInside"]
+- !private ["s9EquatableP", "userData"]
+- !private ["s9EquatableP", "user_friendIsApprrovaled"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So16FBSDKAccessTokenC", "current"]
+- !private ["So12FBSDKCopyingP", "current"]
+- !private ["So17FBSDKGraphRequestC", "init"]
+- !private ["So17FBSDKGraphRequestC", "start"]
+- !private ["So17FBSDKLoginManagerC", "init"]
+- !private ["So17FBSDKLoginManagerC", "logIn"]
+- !private ["So17FBSDKLoginManagerC", "logOut"]
+- !private ["So28FBSDKLoginManagerLoginResultC", "grantedPermissions"]
+- !private ["So12FBSDKProfileC", "enableUpdates"]
+- !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "FBSDKAccessToken"]
+- !private ["s8HashableP", "FBSDKGraphRequest"]
+- !private ["s8HashableP", "FBSDKLoginManager"]
+- !private ["s8HashableP", "FBSDKProfile"]
+- !private ["s8HashableP", "VC_Login"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addTarget"]
+- !private ["s8HashableP", "alreadyLogin"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "contains"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "customFBLoginButton"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "enableUpdates"]
+- !private ["s8HashableP", "getUserInfo"]
+- !private ["s8HashableP", "grantedPermissions"]
+- !private ["s8HashableP", "handleCustomFBLogin"]
+- !private ["s8HashableP", "handleCustomFBLogout"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "logIn"]
+- !private ["s8HashableP", "logOut"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "performSegue"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "setTitle"]
+- !private ["s8HashableP", "start"]
+- !private ["s8HashableP", "userData"]
+- !private ["s8HashableP", "user_friendIsApprrovaled"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- !private ["So8NSCodingP", "FBSDKAccessToken"]
+- !private ["So8NSCodingP", "FBSDKGraphRequest"]
+- !private ["So8NSCodingP", "FBSDKLoginManager"]
+- !private ["So8NSCodingP", "FBSDKProfile"]
+- !private ["So8NSCodingP", "VC_Login"]
+- !private ["So8NSCodingP", "addTarget"]
+- !private ["So8NSCodingP", "alreadyLogin"]
+- !private ["So8NSCodingP", "current"]
+- !private ["So8NSCodingP", "customFBLoginButton"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "enableUpdates"]
+- !private ["So8NSCodingP", "getUserInfo"]
+- !private ["So8NSCodingP", "handleCustomFBLogin"]
+- !private ["So8NSCodingP", "handleCustomFBLogout"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "setTitle"]
+- !private ["So8NSCodingP", "userData"]
+- !private ["So8NSCodingP", "user_friendIsApprrovaled"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "current"]
+- !private ["So9NSCopyingP", "enableUpdates"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "FBSDKAccessToken"]
+- !private ["So26NSExtensionRequestHandlingP", "FBSDKGraphRequest"]
+- !private ["So26NSExtensionRequestHandlingP", "FBSDKLoginManager"]
+- !private ["So26NSExtensionRequestHandlingP", "FBSDKProfile"]
+- !private ["So26NSExtensionRequestHandlingP", "VC_Login"]
+- !private ["So26NSExtensionRequestHandlingP", "alreadyLogin"]
+- !private ["So26NSExtensionRequestHandlingP", "customFBLoginButton"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "getUserInfo"]
+- !private ["So26NSExtensionRequestHandlingP", "handleCustomFBLogin"]
+- !private ["So26NSExtensionRequestHandlingP", "handleCustomFBLogout"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "userData"]
+- !private ["So26NSExtensionRequestHandlingP", "user_friendIsApprrovaled"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "FBSDKAccessToken"]
+- !private ["So8NSObjectC", "FBSDKGraphRequest"]
+- !private ["So8NSObjectC", "FBSDKLoginManager"]
+- !private ["So8NSObjectC", "FBSDKProfile"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- !private ["So8NSObjectC", "VC_Login"]
+- !private ["So8NSObjectC", "addTarget"]
+- ["So8NSObjectC", "alreadyLogin"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "current"]
+- ["So8NSObjectC", "customFBLoginButton"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "enableUpdates"]
+- ["So8NSObjectC", "getUserInfo"]
+- !private ["So8NSObjectC", "grantedPermissions"]
+- ["So8NSObjectC", "handleCustomFBLogin"]
+- ["So8NSObjectC", "handleCustomFBLogout"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "logIn"]
+- !private ["So8NSObjectC", "logOut"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "performSegue"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "setTitle"]
+- !private ["So8NSObjectC", "start"]
+- ["So8NSObjectC", "unwindSegue"]
+- !private ["So8NSObjectC", "userData"]
+- ["So8NSObjectC", "user_friendIsApprrovaled"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "FBSDKAccessToken"]
+- !private ["So16NSObjectProtocolP", "FBSDKGraphRequest"]
+- !private ["So16NSObjectProtocolP", "FBSDKLoginManager"]
+- !private ["So16NSObjectProtocolP", "FBSDKProfile"]
+- !private ["So16NSObjectProtocolP", "VC_Login"]
+- !private ["So16NSObjectProtocolP", "addTarget"]
+- !private ["So16NSObjectProtocolP", "alreadyLogin"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "current"]
+- !private ["So16NSObjectProtocolP", "customFBLoginButton"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "enableUpdates"]
+- !private ["So16NSObjectProtocolP", "getUserInfo"]
+- !private ["So16NSObjectProtocolP", "grantedPermissions"]
+- !private ["So16NSObjectProtocolP", "handleCustomFBLogin"]
+- !private ["So16NSObjectProtocolP", "handleCustomFBLogout"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "logIn"]
+- !private ["So16NSObjectProtocolP", "logOut"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "performSegue"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "setTitle"]
+- !private ["So16NSObjectProtocolP", "start"]
+- !private ["So16NSObjectProtocolP", "userData"]
+- !private ["So16NSObjectProtocolP", "user_friendIsApprrovaled"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "current"]
+- !private ["So14NSSecureCodingP", "enableUpdates"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["s9OptionSetP", "touchUpInside"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "normal"]
+- !private ["s16RawRepresentableP", "touchUpInside"]
+- !private ["s8SequenceP", "contains"]
+- !private ["s8SequenceP", "init"]
+- !private ["s3SetV", "contains"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["s10SetAlgebraP", "touchUpInside"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "setTitle"]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So12UIAppearanceP", "setTitle"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- !private ["So21UIAppearanceContainerP", "FBSDKAccessToken"]
+- !private ["So21UIAppearanceContainerP", "FBSDKGraphRequest"]
+- !private ["So21UIAppearanceContainerP", "FBSDKLoginManager"]
+- !private ["So21UIAppearanceContainerP", "FBSDKProfile"]
+- !private ["So21UIAppearanceContainerP", "VC_Login"]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- !private ["So21UIAppearanceContainerP", "alreadyLogin"]
+- !private ["So21UIAppearanceContainerP", "customFBLoginButton"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "getUserInfo"]
+- !private ["So21UIAppearanceContainerP", "handleCustomFBLogin"]
+- !private ["So21UIAppearanceContainerP", "handleCustomFBLogout"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "setTitle"]
+- !private ["So21UIAppearanceContainerP", "userData"]
+- !private ["So21UIAppearanceContainerP", "user_friendIsApprrovaled"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So8UIButtonC", "addTarget"]
+- !private ["So8UIButtonC", "setTitle"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- !private ["So18UIContentContainerP", "FBSDKAccessToken"]
+- !private ["So18UIContentContainerP", "FBSDKGraphRequest"]
+- !private ["So18UIContentContainerP", "FBSDKLoginManager"]
+- !private ["So18UIContentContainerP", "FBSDKProfile"]
+- !private ["So18UIContentContainerP", "VC_Login"]
+- !private ["So18UIContentContainerP", "alreadyLogin"]
+- !private ["So18UIContentContainerP", "customFBLoginButton"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "getUserInfo"]
+- !private ["So18UIContentContainerP", "handleCustomFBLogin"]
+- !private ["So18UIContentContainerP", "handleCustomFBLogout"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "userData"]
+- !private ["So18UIContentContainerP", "user_friendIsApprrovaled"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So9UIControlC", "addTarget"]
+- !private ["So9UIControlC", "setTitle"]
+- !private ["SC15UIControlEventsV", "touchUpInside"]
+- !private ["SC14UIControlStateV", "normal"]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "setTitle"]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So13UIDynamicItemP", "setTitle"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- !private ["So18UIFocusEnvironmentP", "FBSDKAccessToken"]
+- !private ["So18UIFocusEnvironmentP", "FBSDKGraphRequest"]
+- !private ["So18UIFocusEnvironmentP", "FBSDKLoginManager"]
+- !private ["So18UIFocusEnvironmentP", "FBSDKProfile"]
+- !private ["So18UIFocusEnvironmentP", "VC_Login"]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- !private ["So18UIFocusEnvironmentP", "alreadyLogin"]
+- !private ["So18UIFocusEnvironmentP", "customFBLoginButton"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "getUserInfo"]
+- !private ["So18UIFocusEnvironmentP", "handleCustomFBLogin"]
+- !private ["So18UIFocusEnvironmentP", "handleCustomFBLogout"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "setTitle"]
+- !private ["So18UIFocusEnvironmentP", "userData"]
+- !private ["So18UIFocusEnvironmentP", "user_friendIsApprrovaled"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So11UIFocusItemP", "setTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "FBSDKAccessToken"]
+- !private ["So30UIPasteConfigurationSupportingP", "FBSDKGraphRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "FBSDKLoginManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "FBSDKProfile"]
+- !private ["So30UIPasteConfigurationSupportingP", "VC_Login"]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "alreadyLogin"]
+- !private ["So30UIPasteConfigurationSupportingP", "customFBLoginButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "getUserInfo"]
+- !private ["So30UIPasteConfigurationSupportingP", "handleCustomFBLogin"]
+- !private ["So30UIPasteConfigurationSupportingP", "handleCustomFBLogout"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "setTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "userData"]
+- !private ["So30UIPasteConfigurationSupportingP", "user_friendIsApprrovaled"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- !private ["So11UIResponderC", "FBSDKAccessToken"]
+- !private ["So11UIResponderC", "FBSDKGraphRequest"]
+- !private ["So11UIResponderC", "FBSDKLoginManager"]
+- !private ["So11UIResponderC", "FBSDKProfile"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- !private ["So11UIResponderC", "VC_Login"]
+- !private ["So11UIResponderC", "addTarget"]
+- ["So11UIResponderC", "alreadyLogin"]
+- ["So11UIResponderC", "customFBLoginButton"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "getUserInfo"]
+- ["So11UIResponderC", "handleCustomFBLogin"]
+- ["So11UIResponderC", "handleCustomFBLogout"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "performSegue"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "setTitle"]
+- ["So11UIResponderC", "unwindSegue"]
+- !private ["So11UIResponderC", "userData"]
+- ["So11UIResponderC", "user_friendIsApprrovaled"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "FBSDKAccessToken"]
+- !private ["So30UIResponderStandardEditActionsP", "FBSDKGraphRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "FBSDKLoginManager"]
+- !private ["So30UIResponderStandardEditActionsP", "FBSDKProfile"]
+- !private ["So30UIResponderStandardEditActionsP", "VC_Login"]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "alreadyLogin"]
+- !private ["So30UIResponderStandardEditActionsP", "customFBLoginButton"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "getUserInfo"]
+- !private ["So30UIResponderStandardEditActionsP", "handleCustomFBLogin"]
+- !private ["So30UIResponderStandardEditActionsP", "handleCustomFBLogout"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "setTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "userData"]
+- !private ["So30UIResponderStandardEditActionsP", "user_friendIsApprrovaled"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- !private ["So16UIStateRestoringP", "FBSDKAccessToken"]
+- !private ["So16UIStateRestoringP", "FBSDKGraphRequest"]
+- !private ["So16UIStateRestoringP", "FBSDKLoginManager"]
+- !private ["So16UIStateRestoringP", "FBSDKProfile"]
+- !private ["So16UIStateRestoringP", "VC_Login"]
+- !private ["So16UIStateRestoringP", "alreadyLogin"]
+- !private ["So16UIStateRestoringP", "customFBLoginButton"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "getUserInfo"]
+- !private ["So16UIStateRestoringP", "handleCustomFBLogin"]
+- !private ["So16UIStateRestoringP", "handleCustomFBLogout"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "userData"]
+- !private ["So16UIStateRestoringP", "user_friendIsApprrovaled"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So19UITextFieldDelegateP", "DispatchQueue"]
+- !private ["So19UITextFieldDelegateP", "FBSDKAccessToken"]
+- !private ["So19UITextFieldDelegateP", "FBSDKGraphRequest"]
+- !private ["So19UITextFieldDelegateP", "FBSDKLoginManager"]
+- !private ["So19UITextFieldDelegateP", "FBSDKProfile"]
+- !private ["So19UITextFieldDelegateP", "VC_Login"]
+- !private ["So19UITextFieldDelegateP", "alreadyLogin"]
+- !private ["So19UITextFieldDelegateP", "customFBLoginButton"]
+- !private ["So19UITextFieldDelegateP", "didReceiveMemoryWarning"]
+- !private ["So19UITextFieldDelegateP", "getUserInfo"]
+- !private ["So19UITextFieldDelegateP", "handleCustomFBLogin"]
+- !private ["So19UITextFieldDelegateP", "handleCustomFBLogout"]
+- !private ["So19UITextFieldDelegateP", "init"]
+- !private ["So19UITextFieldDelegateP", "performSegue"]
+- !private ["So19UITextFieldDelegateP", "present"]
+- !private ["So19UITextFieldDelegateP", "print"]
+- !private ["So19UITextFieldDelegateP", "userData"]
+- !private ["So19UITextFieldDelegateP", "user_friendIsApprrovaled"]
+- !private ["So19UITextFieldDelegateP", "viewDidLoad"]
+- ["So19UITextFieldDelegateP", ""]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- !private ["So18UITraitEnvironmentP", "FBSDKAccessToken"]
+- !private ["So18UITraitEnvironmentP", "FBSDKGraphRequest"]
+- !private ["So18UITraitEnvironmentP", "FBSDKLoginManager"]
+- !private ["So18UITraitEnvironmentP", "FBSDKProfile"]
+- !private ["So18UITraitEnvironmentP", "VC_Login"]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "alreadyLogin"]
+- !private ["So18UITraitEnvironmentP", "customFBLoginButton"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "getUserInfo"]
+- !private ["So18UITraitEnvironmentP", "handleCustomFBLogin"]
+- !private ["So18UITraitEnvironmentP", "handleCustomFBLogout"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "setTitle"]
+- !private ["So18UITraitEnvironmentP", "userData"]
+- !private ["So18UITraitEnvironmentP", "user_friendIsApprrovaled"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "addTarget"]
+- !private ["So6UIViewC", "setTitle"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- !private ["So16UIViewControllerC", "FBSDKAccessToken"]
+- !private ["So16UIViewControllerC", "FBSDKGraphRequest"]
+- !private ["So16UIViewControllerC", "FBSDKLoginManager"]
+- !private ["So16UIViewControllerC", "FBSDKProfile"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- !private ["So16UIViewControllerC", "VC_Login"]
+- ["So16UIViewControllerC", "alreadyLogin"]
+- ["So16UIViewControllerC", "customFBLoginButton"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "getUserInfo"]
+- ["So16UIViewControllerC", "handleCustomFBLogin"]
+- ["So16UIViewControllerC", "handleCustomFBLogout"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "unwindSegue"]
+- !private ["So16UIViewControllerC", "userData"]
+- ["So16UIViewControllerC", "user_friendIsApprrovaled"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- ["6Jaiben7VC_BaseC", "Bool"]
+- !private ["6Jaiben7VC_BaseC", "DispatchQueue"]
+- !private ["6Jaiben7VC_BaseC", "FBSDKAccessToken"]
+- !private ["6Jaiben7VC_BaseC", "FBSDKGraphRequest"]
+- !private ["6Jaiben7VC_BaseC", "FBSDKLoginManager"]
+- !private ["6Jaiben7VC_BaseC", "FBSDKProfile"]
+- ["6Jaiben7VC_BaseC", "UIButton"]
+- ["6Jaiben7VC_BaseC", "UIStoryboardSegue"]
+- !private ["6Jaiben7VC_BaseC", "VC_Login"]
+- ["6Jaiben7VC_BaseC", "alreadyLogin"]
+- ["6Jaiben7VC_BaseC", "customFBLoginButton"]
+- ["6Jaiben7VC_BaseC", "didReceiveMemoryWarning"]
+- ["6Jaiben7VC_BaseC", "getUserInfo"]
+- ["6Jaiben7VC_BaseC", "handleCustomFBLogin"]
+- ["6Jaiben7VC_BaseC", "handleCustomFBLogout"]
+- ["6Jaiben7VC_BaseC", "init"]
+- !private ["6Jaiben7VC_BaseC", "performSegue"]
+- !private ["6Jaiben7VC_BaseC", "present"]
+- !private ["6Jaiben7VC_BaseC", "print"]
+- ["6Jaiben7VC_BaseC", "unwindSegue"]
+- !private ["6Jaiben7VC_BaseC", "userData"]
+- ["6Jaiben7VC_BaseC", "user_friendIsApprrovaled"]
+- ["6Jaiben7VC_BaseC", "viewDidLoad"]
+- ["6Jaiben7VC_BaseC", "viewWillAppear"]
+- ["6Jaiben7VC_BaseC", ""]
+- ["6Jaiben8VC_LoginC", "Bool"]
+- !private ["6Jaiben8VC_LoginC", "DispatchQueue"]
+- !private ["6Jaiben8VC_LoginC", "FBSDKAccessToken"]
+- !private ["6Jaiben8VC_LoginC", "FBSDKGraphRequest"]
+- !private ["6Jaiben8VC_LoginC", "FBSDKLoginManager"]
+- !private ["6Jaiben8VC_LoginC", "FBSDKProfile"]
+- ["6Jaiben8VC_LoginC", "UIButton"]
+- ["6Jaiben8VC_LoginC", "UIStoryboardSegue"]
+- !private ["6Jaiben8VC_LoginC", "VC_Login"]
+- ["6Jaiben8VC_LoginC", "alreadyLogin"]
+- ["6Jaiben8VC_LoginC", "customFBLoginButton"]
+- ["6Jaiben8VC_LoginC", "deinit"]
+- ["6Jaiben8VC_LoginC", "didReceiveMemoryWarning"]
+- ["6Jaiben8VC_LoginC", "getUserInfo"]
+- ["6Jaiben8VC_LoginC", "handleCustomFBLogin"]
+- ["6Jaiben8VC_LoginC", "handleCustomFBLogout"]
+- ["6Jaiben8VC_LoginC", "init"]
+- !private ["6Jaiben8VC_LoginC", "performSegue"]
+- !private ["6Jaiben8VC_LoginC", "present"]
+- !private ["6Jaiben8VC_LoginC", "print"]
+- ["6Jaiben8VC_LoginC", "unwindSegue"]
+- !private ["6Jaiben8VC_LoginC", "userData"]
+- ["6Jaiben8VC_LoginC", "user_friendIsApprrovaled"]
+- ["6Jaiben8VC_LoginC", "viewDidLoad"]
+- ["6Jaiben8VC_LoginC", "viewWillAppear"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setTitle"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "contains"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "contains"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FBSDKAccessToken"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FBSDKGraphRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FBSDKLoginManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FBSDKProfile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "VC_Login"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alreadyLogin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "customFBLoginButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enableUpdates"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getUserInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "grantedPermissions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleCustomFBLogin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleCustomFBLogout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logIn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "start"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "user_friendIsApprrovaled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["6Jaiben8userDataV", "email"]
+- !private ["6Jaiben8userDataV", "gender"]
+- !private ["6Jaiben8userDataV", "getDataFromJSon"]
+- !private ["6Jaiben8userDataV", "name"]
+- !private ["6Jaiben8userDataV", "parameters"]
+- !private ["6Jaiben8userDataV", "profile_photo_large"]
+- !private ["6Jaiben8userDataV", "userID"]
+depends-nominal:
+- !private "12FacebookCore26AppEventParameterValueTypeP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So16FBSDKAccessTokenC"
+- !private "So12FBSDKCopyingP"
+- !private "So17FBSDKGraphRequestC"
+- !private "So17FBSDKLoginManagerC"
+- !private "So28FBSDKLoginManagerLoginResultC"
+- !private "So12FBSDKProfileC"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s3SetV"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "SC15UIControlEventsV"
+- !private "SC14UIControlStateV"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So19UITextFieldDelegateP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- "6Jaiben7VC_BaseC"
+- "6Jaiben8VC_LoginC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+- !private "6Jaiben8userDataV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareAPI.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareDialogMode.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeObjectType.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKHashtag.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLiking.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharing.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupAddDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKMessageDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppInviteDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupJoinDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKGameRequestDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeControl.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphAction.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSendButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharingButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareVideo.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharePhoto.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/Jaiben/Jaiben-Bridging-Header.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphValueContainer.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareConstants.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphObject.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareMediaContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppInviteContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharingContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareLinkContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareVideoContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharePhotoContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKGameRequestContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "ef3bd0528aab037e162e3e63aa6ce8e7"

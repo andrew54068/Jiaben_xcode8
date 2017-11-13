@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FacebookCore.build/unextended-module.modulemap',
+    }]
+  }]
+}

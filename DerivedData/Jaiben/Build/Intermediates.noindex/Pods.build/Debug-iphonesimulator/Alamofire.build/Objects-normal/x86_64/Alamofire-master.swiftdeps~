@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
+options: "7a0e3c1858e5fb857bc0df0478fd76c3"
+build_time: [1508851427, 881888000]
+inputs:
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/AFError.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/Alamofire.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/MultipartFormData.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/Notifications.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/ParameterEncoding.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/Request.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/Response.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/ResponseSerialization.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/Result.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/SessionDelegate.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/SessionManager.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/TaskDelegate.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/Timeline.swift": [1505506782, 0]
+  "/Users/kidnapper/Documents/Jiaben_xcode8/Pods/Alamofire/Source/Validation.swift": [1505506782, 0]

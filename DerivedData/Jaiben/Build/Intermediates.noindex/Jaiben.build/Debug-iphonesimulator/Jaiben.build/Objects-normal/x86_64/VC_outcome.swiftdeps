@@ -1,0 +1,1011 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VC_outcome"
+provides-nominal:
+- "6Jaiben10VC_outcomeC"
+provides-member:
+- ["6Jaiben10VC_outcomeC", ""]
+provides-dynamic-lookup:
+- "adaptivePresentationStyle"
+- "address"
+- "b_hours"
+- "back"
+- "comments"
+- "didReceiveMemoryWarning"
+- "down"
+- "loadStoreData"
+- "name"
+- "news"
+- "phone"
+- "photo"
+- "showLocation"
+- "store_menu"
+- "unwindSegueToOutcome"
+- "up"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "StringLiteralType"
+- "UIImageView"
+- "UILabel"
+- "UIModalPresentationStyle"
+- !private "UIPopoverArrowDirection"
+- "UIPopoverPresentationControllerDelegate"
+- "UIPresentationController"
+- !private "UIStoryboard"
+- "UIStoryboardSegue"
+- !private "UIView"
+- "VC_Base"
+- "VC_outcome"
+- "newButton"
+- !private "print"
+- !private "storeData"
+depends-member:
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "UIModalPresentationStyle"]
+- !private ["s7CVarArgP", "UIPopoverArrowDirection"]
+- !private ["s7CVarArgP", "UIStoryboard"]
+- ["s7CVarArgP", "adaptivePresentationStyle"]
+- ["s7CVarArgP", "adaptivePresentationStyleForPresentationController"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "loadStoreData"]
+- !private ["s7CVarArgP", "modalPresentationStyle"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "permittedArrowDirections"]
+- !private ["s7CVarArgP", "photo"]
+- ["s7CVarArgP", "popoverPresentationController"]
+- ["s7CVarArgP", "popoverPresentationControllerDidDismissPopover"]
+- ["s7CVarArgP", "popoverPresentationControllerShouldDismissPopover"]
+- ["s7CVarArgP", "prepareForPopoverPresentation"]
+- !private ["s7CVarArgP", "present"]
+- ["s7CVarArgP", "presentationController"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "sourceRect"]
+- !private ["s7CVarArgP", "sourceView"]
+- !private ["s7CVarArgP", "storeData"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "UIModalPresentationStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "UIPopoverArrowDirection"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
+- ["s28CustomDebugStringConvertibleP", "adaptivePresentationStyle"]
+- ["s28CustomDebugStringConvertibleP", "adaptivePresentationStyleForPresentationController"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "loadStoreData"]
+- !private ["s28CustomDebugStringConvertibleP", "modalPresentationStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "permittedArrowDirections"]
+- !private ["s28CustomDebugStringConvertibleP", "photo"]
+- ["s28CustomDebugStringConvertibleP", "popoverPresentationController"]
+- ["s28CustomDebugStringConvertibleP", "popoverPresentationControllerDidDismissPopover"]
+- ["s28CustomDebugStringConvertibleP", "popoverPresentationControllerShouldDismissPopover"]
+- ["s28CustomDebugStringConvertibleP", "prepareForPopoverPresentation"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- ["s28CustomDebugStringConvertibleP", "presentationController"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "sourceRect"]
+- !private ["s28CustomDebugStringConvertibleP", "sourceView"]
+- !private ["s28CustomDebugStringConvertibleP", "storeData"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "UIModalPresentationStyle"]
+- !private ["s23CustomStringConvertibleP", "UIPopoverArrowDirection"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
+- ["s23CustomStringConvertibleP", "adaptivePresentationStyle"]
+- ["s23CustomStringConvertibleP", "adaptivePresentationStyleForPresentationController"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "loadStoreData"]
+- !private ["s23CustomStringConvertibleP", "modalPresentationStyle"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "permittedArrowDirections"]
+- !private ["s23CustomStringConvertibleP", "photo"]
+- ["s23CustomStringConvertibleP", "popoverPresentationController"]
+- ["s23CustomStringConvertibleP", "popoverPresentationControllerDidDismissPopover"]
+- ["s23CustomStringConvertibleP", "popoverPresentationControllerShouldDismissPopover"]
+- ["s23CustomStringConvertibleP", "prepareForPopoverPresentation"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- ["s23CustomStringConvertibleP", "presentationController"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "sourceRect"]
+- !private ["s23CustomStringConvertibleP", "sourceView"]
+- !private ["s23CustomStringConvertibleP", "storeData"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "UIModalPresentationStyle"]
+- !private ["s9EquatableP", "UIPopoverArrowDirection"]
+- !private ["s9EquatableP", "UIStoryboard"]
+- ["s9EquatableP", "adaptivePresentationStyle"]
+- ["s9EquatableP", "adaptivePresentationStyleForPresentationController"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "down"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiateViewController"]
+- !private ["s9EquatableP", "loadStoreData"]
+- !private ["s9EquatableP", "modalPresentationStyle"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "none"]
+- !private ["s9EquatableP", "permittedArrowDirections"]
+- !private ["s9EquatableP", "photo"]
+- !private ["s9EquatableP", "popover"]
+- ["s9EquatableP", "popoverPresentationController"]
+- ["s9EquatableP", "popoverPresentationControllerDidDismissPopover"]
+- ["s9EquatableP", "popoverPresentationControllerShouldDismissPopover"]
+- ["s9EquatableP", "prepareForPopoverPresentation"]
+- !private ["s9EquatableP", "present"]
+- ["s9EquatableP", "presentationController"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "sourceRect"]
+- !private ["s9EquatableP", "sourceView"]
+- !private ["s9EquatableP", "storeData"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "down"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "UIModalPresentationStyle"]
+- !private ["s8HashableP", "UIPopoverArrowDirection"]
+- !private ["s8HashableP", "UIStoryboard"]
+- ["s8HashableP", "adaptivePresentationStyle"]
+- ["s8HashableP", "adaptivePresentationStyleForPresentationController"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiateViewController"]
+- !private ["s8HashableP", "loadStoreData"]
+- !private ["s8HashableP", "modalPresentationStyle"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "none"]
+- !private ["s8HashableP", "permittedArrowDirections"]
+- !private ["s8HashableP", "photo"]
+- !private ["s8HashableP", "popover"]
+- ["s8HashableP", "popoverPresentationController"]
+- ["s8HashableP", "popoverPresentationControllerDidDismissPopover"]
+- ["s8HashableP", "popoverPresentationControllerShouldDismissPopover"]
+- ["s8HashableP", "prepareForPopoverPresentation"]
+- !private ["s8HashableP", "present"]
+- ["s8HashableP", "presentationController"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "sourceRect"]
+- !private ["s8HashableP", "sourceView"]
+- !private ["s8HashableP", "storeData"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "UIModalPresentationStyle"]
+- !private ["So8NSCodingP", "UIPopoverArrowDirection"]
+- !private ["So8NSCodingP", "UIStoryboard"]
+- ["So8NSCodingP", "adaptivePresentationStyle"]
+- ["So8NSCodingP", "adaptivePresentationStyleForPresentationController"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "loadStoreData"]
+- !private ["So8NSCodingP", "modalPresentationStyle"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "photo"]
+- ["So8NSCodingP", "popoverPresentationController"]
+- ["So8NSCodingP", "popoverPresentationControllerDidDismissPopover"]
+- ["So8NSCodingP", "popoverPresentationControllerShouldDismissPopover"]
+- ["So8NSCodingP", "prepareForPopoverPresentation"]
+- !private ["So8NSCodingP", "present"]
+- ["So8NSCodingP", "presentationController"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "storeData"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "UIModalPresentationStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "UIPopoverArrowDirection"]
+- !private ["So26NSExtensionRequestHandlingP", "UIStoryboard"]
+- ["So26NSExtensionRequestHandlingP", "adaptivePresentationStyle"]
+- ["So26NSExtensionRequestHandlingP", "adaptivePresentationStyleForPresentationController"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loadStoreData"]
+- !private ["So26NSExtensionRequestHandlingP", "modalPresentationStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "name"]
+- !private ["So26NSExtensionRequestHandlingP", "photo"]
+- ["So26NSExtensionRequestHandlingP", "popoverPresentationController"]
+- ["So26NSExtensionRequestHandlingP", "popoverPresentationControllerDidDismissPopover"]
+- ["So26NSExtensionRequestHandlingP", "popoverPresentationControllerShouldDismissPopover"]
+- ["So26NSExtensionRequestHandlingP", "prepareForPopoverPresentation"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- ["So26NSExtensionRequestHandlingP", "presentationController"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "storeData"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIModalPresentationStyle"]
+- !private ["So8NSObjectC", "UIPopoverArrowDirection"]
+- ["So8NSObjectC", "UIPresentationController"]
+- !private ["So8NSObjectC", "UIStoryboard"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- !private ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "adaptivePresentationStyle"]
+- ["So8NSObjectC", "adaptivePresentationStyleForPresentationController"]
+- ["So8NSObjectC", "address"]
+- ["So8NSObjectC", "b_hours"]
+- ["So8NSObjectC", "back"]
+- ["So8NSObjectC", "comments"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "down"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- ["So8NSObjectC", "loadStoreData"]
+- !private ["So8NSObjectC", "modalPresentationStyle"]
+- ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "newButton"]
+- ["So8NSObjectC", "news"]
+- !private ["So8NSObjectC", "permittedArrowDirections"]
+- ["So8NSObjectC", "phone"]
+- ["So8NSObjectC", "photo"]
+- ["So8NSObjectC", "popoverPresentationController"]
+- ["So8NSObjectC", "popoverPresentationControllerDidDismissPopover"]
+- ["So8NSObjectC", "popoverPresentationControllerShouldDismissPopover"]
+- ["So8NSObjectC", "prepareForPopoverPresentation"]
+- !private ["So8NSObjectC", "present"]
+- ["So8NSObjectC", "presentationController"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "showLocation"]
+- !private ["So8NSObjectC", "sourceRect"]
+- !private ["So8NSObjectC", "sourceView"]
+- !private ["So8NSObjectC", "storeData"]
+- ["So8NSObjectC", "store_menu"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "unwindSegueToOutcome"]
+- ["So8NSObjectC", "up"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So16NSObjectProtocolP", "UIModalPresentationStyle"]
+- !private ["So16NSObjectProtocolP", "UIPopoverArrowDirection"]
+- !private ["So16NSObjectProtocolP", "UIStoryboard"]
+- ["So16NSObjectProtocolP", "adaptivePresentationStyle"]
+- ["So16NSObjectProtocolP", "adaptivePresentationStyleForPresentationController"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiateViewController"]
+- !private ["So16NSObjectProtocolP", "loadStoreData"]
+- !private ["So16NSObjectProtocolP", "modalPresentationStyle"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "permittedArrowDirections"]
+- !private ["So16NSObjectProtocolP", "photo"]
+- ["So16NSObjectProtocolP", "popoverPresentationController"]
+- ["So16NSObjectProtocolP", "popoverPresentationControllerDidDismissPopover"]
+- ["So16NSObjectProtocolP", "popoverPresentationControllerShouldDismissPopover"]
+- ["So16NSObjectProtocolP", "prepareForPopoverPresentation"]
+- !private ["So16NSObjectProtocolP", "present"]
+- ["So16NSObjectProtocolP", "presentationController"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "sourceRect"]
+- !private ["So16NSObjectProtocolP", "sourceView"]
+- !private ["So16NSObjectProtocolP", "storeData"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s9OptionSetP", "down"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "down"]
+- !private ["s16RawRepresentableP", "none"]
+- !private ["s16RawRepresentableP", "popover"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "down"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "UIModalPresentationStyle"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "UIPopoverArrowDirection"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "UIStoryboard"]
+- ["So40UIAdaptivePresentationControllerDelegateP", "adaptivePresentationStyle"]
+- ["So40UIAdaptivePresentationControllerDelegateP", "adaptivePresentationStyleForPresentationController"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "loadStoreData"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "name"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "photo"]
+- ["So40UIAdaptivePresentationControllerDelegateP", "popoverPresentationController"]
+- ["So40UIAdaptivePresentationControllerDelegateP", "popoverPresentationControllerDidDismissPopover"]
+- ["So40UIAdaptivePresentationControllerDelegateP", "popoverPresentationControllerShouldDismissPopover"]
+- ["So40UIAdaptivePresentationControllerDelegateP", "prepareForPopoverPresentation"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "present"]
+- ["So40UIAdaptivePresentationControllerDelegateP", "presentationController"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "print"]
+- !private ["So40UIAdaptivePresentationControllerDelegateP", "storeData"]
+- ["So40UIAdaptivePresentationControllerDelegateP", ""]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "UIModalPresentationStyle"]
+- !private ["So21UIAppearanceContainerP", "UIPopoverArrowDirection"]
+- !private ["So21UIAppearanceContainerP", "UIStoryboard"]
+- ["So21UIAppearanceContainerP", "adaptivePresentationStyle"]
+- ["So21UIAppearanceContainerP", "adaptivePresentationStyleForPresentationController"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "loadStoreData"]
+- !private ["So21UIAppearanceContainerP", "modalPresentationStyle"]
+- !private ["So21UIAppearanceContainerP", "name"]
+- !private ["So21UIAppearanceContainerP", "permittedArrowDirections"]
+- !private ["So21UIAppearanceContainerP", "photo"]
+- ["So21UIAppearanceContainerP", "popoverPresentationController"]
+- ["So21UIAppearanceContainerP", "popoverPresentationControllerDidDismissPopover"]
+- ["So21UIAppearanceContainerP", "popoverPresentationControllerShouldDismissPopover"]
+- ["So21UIAppearanceContainerP", "prepareForPopoverPresentation"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- ["So21UIAppearanceContainerP", "presentationController"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "sourceRect"]
+- !private ["So21UIAppearanceContainerP", "sourceView"]
+- !private ["So21UIAppearanceContainerP", "storeData"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "UIModalPresentationStyle"]
+- !private ["So18UIContentContainerP", "UIPopoverArrowDirection"]
+- !private ["So18UIContentContainerP", "UIStoryboard"]
+- ["So18UIContentContainerP", "adaptivePresentationStyle"]
+- ["So18UIContentContainerP", "adaptivePresentationStyleForPresentationController"]
+- !private ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loadStoreData"]
+- !private ["So18UIContentContainerP", "modalPresentationStyle"]
+- !private ["So18UIContentContainerP", "name"]
+- !private ["So18UIContentContainerP", "permittedArrowDirections"]
+- !private ["So18UIContentContainerP", "photo"]
+- ["So18UIContentContainerP", "popoverPresentationController"]
+- ["So18UIContentContainerP", "popoverPresentationControllerDidDismissPopover"]
+- ["So18UIContentContainerP", "popoverPresentationControllerShouldDismissPopover"]
+- ["So18UIContentContainerP", "prepareForPopoverPresentation"]
+- !private ["So18UIContentContainerP", "present"]
+- ["So18UIContentContainerP", "presentationController"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "sourceRect"]
+- !private ["So18UIContentContainerP", "sourceView"]
+- !private ["So18UIContentContainerP", "storeData"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "UIModalPresentationStyle"]
+- !private ["So18UIFocusEnvironmentP", "UIPopoverArrowDirection"]
+- !private ["So18UIFocusEnvironmentP", "UIStoryboard"]
+- ["So18UIFocusEnvironmentP", "adaptivePresentationStyle"]
+- ["So18UIFocusEnvironmentP", "adaptivePresentationStyleForPresentationController"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "loadStoreData"]
+- !private ["So18UIFocusEnvironmentP", "modalPresentationStyle"]
+- !private ["So18UIFocusEnvironmentP", "name"]
+- !private ["So18UIFocusEnvironmentP", "permittedArrowDirections"]
+- !private ["So18UIFocusEnvironmentP", "photo"]
+- ["So18UIFocusEnvironmentP", "popoverPresentationController"]
+- ["So18UIFocusEnvironmentP", "popoverPresentationControllerDidDismissPopover"]
+- ["So18UIFocusEnvironmentP", "popoverPresentationControllerShouldDismissPopover"]
+- ["So18UIFocusEnvironmentP", "prepareForPopoverPresentation"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- ["So18UIFocusEnvironmentP", "presentationController"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "sourceRect"]
+- !private ["So18UIFocusEnvironmentP", "sourceView"]
+- !private ["So18UIFocusEnvironmentP", "storeData"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So7UILabelC", "text"]
+- !private ["SC24UIModalPresentationStyleO", "none"]
+- !private ["SC24UIModalPresentationStyleO", "popover"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIModalPresentationStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIPopoverArrowDirection"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIStoryboard"]
+- ["So30UIPasteConfigurationSupportingP", "adaptivePresentationStyle"]
+- ["So30UIPasteConfigurationSupportingP", "adaptivePresentationStyleForPresentationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadStoreData"]
+- !private ["So30UIPasteConfigurationSupportingP", "modalPresentationStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "name"]
+- !private ["So30UIPasteConfigurationSupportingP", "photo"]
+- ["So30UIPasteConfigurationSupportingP", "popoverPresentationController"]
+- ["So30UIPasteConfigurationSupportingP", "popoverPresentationControllerDidDismissPopover"]
+- ["So30UIPasteConfigurationSupportingP", "popoverPresentationControllerShouldDismissPopover"]
+- ["So30UIPasteConfigurationSupportingP", "prepareForPopoverPresentation"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- ["So30UIPasteConfigurationSupportingP", "presentationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "storeData"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["SC23UIPopoverArrowDirectionV", "down"]
+- !private ["So31UIPopoverPresentationControllerC", "delegate"]
+- !private ["So31UIPopoverPresentationControllerC", "permittedArrowDirections"]
+- !private ["So31UIPopoverPresentationControllerC", "sourceRect"]
+- !private ["So31UIPopoverPresentationControllerC", "sourceView"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "UIModalPresentationStyle"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "UIPopoverArrowDirection"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "UIStoryboard"]
+- ["So39UIPopoverPresentationControllerDelegateP", "adaptivePresentationStyle"]
+- ["So39UIPopoverPresentationControllerDelegateP", "adaptivePresentationStyleForPresentationController"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "loadStoreData"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "name"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "photo"]
+- ["So39UIPopoverPresentationControllerDelegateP", "popoverPresentationController"]
+- ["So39UIPopoverPresentationControllerDelegateP", "popoverPresentationControllerDidDismissPopover"]
+- ["So39UIPopoverPresentationControllerDelegateP", "popoverPresentationControllerShouldDismissPopover"]
+- ["So39UIPopoverPresentationControllerDelegateP", "prepareForPopoverPresentation"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "present"]
+- ["So39UIPopoverPresentationControllerDelegateP", "presentationController"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "print"]
+- !private ["So39UIPopoverPresentationControllerDelegateP", "storeData"]
+- ["So39UIPopoverPresentationControllerDelegateP", ""]
+- !private ["So24UIPresentationControllerC", "delegate"]
+- !private ["So24UIPresentationControllerC", "permittedArrowDirections"]
+- !private ["So24UIPresentationControllerC", "sourceRect"]
+- !private ["So24UIPresentationControllerC", "sourceView"]
+- ["So11UIResponderC", "AnyObject"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIModalPresentationStyle"]
+- !private ["So11UIResponderC", "UIPopoverArrowDirection"]
+- ["So11UIResponderC", "UIPresentationController"]
+- !private ["So11UIResponderC", "UIStoryboard"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- !private ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "adaptivePresentationStyle"]
+- ["So11UIResponderC", "adaptivePresentationStyleForPresentationController"]
+- ["So11UIResponderC", "address"]
+- ["So11UIResponderC", "b_hours"]
+- ["So11UIResponderC", "back"]
+- ["So11UIResponderC", "comments"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "down"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "loadStoreData"]
+- !private ["So11UIResponderC", "modalPresentationStyle"]
+- ["So11UIResponderC", "name"]
+- ["So11UIResponderC", "newButton"]
+- ["So11UIResponderC", "news"]
+- ["So11UIResponderC", "phone"]
+- ["So11UIResponderC", "photo"]
+- ["So11UIResponderC", "popoverPresentationController"]
+- ["So11UIResponderC", "popoverPresentationControllerDidDismissPopover"]
+- ["So11UIResponderC", "popoverPresentationControllerShouldDismissPopover"]
+- ["So11UIResponderC", "prepareForPopoverPresentation"]
+- !private ["So11UIResponderC", "present"]
+- ["So11UIResponderC", "presentationController"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "showLocation"]
+- !private ["So11UIResponderC", "storeData"]
+- ["So11UIResponderC", "store_menu"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "unwindSegueToOutcome"]
+- ["So11UIResponderC", "up"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "UIModalPresentationStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "UIPopoverArrowDirection"]
+- !private ["So30UIResponderStandardEditActionsP", "UIStoryboard"]
+- ["So30UIResponderStandardEditActionsP", "adaptivePresentationStyle"]
+- ["So30UIResponderStandardEditActionsP", "adaptivePresentationStyleForPresentationController"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "loadStoreData"]
+- !private ["So30UIResponderStandardEditActionsP", "modalPresentationStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "name"]
+- !private ["So30UIResponderStandardEditActionsP", "photo"]
+- ["So30UIResponderStandardEditActionsP", "popoverPresentationController"]
+- ["So30UIResponderStandardEditActionsP", "popoverPresentationControllerDidDismissPopover"]
+- ["So30UIResponderStandardEditActionsP", "popoverPresentationControllerShouldDismissPopover"]
+- ["So30UIResponderStandardEditActionsP", "prepareForPopoverPresentation"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- ["So30UIResponderStandardEditActionsP", "presentationController"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "storeData"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "UIModalPresentationStyle"]
+- !private ["So16UIStateRestoringP", "UIPopoverArrowDirection"]
+- !private ["So16UIStateRestoringP", "UIStoryboard"]
+- ["So16UIStateRestoringP", "adaptivePresentationStyle"]
+- ["So16UIStateRestoringP", "adaptivePresentationStyleForPresentationController"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loadStoreData"]
+- !private ["So16UIStateRestoringP", "modalPresentationStyle"]
+- !private ["So16UIStateRestoringP", "name"]
+- !private ["So16UIStateRestoringP", "photo"]
+- ["So16UIStateRestoringP", "popoverPresentationController"]
+- ["So16UIStateRestoringP", "popoverPresentationControllerDidDismissPopover"]
+- ["So16UIStateRestoringP", "popoverPresentationControllerShouldDismissPopover"]
+- ["So16UIStateRestoringP", "prepareForPopoverPresentation"]
+- !private ["So16UIStateRestoringP", "present"]
+- ["So16UIStateRestoringP", "presentationController"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "storeData"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So19UITextFieldDelegateP", "UIModalPresentationStyle"]
+- !private ["So19UITextFieldDelegateP", "UIPopoverArrowDirection"]
+- !private ["So19UITextFieldDelegateP", "UIStoryboard"]
+- ["So19UITextFieldDelegateP", "adaptivePresentationStyle"]
+- ["So19UITextFieldDelegateP", "adaptivePresentationStyleForPresentationController"]
+- !private ["So19UITextFieldDelegateP", "didReceiveMemoryWarning"]
+- !private ["So19UITextFieldDelegateP", "init"]
+- !private ["So19UITextFieldDelegateP", "loadStoreData"]
+- !private ["So19UITextFieldDelegateP", "name"]
+- !private ["So19UITextFieldDelegateP", "photo"]
+- ["So19UITextFieldDelegateP", "popoverPresentationController"]
+- ["So19UITextFieldDelegateP", "popoverPresentationControllerDidDismissPopover"]
+- ["So19UITextFieldDelegateP", "popoverPresentationControllerShouldDismissPopover"]
+- ["So19UITextFieldDelegateP", "prepareForPopoverPresentation"]
+- !private ["So19UITextFieldDelegateP", "present"]
+- ["So19UITextFieldDelegateP", "presentationController"]
+- !private ["So19UITextFieldDelegateP", "print"]
+- !private ["So19UITextFieldDelegateP", "storeData"]
+- !private ["So19UITextFieldDelegateP", "viewDidLoad"]
+- ["So19UITextFieldDelegateP", ""]
+- !private ["So18UITraitEnvironmentP", "UIModalPresentationStyle"]
+- !private ["So18UITraitEnvironmentP", "UIPopoverArrowDirection"]
+- !private ["So18UITraitEnvironmentP", "UIStoryboard"]
+- ["So18UITraitEnvironmentP", "adaptivePresentationStyle"]
+- ["So18UITraitEnvironmentP", "adaptivePresentationStyleForPresentationController"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "loadStoreData"]
+- !private ["So18UITraitEnvironmentP", "modalPresentationStyle"]
+- !private ["So18UITraitEnvironmentP", "name"]
+- !private ["So18UITraitEnvironmentP", "permittedArrowDirections"]
+- !private ["So18UITraitEnvironmentP", "photo"]
+- ["So18UITraitEnvironmentP", "popoverPresentationController"]
+- ["So18UITraitEnvironmentP", "popoverPresentationControllerDidDismissPopover"]
+- ["So18UITraitEnvironmentP", "popoverPresentationControllerShouldDismissPopover"]
+- ["So18UITraitEnvironmentP", "prepareForPopoverPresentation"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- ["So18UITraitEnvironmentP", "presentationController"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "sourceRect"]
+- !private ["So18UITraitEnvironmentP", "sourceView"]
+- !private ["So18UITraitEnvironmentP", "storeData"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "AnyObject"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UIModalPresentationStyle"]
+- !private ["So16UIViewControllerC", "UIPopoverArrowDirection"]
+- ["So16UIViewControllerC", "UIPresentationController"]
+- !private ["So16UIViewControllerC", "UIStoryboard"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- !private ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", "adaptivePresentationStyle"]
+- ["So16UIViewControllerC", "adaptivePresentationStyleForPresentationController"]
+- ["So16UIViewControllerC", "address"]
+- ["So16UIViewControllerC", "b_hours"]
+- ["So16UIViewControllerC", "back"]
+- ["So16UIViewControllerC", "comments"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "down"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loadStoreData"]
+- !private ["So16UIViewControllerC", "modalPresentationStyle"]
+- ["So16UIViewControllerC", "name"]
+- ["So16UIViewControllerC", "newButton"]
+- ["So16UIViewControllerC", "news"]
+- ["So16UIViewControllerC", "phone"]
+- ["So16UIViewControllerC", "photo"]
+- ["So16UIViewControllerC", "popoverPresentationController"]
+- ["So16UIViewControllerC", "popoverPresentationControllerDidDismissPopover"]
+- ["So16UIViewControllerC", "popoverPresentationControllerShouldDismissPopover"]
+- ["So16UIViewControllerC", "prepareForPopoverPresentation"]
+- !private ["So16UIViewControllerC", "present"]
+- ["So16UIViewControllerC", "presentationController"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "showLocation"]
+- !private ["So16UIViewControllerC", "storeData"]
+- ["So16UIViewControllerC", "store_menu"]
+- ["So16UIViewControllerC", "unwindSegueToOutcome"]
+- ["So16UIViewControllerC", "up"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- ["6Jaiben7VC_BaseC", "AnyObject"]
+- ["6Jaiben7VC_BaseC", "Bool"]
+- ["6Jaiben7VC_BaseC", "UIImageView"]
+- ["6Jaiben7VC_BaseC", "UILabel"]
+- ["6Jaiben7VC_BaseC", "UIModalPresentationStyle"]
+- !private ["6Jaiben7VC_BaseC", "UIPopoverArrowDirection"]
+- ["6Jaiben7VC_BaseC", "UIPresentationController"]
+- !private ["6Jaiben7VC_BaseC", "UIStoryboard"]
+- ["6Jaiben7VC_BaseC", "UIStoryboardSegue"]
+- !private ["6Jaiben7VC_BaseC", "UIView"]
+- ["6Jaiben7VC_BaseC", "adaptivePresentationStyle"]
+- ["6Jaiben7VC_BaseC", "adaptivePresentationStyleForPresentationController"]
+- ["6Jaiben7VC_BaseC", "address"]
+- ["6Jaiben7VC_BaseC", "b_hours"]
+- ["6Jaiben7VC_BaseC", "back"]
+- ["6Jaiben7VC_BaseC", "comments"]
+- ["6Jaiben7VC_BaseC", "didReceiveMemoryWarning"]
+- ["6Jaiben7VC_BaseC", "down"]
+- ["6Jaiben7VC_BaseC", "init"]
+- ["6Jaiben7VC_BaseC", "loadStoreData"]
+- ["6Jaiben7VC_BaseC", "name"]
+- ["6Jaiben7VC_BaseC", "newButton"]
+- ["6Jaiben7VC_BaseC", "news"]
+- ["6Jaiben7VC_BaseC", "phone"]
+- ["6Jaiben7VC_BaseC", "photo"]
+- ["6Jaiben7VC_BaseC", "popoverPresentationController"]
+- ["6Jaiben7VC_BaseC", "popoverPresentationControllerDidDismissPopover"]
+- ["6Jaiben7VC_BaseC", "popoverPresentationControllerShouldDismissPopover"]
+- ["6Jaiben7VC_BaseC", "prepareForPopoverPresentation"]
+- !private ["6Jaiben7VC_BaseC", "present"]
+- ["6Jaiben7VC_BaseC", "presentationController"]
+- !private ["6Jaiben7VC_BaseC", "print"]
+- ["6Jaiben7VC_BaseC", "showLocation"]
+- !private ["6Jaiben7VC_BaseC", "storeData"]
+- ["6Jaiben7VC_BaseC", "store_menu"]
+- ["6Jaiben7VC_BaseC", "unwindSegueToOutcome"]
+- ["6Jaiben7VC_BaseC", "up"]
+- ["6Jaiben7VC_BaseC", "viewDidLoad"]
+- ["6Jaiben7VC_BaseC", "viewWillAppear"]
+- ["6Jaiben7VC_BaseC", ""]
+- ["6Jaiben10VC_outcomeC", "AnyObject"]
+- ["6Jaiben10VC_outcomeC", "Bool"]
+- ["6Jaiben10VC_outcomeC", "UIImageView"]
+- ["6Jaiben10VC_outcomeC", "UILabel"]
+- ["6Jaiben10VC_outcomeC", "UIModalPresentationStyle"]
+- !private ["6Jaiben10VC_outcomeC", "UIPopoverArrowDirection"]
+- ["6Jaiben10VC_outcomeC", "UIPresentationController"]
+- !private ["6Jaiben10VC_outcomeC", "UIStoryboard"]
+- ["6Jaiben10VC_outcomeC", "UIStoryboardSegue"]
+- !private ["6Jaiben10VC_outcomeC", "UIView"]
+- ["6Jaiben10VC_outcomeC", "adaptivePresentationStyle"]
+- ["6Jaiben10VC_outcomeC", "adaptivePresentationStyleForPresentationController"]
+- ["6Jaiben10VC_outcomeC", "address"]
+- ["6Jaiben10VC_outcomeC", "b_hours"]
+- ["6Jaiben10VC_outcomeC", "back"]
+- ["6Jaiben10VC_outcomeC", "comments"]
+- ["6Jaiben10VC_outcomeC", "deinit"]
+- ["6Jaiben10VC_outcomeC", "didReceiveMemoryWarning"]
+- ["6Jaiben10VC_outcomeC", "down"]
+- ["6Jaiben10VC_outcomeC", "init"]
+- ["6Jaiben10VC_outcomeC", "loadStoreData"]
+- ["6Jaiben10VC_outcomeC", "name"]
+- ["6Jaiben10VC_outcomeC", "newButton"]
+- ["6Jaiben10VC_outcomeC", "news"]
+- ["6Jaiben10VC_outcomeC", "phone"]
+- ["6Jaiben10VC_outcomeC", "photo"]
+- ["6Jaiben10VC_outcomeC", "popoverPresentationController"]
+- ["6Jaiben10VC_outcomeC", "popoverPresentationControllerDidDismissPopover"]
+- ["6Jaiben10VC_outcomeC", "popoverPresentationControllerShouldDismissPopover"]
+- ["6Jaiben10VC_outcomeC", "prepareForPopoverPresentation"]
+- !private ["6Jaiben10VC_outcomeC", "present"]
+- ["6Jaiben10VC_outcomeC", "presentationController"]
+- !private ["6Jaiben10VC_outcomeC", "print"]
+- ["6Jaiben10VC_outcomeC", "showLocation"]
+- !private ["6Jaiben10VC_outcomeC", "storeData"]
+- ["6Jaiben10VC_outcomeC", "store_menu"]
+- ["6Jaiben10VC_outcomeC", "unwindSegueToOutcome"]
+- ["6Jaiben10VC_outcomeC", "up"]
+- ["6Jaiben10VC_outcomeC", "viewDidLoad"]
+- ["6Jaiben10VC_outcomeC", "viewWillAppear"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIModalPresentationStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIPopoverArrowDirection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "adaptivePresentationStyle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "adaptivePresentationStyleForPresentationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadStoreData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modalPresentationStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "permittedArrowDirections"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "photo"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "popoverPresentationController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "popoverPresentationControllerDidDismissPopover"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "popoverPresentationControllerShouldDismissPopover"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "prepareForPopoverPresentation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sourceRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sourceView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storeData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["6Jaiben9storeDataV", "name"]
+- !private ["6Jaiben9storeDataV", "photo"]
+depends-nominal:
+- !private "12FacebookCore26AppEventParameterValueTypeP"
+- !private "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- "So40UIAdaptivePresentationControllerDelegateP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- !private "SC24UIModalPresentationStyleO"
+- "So30UIPasteConfigurationSupportingP"
+- !private "SC23UIPopoverArrowDirectionV"
+- !private "So31UIPopoverPresentationControllerC"
+- "So39UIPopoverPresentationControllerDelegateP"
+- !private "So24UIPresentationControllerC"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- "So19UITextFieldDelegateP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- "6Jaiben7VC_BaseC"
+- "6Jaiben10VC_outcomeC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+- !private "6Jaiben9storeDataV"
+depends-dynamic-lookup:
+- !private "bounds"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareAPI.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareDialogMode.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeObjectType.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKHashtag.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLiking.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharing.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupAddDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKMessageDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppInviteDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupJoinDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKGameRequestDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeControl.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphAction.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSendButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharingButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareVideo.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharePhoto.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/Jaiben/Jaiben-Bridging-Header.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphValueContainer.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareConstants.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphObject.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareMediaContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppInviteContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharingContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareLinkContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareVideoContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharePhotoContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKGameRequestContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "85385b8b509c5174b347f9a0923d42f3"

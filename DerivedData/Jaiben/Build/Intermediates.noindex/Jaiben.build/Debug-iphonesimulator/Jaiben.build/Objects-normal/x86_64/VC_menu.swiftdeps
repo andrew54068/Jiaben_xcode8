@@ -1,0 +1,839 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VC_menu"
+provides-nominal:
+- "6Jaiben7VC_menuC"
+provides-member:
+- ["6Jaiben7VC_menuC", ""]
+provides-dynamic-lookup:
+- "DistanceBeenSelected"
+- "EatMeatOrNot"
+- "PriceBeenSelected"
+- "TypeOfMeal"
+- "afternoon_tea"
+- "confirmButton"
+- "date"
+- "didReceiveMemoryWarning"
+- "discuss"
+- "for_full"
+- "high_price"
+- "loadUserDefault"
+- "long_distance"
+- "low_price"
+- "meat"
+- "meet_up"
+- "mid_distance"
+- "mid_price"
+- "price"
+- "short_distance"
+- "snack"
+- "tag"
+- "vegetarian"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "&&"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Int"
+- !private "String"
+- !private "StringLiteralType"
+- "UIViewController"
+- "VC_menu"
+- "newButton"
+- !private "print"
+- !private "userData"
+depends-member:
+- !private ["12FacebookCore26AppEventParameterValueTypeP", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "isHighlighted"]
+- !private ["s7CVarArgP", "VC_menu"]
+- !private ["s7CVarArgP", "afternoon_tea"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "discuss"]
+- !private ["s7CVarArgP", "for_full"]
+- !private ["s7CVarArgP", "high_price"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHighlighted"]
+- !private ["s7CVarArgP", "loadUserDefault"]
+- !private ["s7CVarArgP", "long_distance"]
+- !private ["s7CVarArgP", "low_price"]
+- !private ["s7CVarArgP", "meat"]
+- !private ["s7CVarArgP", "meet_up"]
+- !private ["s7CVarArgP", "mid_distance"]
+- !private ["s7CVarArgP", "mid_price"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "short_distance"]
+- !private ["s7CVarArgP", "snack"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tag"]
+- !private ["s7CVarArgP", "userData"]
+- !private ["s7CVarArgP", "vegetarian"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "VC_menu"]
+- !private ["s28CustomDebugStringConvertibleP", "afternoon_tea"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "discuss"]
+- !private ["s28CustomDebugStringConvertibleP", "for_full"]
+- !private ["s28CustomDebugStringConvertibleP", "high_price"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHighlighted"]
+- !private ["s28CustomDebugStringConvertibleP", "loadUserDefault"]
+- !private ["s28CustomDebugStringConvertibleP", "long_distance"]
+- !private ["s28CustomDebugStringConvertibleP", "low_price"]
+- !private ["s28CustomDebugStringConvertibleP", "meat"]
+- !private ["s28CustomDebugStringConvertibleP", "meet_up"]
+- !private ["s28CustomDebugStringConvertibleP", "mid_distance"]
+- !private ["s28CustomDebugStringConvertibleP", "mid_price"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "short_distance"]
+- !private ["s28CustomDebugStringConvertibleP", "snack"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tag"]
+- !private ["s28CustomDebugStringConvertibleP", "userData"]
+- !private ["s28CustomDebugStringConvertibleP", "vegetarian"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "VC_menu"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "afternoon_tea"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "discuss"]
+- !private ["s23CustomStringConvertibleP", "for_full"]
+- !private ["s23CustomStringConvertibleP", "high_price"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHighlighted"]
+- !private ["s23CustomStringConvertibleP", "loadUserDefault"]
+- !private ["s23CustomStringConvertibleP", "long_distance"]
+- !private ["s23CustomStringConvertibleP", "low_price"]
+- !private ["s23CustomStringConvertibleP", "meat"]
+- !private ["s23CustomStringConvertibleP", "meet_up"]
+- !private ["s23CustomStringConvertibleP", "mid_distance"]
+- !private ["s23CustomStringConvertibleP", "mid_price"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "short_distance"]
+- !private ["s23CustomStringConvertibleP", "snack"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tag"]
+- !private ["s23CustomStringConvertibleP", "userData"]
+- !private ["s23CustomStringConvertibleP", "vegetarian"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "VC_menu"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "afternoon_tea"]
+- !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "discuss"]
+- !private ["s9EquatableP", "for_full"]
+- !private ["s9EquatableP", "high_price"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isHighlighted"]
+- !private ["s9EquatableP", "loadUserDefault"]
+- !private ["s9EquatableP", "long_distance"]
+- !private ["s9EquatableP", "low_price"]
+- !private ["s9EquatableP", "meat"]
+- !private ["s9EquatableP", "meet_up"]
+- !private ["s9EquatableP", "mid_distance"]
+- !private ["s9EquatableP", "mid_price"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "short_distance"]
+- !private ["s9EquatableP", "snack"]
+- !private ["s9EquatableP", "tag"]
+- !private ["s9EquatableP", "userData"]
+- !private ["s9EquatableP", "vegetarian"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "VC_menu"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "afternoon_tea"]
+- !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "discuss"]
+- !private ["s8HashableP", "for_full"]
+- !private ["s8HashableP", "high_price"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isHighlighted"]
+- !private ["s8HashableP", "loadUserDefault"]
+- !private ["s8HashableP", "long_distance"]
+- !private ["s8HashableP", "low_price"]
+- !private ["s8HashableP", "meat"]
+- !private ["s8HashableP", "meet_up"]
+- !private ["s8HashableP", "mid_distance"]
+- !private ["s8HashableP", "mid_price"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "short_distance"]
+- !private ["s8HashableP", "snack"]
+- !private ["s8HashableP", "tag"]
+- !private ["s8HashableP", "userData"]
+- !private ["s8HashableP", "vegetarian"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "VC_menu"]
+- !private ["So8NSCodingP", "afternoon_tea"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "discuss"]
+- !private ["So8NSCodingP", "for_full"]
+- !private ["So8NSCodingP", "high_price"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHighlighted"]
+- !private ["So8NSCodingP", "loadUserDefault"]
+- !private ["So8NSCodingP", "long_distance"]
+- !private ["So8NSCodingP", "low_price"]
+- !private ["So8NSCodingP", "meat"]
+- !private ["So8NSCodingP", "meet_up"]
+- !private ["So8NSCodingP", "mid_distance"]
+- !private ["So8NSCodingP", "mid_price"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "short_distance"]
+- !private ["So8NSCodingP", "snack"]
+- !private ["So8NSCodingP", "tag"]
+- !private ["So8NSCodingP", "userData"]
+- !private ["So8NSCodingP", "vegetarian"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "VC_menu"]
+- !private ["So26NSExtensionRequestHandlingP", "afternoon_tea"]
+- !private ["So26NSExtensionRequestHandlingP", "date"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "discuss"]
+- !private ["So26NSExtensionRequestHandlingP", "for_full"]
+- !private ["So26NSExtensionRequestHandlingP", "high_price"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loadUserDefault"]
+- !private ["So26NSExtensionRequestHandlingP", "long_distance"]
+- !private ["So26NSExtensionRequestHandlingP", "low_price"]
+- !private ["So26NSExtensionRequestHandlingP", "meat"]
+- !private ["So26NSExtensionRequestHandlingP", "meet_up"]
+- !private ["So26NSExtensionRequestHandlingP", "mid_distance"]
+- !private ["So26NSExtensionRequestHandlingP", "mid_price"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "short_distance"]
+- !private ["So26NSExtensionRequestHandlingP", "snack"]
+- !private ["So26NSExtensionRequestHandlingP", "tag"]
+- !private ["So26NSExtensionRequestHandlingP", "userData"]
+- !private ["So26NSExtensionRequestHandlingP", "vegetarian"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "DistanceBeenSelected"]
+- ["So8NSObjectC", "EatMeatOrNot"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "PriceBeenSelected"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TypeOfMeal"]
+- !private ["So8NSObjectC", "VC_menu"]
+- ["So8NSObjectC", "afternoon_tea"]
+- ["So8NSObjectC", "confirmButton"]
+- ["So8NSObjectC", "date"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "discuss"]
+- ["So8NSObjectC", "for_full"]
+- ["So8NSObjectC", "high_price"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHighlighted"]
+- ["So8NSObjectC", "loadUserDefault"]
+- ["So8NSObjectC", "long_distance"]
+- ["So8NSObjectC", "low_price"]
+- ["So8NSObjectC", "meat"]
+- ["So8NSObjectC", "meet_up"]
+- ["So8NSObjectC", "mid_distance"]
+- ["So8NSObjectC", "mid_price"]
+- ["So8NSObjectC", "newButton"]
+- ["So8NSObjectC", "price"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "short_distance"]
+- ["So8NSObjectC", "snack"]
+- ["So8NSObjectC", "tag"]
+- !private ["So8NSObjectC", "userData"]
+- ["So8NSObjectC", "vegetarian"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So16NSObjectProtocolP", "VC_menu"]
+- !private ["So16NSObjectProtocolP", "afternoon_tea"]
+- !private ["So16NSObjectProtocolP", "date"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "discuss"]
+- !private ["So16NSObjectProtocolP", "for_full"]
+- !private ["So16NSObjectProtocolP", "high_price"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isHighlighted"]
+- !private ["So16NSObjectProtocolP", "loadUserDefault"]
+- !private ["So16NSObjectProtocolP", "long_distance"]
+- !private ["So16NSObjectProtocolP", "low_price"]
+- !private ["So16NSObjectProtocolP", "meat"]
+- !private ["So16NSObjectProtocolP", "meet_up"]
+- !private ["So16NSObjectProtocolP", "mid_distance"]
+- !private ["So16NSObjectProtocolP", "mid_price"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "short_distance"]
+- !private ["So16NSObjectProtocolP", "snack"]
+- !private ["So16NSObjectProtocolP", "tag"]
+- !private ["So16NSObjectProtocolP", "userData"]
+- !private ["So16NSObjectProtocolP", "vegetarian"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isHighlighted"]
+- !private ["So29UIAccessibilityIdentificationP", "isHighlighted"]
+- !private ["So12UIAppearanceP", "isHighlighted"]
+- !private ["So21UIAppearanceContainerP", "VC_menu"]
+- !private ["So21UIAppearanceContainerP", "afternoon_tea"]
+- !private ["So21UIAppearanceContainerP", "date"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "discuss"]
+- !private ["So21UIAppearanceContainerP", "for_full"]
+- !private ["So21UIAppearanceContainerP", "high_price"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHighlighted"]
+- !private ["So21UIAppearanceContainerP", "loadUserDefault"]
+- !private ["So21UIAppearanceContainerP", "long_distance"]
+- !private ["So21UIAppearanceContainerP", "low_price"]
+- !private ["So21UIAppearanceContainerP", "meat"]
+- !private ["So21UIAppearanceContainerP", "meet_up"]
+- !private ["So21UIAppearanceContainerP", "mid_distance"]
+- !private ["So21UIAppearanceContainerP", "mid_price"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "short_distance"]
+- !private ["So21UIAppearanceContainerP", "snack"]
+- !private ["So21UIAppearanceContainerP", "tag"]
+- !private ["So21UIAppearanceContainerP", "userData"]
+- !private ["So21UIAppearanceContainerP", "vegetarian"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So8UIButtonC", "isHighlighted"]
+- !private ["So18UIContentContainerP", "VC_menu"]
+- !private ["So18UIContentContainerP", "afternoon_tea"]
+- !private ["So18UIContentContainerP", "date"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "discuss"]
+- !private ["So18UIContentContainerP", "for_full"]
+- !private ["So18UIContentContainerP", "high_price"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loadUserDefault"]
+- !private ["So18UIContentContainerP", "long_distance"]
+- !private ["So18UIContentContainerP", "low_price"]
+- !private ["So18UIContentContainerP", "meat"]
+- !private ["So18UIContentContainerP", "meet_up"]
+- !private ["So18UIContentContainerP", "mid_distance"]
+- !private ["So18UIContentContainerP", "mid_price"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "short_distance"]
+- !private ["So18UIContentContainerP", "snack"]
+- !private ["So18UIContentContainerP", "tag"]
+- !private ["So18UIContentContainerP", "userData"]
+- !private ["So18UIContentContainerP", "vegetarian"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So9UIControlC", "isHighlighted"]
+- !private ["So17UICoordinateSpaceP", "isHighlighted"]
+- !private ["So13UIDynamicItemP", "isHighlighted"]
+- !private ["So18UIFocusEnvironmentP", "VC_menu"]
+- !private ["So18UIFocusEnvironmentP", "afternoon_tea"]
+- !private ["So18UIFocusEnvironmentP", "date"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "discuss"]
+- !private ["So18UIFocusEnvironmentP", "for_full"]
+- !private ["So18UIFocusEnvironmentP", "high_price"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHighlighted"]
+- !private ["So18UIFocusEnvironmentP", "loadUserDefault"]
+- !private ["So18UIFocusEnvironmentP", "long_distance"]
+- !private ["So18UIFocusEnvironmentP", "low_price"]
+- !private ["So18UIFocusEnvironmentP", "meat"]
+- !private ["So18UIFocusEnvironmentP", "meet_up"]
+- !private ["So18UIFocusEnvironmentP", "mid_distance"]
+- !private ["So18UIFocusEnvironmentP", "mid_price"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "short_distance"]
+- !private ["So18UIFocusEnvironmentP", "snack"]
+- !private ["So18UIFocusEnvironmentP", "tag"]
+- !private ["So18UIFocusEnvironmentP", "userData"]
+- !private ["So18UIFocusEnvironmentP", "vegetarian"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "isHighlighted"]
+- !private ["So30UIPasteConfigurationSupportingP", "VC_menu"]
+- !private ["So30UIPasteConfigurationSupportingP", "afternoon_tea"]
+- !private ["So30UIPasteConfigurationSupportingP", "date"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "discuss"]
+- !private ["So30UIPasteConfigurationSupportingP", "for_full"]
+- !private ["So30UIPasteConfigurationSupportingP", "high_price"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHighlighted"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadUserDefault"]
+- !private ["So30UIPasteConfigurationSupportingP", "long_distance"]
+- !private ["So30UIPasteConfigurationSupportingP", "low_price"]
+- !private ["So30UIPasteConfigurationSupportingP", "meat"]
+- !private ["So30UIPasteConfigurationSupportingP", "meet_up"]
+- !private ["So30UIPasteConfigurationSupportingP", "mid_distance"]
+- !private ["So30UIPasteConfigurationSupportingP", "mid_price"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "short_distance"]
+- !private ["So30UIPasteConfigurationSupportingP", "snack"]
+- !private ["So30UIPasteConfigurationSupportingP", "tag"]
+- !private ["So30UIPasteConfigurationSupportingP", "userData"]
+- !private ["So30UIPasteConfigurationSupportingP", "vegetarian"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "DistanceBeenSelected"]
+- ["So11UIResponderC", "EatMeatOrNot"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "PriceBeenSelected"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "TypeOfMeal"]
+- !private ["So11UIResponderC", "VC_menu"]
+- ["So11UIResponderC", "afternoon_tea"]
+- ["So11UIResponderC", "confirmButton"]
+- ["So11UIResponderC", "date"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "discuss"]
+- ["So11UIResponderC", "for_full"]
+- ["So11UIResponderC", "high_price"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHighlighted"]
+- ["So11UIResponderC", "loadUserDefault"]
+- ["So11UIResponderC", "long_distance"]
+- ["So11UIResponderC", "low_price"]
+- ["So11UIResponderC", "meat"]
+- ["So11UIResponderC", "meet_up"]
+- ["So11UIResponderC", "mid_distance"]
+- ["So11UIResponderC", "mid_price"]
+- ["So11UIResponderC", "newButton"]
+- ["So11UIResponderC", "price"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "short_distance"]
+- ["So11UIResponderC", "snack"]
+- ["So11UIResponderC", "tag"]
+- !private ["So11UIResponderC", "userData"]
+- ["So11UIResponderC", "vegetarian"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "VC_menu"]
+- !private ["So30UIResponderStandardEditActionsP", "afternoon_tea"]
+- !private ["So30UIResponderStandardEditActionsP", "date"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "discuss"]
+- !private ["So30UIResponderStandardEditActionsP", "for_full"]
+- !private ["So30UIResponderStandardEditActionsP", "high_price"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHighlighted"]
+- !private ["So30UIResponderStandardEditActionsP", "loadUserDefault"]
+- !private ["So30UIResponderStandardEditActionsP", "long_distance"]
+- !private ["So30UIResponderStandardEditActionsP", "low_price"]
+- !private ["So30UIResponderStandardEditActionsP", "meat"]
+- !private ["So30UIResponderStandardEditActionsP", "meet_up"]
+- !private ["So30UIResponderStandardEditActionsP", "mid_distance"]
+- !private ["So30UIResponderStandardEditActionsP", "mid_price"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "short_distance"]
+- !private ["So30UIResponderStandardEditActionsP", "snack"]
+- !private ["So30UIResponderStandardEditActionsP", "tag"]
+- !private ["So30UIResponderStandardEditActionsP", "userData"]
+- !private ["So30UIResponderStandardEditActionsP", "vegetarian"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isHighlighted"]
+- !private ["So16UIStateRestoringP", "VC_menu"]
+- !private ["So16UIStateRestoringP", "afternoon_tea"]
+- !private ["So16UIStateRestoringP", "date"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "discuss"]
+- !private ["So16UIStateRestoringP", "for_full"]
+- !private ["So16UIStateRestoringP", "high_price"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loadUserDefault"]
+- !private ["So16UIStateRestoringP", "long_distance"]
+- !private ["So16UIStateRestoringP", "low_price"]
+- !private ["So16UIStateRestoringP", "meat"]
+- !private ["So16UIStateRestoringP", "meet_up"]
+- !private ["So16UIStateRestoringP", "mid_distance"]
+- !private ["So16UIStateRestoringP", "mid_price"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "short_distance"]
+- !private ["So16UIStateRestoringP", "snack"]
+- !private ["So16UIStateRestoringP", "tag"]
+- !private ["So16UIStateRestoringP", "userData"]
+- !private ["So16UIStateRestoringP", "vegetarian"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "VC_menu"]
+- !private ["So18UITraitEnvironmentP", "afternoon_tea"]
+- !private ["So18UITraitEnvironmentP", "date"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "discuss"]
+- !private ["So18UITraitEnvironmentP", "for_full"]
+- !private ["So18UITraitEnvironmentP", "high_price"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHighlighted"]
+- !private ["So18UITraitEnvironmentP", "loadUserDefault"]
+- !private ["So18UITraitEnvironmentP", "long_distance"]
+- !private ["So18UITraitEnvironmentP", "low_price"]
+- !private ["So18UITraitEnvironmentP", "meat"]
+- !private ["So18UITraitEnvironmentP", "meet_up"]
+- !private ["So18UITraitEnvironmentP", "mid_distance"]
+- !private ["So18UITraitEnvironmentP", "mid_price"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "short_distance"]
+- !private ["So18UITraitEnvironmentP", "snack"]
+- !private ["So18UITraitEnvironmentP", "tag"]
+- !private ["So18UITraitEnvironmentP", "userData"]
+- !private ["So18UITraitEnvironmentP", "vegetarian"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "isHighlighted"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "DistanceBeenSelected"]
+- ["So16UIViewControllerC", "EatMeatOrNot"]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "PriceBeenSelected"]
+- !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "TypeOfMeal"]
+- !private ["So16UIViewControllerC", "VC_menu"]
+- ["So16UIViewControllerC", "afternoon_tea"]
+- ["So16UIViewControllerC", "confirmButton"]
+- ["So16UIViewControllerC", "date"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "discuss"]
+- ["So16UIViewControllerC", "for_full"]
+- ["So16UIViewControllerC", "high_price"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loadUserDefault"]
+- ["So16UIViewControllerC", "long_distance"]
+- ["So16UIViewControllerC", "low_price"]
+- ["So16UIViewControllerC", "meat"]
+- ["So16UIViewControllerC", "meet_up"]
+- ["So16UIViewControllerC", "mid_distance"]
+- ["So16UIViewControllerC", "mid_price"]
+- ["So16UIViewControllerC", "newButton"]
+- ["So16UIViewControllerC", "price"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "short_distance"]
+- ["So16UIViewControllerC", "snack"]
+- ["So16UIViewControllerC", "tag"]
+- !private ["So16UIViewControllerC", "userData"]
+- ["So16UIViewControllerC", "vegetarian"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["So16UIViewControllerC", ""]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- ["6Jaiben7VC_menuC", "Bool"]
+- ["6Jaiben7VC_menuC", "DistanceBeenSelected"]
+- ["6Jaiben7VC_menuC", "EatMeatOrNot"]
+- ["6Jaiben7VC_menuC", "Int"]
+- ["6Jaiben7VC_menuC", "PriceBeenSelected"]
+- !private ["6Jaiben7VC_menuC", "String"]
+- ["6Jaiben7VC_menuC", "TypeOfMeal"]
+- !private ["6Jaiben7VC_menuC", "VC_menu"]
+- ["6Jaiben7VC_menuC", "afternoon_tea"]
+- ["6Jaiben7VC_menuC", "confirmButton"]
+- ["6Jaiben7VC_menuC", "date"]
+- ["6Jaiben7VC_menuC", "deinit"]
+- ["6Jaiben7VC_menuC", "didReceiveMemoryWarning"]
+- ["6Jaiben7VC_menuC", "discuss"]
+- ["6Jaiben7VC_menuC", "for_full"]
+- ["6Jaiben7VC_menuC", "high_price"]
+- ["6Jaiben7VC_menuC", "init"]
+- ["6Jaiben7VC_menuC", "loadUserDefault"]
+- ["6Jaiben7VC_menuC", "long_distance"]
+- ["6Jaiben7VC_menuC", "low_price"]
+- ["6Jaiben7VC_menuC", "meat"]
+- ["6Jaiben7VC_menuC", "meet_up"]
+- ["6Jaiben7VC_menuC", "mid_distance"]
+- ["6Jaiben7VC_menuC", "mid_price"]
+- ["6Jaiben7VC_menuC", "newButton"]
+- ["6Jaiben7VC_menuC", "price"]
+- !private ["6Jaiben7VC_menuC", "print"]
+- ["6Jaiben7VC_menuC", "short_distance"]
+- ["6Jaiben7VC_menuC", "snack"]
+- ["6Jaiben7VC_menuC", "tag"]
+- !private ["6Jaiben7VC_menuC", "userData"]
+- ["6Jaiben7VC_menuC", "vegetarian"]
+- ["6Jaiben7VC_menuC", "viewDidLoad"]
+- ["6Jaiben7VC_menuC", "viewWillAppear"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isHighlighted"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "VC_menu"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "afternoon_tea"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "discuss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "for_full"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "high_price"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHighlighted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadUserDefault"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "long_distance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "low_price"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "meat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "meet_up"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mid_distance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mid_price"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "short_distance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "snack"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vegetarian"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["6Jaiben9newButtonC", "deinit"]
+- !private ["6Jaiben9newButtonC", "isHighlighted"]
+- !private ["6Jaiben8userDataV", "user_menu_default"]
+depends-nominal:
+- !private "12FacebookCore26AppEventParameterValueTypeP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- "6Jaiben7VC_menuC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+- !private "6Jaiben9newButtonC"
+- !private "6Jaiben8userDataV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareAPI.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareDialogMode.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeObjectType.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKHashtag.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLiking.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharing.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupAddDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKMessageDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppInviteDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupJoinDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKGameRequestDialog.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeControl.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphAction.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSendButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharingButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareVideo.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharePhoto.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/Jaiben/Jaiben-Bridging-Header.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphValueContainer.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareConstants.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphObject.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareMediaContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppInviteContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharingContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareLinkContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareVideoContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharePhotoContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKGameRequestContent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/Jiaben_xcode8/DerivedData/Jaiben/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "90e262297ce1110defb31571097d80da"

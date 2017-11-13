@@ -1,0 +1,6 @@
+framework module Pods_Jaiben {
+  umbrella header "Pods-Jaiben-umbrella.h"
+
+  export *
+  module * { export * }
+}

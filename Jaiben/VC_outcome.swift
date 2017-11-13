@@ -23,15 +23,15 @@ class VC_outcome: VC_Base, UIPopoverPresentationControllerDelegate {
     @IBOutlet var back: newButton!
     @IBOutlet var news: UILabel!
     @IBAction func showLocation(_ sender: AnyObject) {
-        let popController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "showLocation")
-        popController.modalPresentationStyle = UIModalPresentationStyle.popover
+        let popCon = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "showLocation")
+        popCon.modalPresentationStyle = UIModalPresentationStyle.popover
         
-        popController.popoverPresentationController?.permittedArrowDirections = UIPopoverArrowDirection.down
-        popController.popoverPresentationController?.delegate = self
-        popController.popoverPresentationController?.sourceView = (sender as! UIView)
-        popController.popoverPresentationController?.sourceRect = sender.bounds
+        popCon.popoverPresentationController?.permittedArrowDirections = UIPopoverArrowDirection.down
+        popCon.popoverPresentationController?.delegate = self
+        popCon.popoverPresentationController?.sourceView = (sender as! UIView)
+        popCon.popoverPresentationController?.sourceRect = sender.bounds
         
-        self.present(popController, animated: true, completion: nil)
+        self.present(popCon, animated: true, completion: nil)
         
     }
     func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {

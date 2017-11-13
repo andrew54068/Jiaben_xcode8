@@ -110,10 +110,11 @@ class VC_Base: UIViewController, UITextFieldDelegate{
     func decodeFromJson(result: String) -> [String:Any]?{
         do{
             if let data = result.data(using: .utf8){
-                let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as! [String:Any]
+                let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as AnyObject
                 print("success decodeFromJson")
-//                print("json = \(json)")
-                return json
+                print("json = \(json)")
+                let json1 = json as! [String:Any]
+                return json1
             }else{
                 print("here")
                 return nil
